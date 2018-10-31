@@ -1,0 +1,1040 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{2BBC2ACF-4FB3-4751-A511-37268E79B907}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StrongProject</RootNamespace>
+    <AssemblyName>StrongProject</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x64</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <PlatformTarget>x64</PlatformTarget>
+    <OutputPath>bin\x64\Release\</OutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DY.Core">
+      <HintPath>.\DY.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="ICSharpCode.AvalonEdit, Version=5.0.3.0, Culture=neutral, PublicKeyToken=9cc39be672370310, processorArchitecture=MSIL">
+      <HintPath>..\packages\AvalonEdit.5.0.4\lib\Net40\ICSharpCode.AvalonEdit.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net, Version=2.0.8.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+      <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\..\..\..\Desktop\SPA\StrongProject\bin\Debug\microsoft.visualbasic.powerpacks.vs.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="UIAutomationProvider" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Api\CFile.cs" />
+    <Compile Include="Api\Config.cs" />
+    <Compile Include="Api\CSFC.cs" />
+    <Compile Include="Api\DataBaseAccess.cs" />
+    <Compile Include="Api\DVPModbusPlc.cs" />
+    <Compile Include="Api\Excel.cs" />
+    <Compile Include="Api\Global.cs" />
+    <Compile Include="Api\JSerialPort.cs" />
+    <Compile Include="Api\LogDataBase.cs" />
+    <Compile Include="Api\PDCA.cs" />
+    <Compile Include="Api\safeManage.cs" />
+    <Compile Include="Api\SolderConfig.cs" />
+    <Compile Include="Api\StationPattern.cs" />
+    <Compile Include="ConsoleOut.cs" />
+    <Compile Include="FrmForm\AddAxisForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\AddAxisForm.Designer.cs">
+      <DependentUpon>AddAxisForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\ChangePW.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\ChangePW.designer.cs">
+      <DependentUpon>ChangePW.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\DebugSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\DebugSet.designer.cs">
+      <DependentUpon>DebugSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\Form1IoAllocation.cs">
+      <SubType>Form</SubType>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FrmForm\Form1IoAllocation.designer.cs">
+      <DependentUpon>Form1IoAllocation.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="FrmForm\Form_MessageBos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\Form_MessageBos.Designer.cs">
+      <DependentUpon>Form_MessageBos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmAxisManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmAxisManage.Designer.cs">
+      <DependentUpon>FrmAxisManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmAxisSafeManage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmAxisSafeManage.Designer.cs">
+      <DependentUpon>FrmAxisSafeManage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmData.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmData.Designer.cs">
+      <DependentUpon>FrmData.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmDebug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmDebug.Designer.cs">
+      <DependentUpon>FrmDebug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmGoHomeParameter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmGoHomeParameter.Designer.cs">
+      <DependentUpon>FrmGoHomeParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmInIoList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmInIoList.Designer.cs">
+      <DependentUpon>FrmInIoList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmShowMsg.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmShowMsg.Designer.cs">
+      <DependentUpon>FrmShowMsg.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmStationMange.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmStationMange.Designer.cs">
+      <DependentUpon>FrmStationMange.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\FrmWait.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\FrmWait.Designer.cs">
+      <DependentUpon>FrmWait.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\Frm_Alarm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\Frm_Alarm.Designer.cs">
+      <DependentUpon>Frm_Alarm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\Frm_Frame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\Frm_Frame.designer.cs">
+      <DependentUpon>Frm_Frame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\Frm_Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\Frm_Main.Designer.cs">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\GoHomeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\GoHomeForm.designer.cs">
+      <DependentUpon>GoHomeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\LogIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\LogIn.Designer.cs">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\MessageBoxLog.cs" />
+    <Compile Include="FrmForm\MyAutoSizeForm.cs" />
+    <Compile Include="FrmForm\PointSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\PointSet.Designer.cs">
+      <DependentUpon>PointSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmForm\SplashScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmForm\SplashScreen.Designer.cs">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MotionCard\GGAO\gts.cs" />
+    <Compile Include="MotionCard\GGAO\NewCtRLCard_gts.cs" />
+    <Compile Include="MotionCard\KEYENCE\DeviceData.cs" />
+    <Compile Include="MotionCard\KEYENCE\MeasureData.cs" />
+    <Compile Include="MotionCard\KEYENCE\NativeMethods.cs" />
+    <Compile Include="MotionCard\KEYENCE\ProfileData.cs" />
+    <Compile Include="MotionCard\KEYENCE\Utility.cs" />
+    <Compile Include="MotionCard\LEISAI\Dmc1000.cs" />
+    <Compile Include="MotionCard\LEISAI\LTDMC.cs" />
+    <Compile Include="MotionCard\LEISAI\NewCtrlCard_DMC3000.cs" />
+    <Compile Include="MotionCard\LEISAI\NewCtrlCard_DMC1000B.cs" />
+    <Compile Include="MotionCard\ZWX\adt8940a1m.cs" />
+    <Compile Include="MotionCard\ZWX\adt8960m.cs" />
+    <Compile Include="MotionCard\ZWX\adtIO3224.cs" />
+    <Compile Include="MotionCard\SrMotionApi\AxisConfig.cs" />
+    <Compile Include="MotionCard\SrMotionApi\BinarySerializer.cs" />
+    <Compile Include="MotionCard\SrMotionApi\CardManager.cs" />
+    <Compile Include="MotionCard\SrMotionApi\GoHome.cs" />
+    <Compile Include="MotionCard\SrMotionApi\MotionCardManufacturer.cs" />
+    <Compile Include="MotionCard\SrMotionApi\NewCtrlCard_IO.cs" />
+    <Compile Include="MotionCard\SrMotionApi\NewCtrlCard_V0.cs" />
+    <Compile Include="MotionCard\SrMotionApi\NewCtrlCard_Base.cs" />
+    <Compile Include="MotionCard\ZWX\NewCtrlCard_IO3224.cs" />
+    <Compile Include="MotionCard\ZWX\NewCtrlCard_ZWX8960m.cs" />
+    <Compile Include="MotionCard\ZWX\NewCtrlCard_ZWX8940.cs" />
+    <Compile Include="MotionCard\SrMotionApi\pointMotion.cs" />
+    <Compile Include="MotionCard\SrMotionApi\StationManage.cs" />
+    <Compile Include="MotionCard\SrMotionApi\StationSet.cs" />
+    <Compile Include="private\JSerialPortFZ.cs" />
+    <Compile Include="private\PrivateSave.cs" />
+    <Compile Include="private\UserControl1_offset.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="private\UserControl1_offset.Designer.cs">
+      <DependentUpon>UserControl1_offset.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Script\BraceFoldingStrategy.cs" />
+    <Compile Include="Script\Code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Script\Code.Designer.cs">
+      <DependentUpon>Code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Script\CodeEditor.xaml.cs">
+      <DependentUpon>CodeEditor.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Script\MyCompletionData.cs" />
+    <Compile Include="soc\SocketClient.cs" />
+    <Compile Include="UserCtrl\MyNGControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\MyNGControl.designer.cs">
+      <DependentUpon>MyNGControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_configIni.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_configIni.Designer.cs">
+      <DependentUpon>UserControl_configIni.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\AxisDebugCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\AxisDebugCtrl.designer.cs">
+      <DependentUpon>AxisDebugCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\AxisLable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\AxisLable.designer.cs">
+      <DependentUpon>AxisLable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\CTLSerialPort.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\CTLSerialPort.designer.cs">
+      <DependentUpon>CTLSerialPort.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\FrmStepRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\FrmStepRun.designer.cs">
+      <DependentUpon>FrmStepRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\goHomeParameter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\goHomeParameter.designer.cs">
+      <DependentUpon>goHomeParameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IoAllShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IoAllShow.designer.cs">
+      <DependentUpon>IoAllShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOAssign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOAssign.Designer.cs">
+      <DependentUpon>IOAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOInputLable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOInputLable.Designer.cs">
+      <DependentUpon>IOInputLable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOinputStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOinputStatus.Designer.cs">
+      <DependentUpon>IOinputStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOmotorStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOmotorStatus.Designer.cs">
+      <DependentUpon>IOmotorStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IONameLable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IONameLable.Designer.cs">
+      <DependentUpon>IONameLable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOOutputLable.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOOutputLable.Designer.cs">
+      <DependentUpon>IOOutputLable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOoutputStatus.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOoutputStatus.Designer.cs">
+      <DependentUpon>IOoutputStatus.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOSet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOSet.Designer.cs">
+      <DependentUpon>IOSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\IOStatusCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\IOStatusCtrl.Designer.cs">
+      <DependentUpon>IOStatusCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\LineCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\LineCtrl.Designer.cs">
+      <DependentUpon>LineCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\MyChart.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\MyChart.designer.cs">
+      <DependentUpon>MyChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\OutIOAssign.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\OutIOAssign.Designer.cs">
+      <DependentUpon>OutIOAssign.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\PointAddCtrl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\PointAddCtrl.Designer.cs">
+      <DependentUpon>PointAddCtrl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\PointName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\PointName.Designer.cs">
+      <DependentUpon>PointName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\PointVlaue.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\PointVlaue.Designer.cs">
+      <DependentUpon>PointVlaue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\QueryPointInfo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\QueryPointInfo.Designer.cs">
+      <DependentUpon>QueryPointInfo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\SetAxisConfig.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\SetAxisConfig.designer.cs">
+      <DependentUpon>SetAxisConfig.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\SetIOPanel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\SetIOPanel.designer.cs">
+      <DependentUpon>SetIOPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\SetPoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\SetPoint.designer.cs">
+      <DependentUpon>SetPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\SetPointLabel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\SetPointLabel.designer.cs">
+      <DependentUpon>SetPointLabel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\SetP_Distance.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\SetP_Distance.Designer.cs">
+      <DependentUpon>SetP_Distance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\stepTrialRun.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\stepTrialRun.Designer.cs">
+      <DependentUpon>stepTrialRun.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\ucl_InIo.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\ucl_InIo.Designer.cs">
+      <DependentUpon>ucl_InIo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\Ucl_InIoName.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\Ucl_InIoName.Designer.cs">
+      <DependentUpon>Ucl_InIoName.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UCL_StationMotion.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UCL_StationMotion.Designer.cs">
+      <DependentUpon>UCL_StationMotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_AxisSafe.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_AxisSafe.Designer.cs">
+      <DependentUpon>UserControl_AxisSafe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_LogOut.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_LogOut.Designer.cs">
+      <DependentUpon>UserControl_LogOut.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_NetSocket.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_NetSocket.Designer.cs">
+      <DependentUpon>UserControl_NetSocket.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_portPerameter.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_portPerameter.Designer.cs">
+      <DependentUpon>UserControl_portPerameter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_portShow.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_portShow.Designer.cs">
+      <DependentUpon>UserControl_portShow.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_ShowAllPoint.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_ShowAllPoint.Designer.cs">
+      <DependentUpon>UserControl_ShowAllPoint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_SN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_SN.Designer.cs">
+      <DependentUpon>UserControl_SN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_socketList.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\UserControl_socketList.Designer.cs">
+      <DependentUpon>UserControl_socketList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="WorkManage\Rest.cs" />
+    <Compile Include="WorkManage\Work.cs" />
+    <Compile Include="WorkManage\workBase.cs" />
+    <Compile Include="WorkManage\workObjectManage.cs" />
+    <Compile Include="Work\ExcisionStation.cs" />
+    <Compile Include="Work\LeftCCD.cs" />
+    <Compile Include="Work\LeftStation.cs" />
+    <Compile Include="Work\ResetStation.cs" />
+    <Compile Include="Work\RightStation.cs" />
+    <EmbeddedResource Include="FrmForm\AddAxisForm.resx">
+      <DependentUpon>AddAxisForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\ChangePW.resx">
+      <DependentUpon>ChangePW.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\DebugSet.resx">
+      <DependentUpon>DebugSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\Form1IoAllocation.resx">
+      <DependentUpon>Form1IoAllocation.cs</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\Form_MessageBos.resx">
+      <DependentUpon>Form_MessageBos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmAxisManage.resx">
+      <DependentUpon>FrmAxisManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmAxisSafeManage.resx">
+      <DependentUpon>FrmAxisSafeManage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmData.resx">
+      <DependentUpon>FrmData.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmDebug.resx">
+      <DependentUpon>FrmDebug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmGoHomeParameter.resx">
+      <DependentUpon>FrmGoHomeParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmInIoList.resx">
+      <DependentUpon>FrmInIoList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmShowMsg.resx">
+      <DependentUpon>FrmShowMsg.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmStationMange.resx">
+      <DependentUpon>FrmStationMange.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\FrmWait.resx">
+      <DependentUpon>FrmWait.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\Frm_Alarm.resx">
+      <DependentUpon>Frm_Alarm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\Frm_Frame.resx">
+      <DependentUpon>Frm_Frame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\Frm_Main.resx">
+      <DependentUpon>Frm_Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\GoHomeForm.resx">
+      <DependentUpon>GoHomeForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\LogIn.resx">
+      <DependentUpon>LogIn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\PointSet.resx">
+      <DependentUpon>PointSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmForm\SplashScreen.resx">
+      <DependentUpon>SplashScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="private\UserControl1_offset.resx">
+      <DependentUpon>UserControl1_offset.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Script\Code.resx">
+      <DependentUpon>Code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\MyNGControl.resx">
+      <DependentUpon>MyNGControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_configIni.resx">
+      <DependentUpon>UserControl_configIni.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\AxisDebugCtrl.resx">
+      <DependentUpon>AxisDebugCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\AxisLable.resx">
+      <DependentUpon>AxisLable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\CTLSerialPort.resx">
+      <DependentUpon>CTLSerialPort.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\FrmStepRun.resx">
+      <DependentUpon>FrmStepRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\goHomeParameter.resx">
+      <DependentUpon>goHomeParameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IoAllShow.resx">
+      <DependentUpon>IoAllShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOAssign.resx">
+      <DependentUpon>IOAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOInputLable.resx">
+      <DependentUpon>IOInputLable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOinputStatus.resx">
+      <DependentUpon>IOinputStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOmotorStatus.resx">
+      <DependentUpon>IOmotorStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IONameLable.resx">
+      <DependentUpon>IONameLable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOOutputLable.resx">
+      <DependentUpon>IOOutputLable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOoutputStatus.resx">
+      <DependentUpon>IOoutputStatus.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOSet.resx">
+      <DependentUpon>IOSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\IOStatusCtrl.resx">
+      <DependentUpon>IOStatusCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\LineCtrl.resx">
+      <DependentUpon>LineCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\MyChart.resx">
+      <DependentUpon>MyChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\OutIOAssign.resx">
+      <DependentUpon>OutIOAssign.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\PointAddCtrl.resx">
+      <DependentUpon>PointAddCtrl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\PointName.resx">
+      <DependentUpon>PointName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\PointVlaue.resx">
+      <DependentUpon>PointVlaue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\QueryPointInfo.resx">
+      <DependentUpon>QueryPointInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\SetAxisConfig.resx">
+      <DependentUpon>SetAxisConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\SetIOPanel.resx">
+      <DependentUpon>SetIOPanel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\SetPoint.resx">
+      <DependentUpon>SetPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\SetPointLabel.resx">
+      <DependentUpon>SetPointLabel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\SetP_Distance.resx">
+      <DependentUpon>SetP_Distance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\stepTrialRun.resx">
+      <DependentUpon>stepTrialRun.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\ucl_InIo.resx">
+      <DependentUpon>ucl_InIo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\Ucl_InIoName.resx">
+      <DependentUpon>Ucl_InIoName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UCL_StationMotion.resx">
+      <DependentUpon>UCL_StationMotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_AxisSafe.resx">
+      <DependentUpon>UserControl_AxisSafe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_LogOut.resx">
+      <DependentUpon>UserControl_LogOut.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_NetSocket.resx">
+      <DependentUpon>UserControl_NetSocket.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_portPerameter.resx">
+      <DependentUpon>UserControl_portPerameter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_portShow.resx">
+      <DependentUpon>UserControl_portShow.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_ShowAllPoint.resx">
+      <DependentUpon>UserControl_ShowAllPoint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_SN.resx">
+      <DependentUpon>UserControl_SN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\UserControl_socketList.resx">
+      <DependentUpon>UserControl_socketList.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="bin\Debug\DLL\Dmc1000.lib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\DLL\GTS400.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\DLL\GTS4001.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\DLL\GTS800.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="bin\Debug\DLL\GTS8005.cfg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <Content Include="bin\Debug\DLL\LTDMC.lib">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\LOGO-01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\mask233.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\STRONG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\stronglogo.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\报警界面1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\报警界面 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\报警界面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\调试界面1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\调试界面 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\调试界面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\关机1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\关机 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\关机.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\继续1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\继续 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\继续.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\紧急停止1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\紧急停止 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\紧急停止.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\启动运行1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\启动运行 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\启动运行.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\手动1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\手动 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\手动.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\手机.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\数据目录1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\数据目录 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\数据目录.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\退出 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\退出.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\系统键盘1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\系统键盘 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\系统键盘.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\用户登录1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\用户登录 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\用户登录.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\暂停1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\暂停 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\暂停.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\整机复位1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\整机复位 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\整机复位.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\主界面1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\主界面 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\主界面.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\自动1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\自动 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\自动.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\led_green_on_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\led_off_16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="picture\LOGO_01.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\DLL\8940A1m.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\adt8960m.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\adtIO3224.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\Cognex.VisionPro.Core.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\Cognex.VisionPro.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\Dmc1000.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\DMC1000.H">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\gts.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\LJV7_IF.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\LTDMC.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="bin\Debug\DLL\LTDMC.h">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LogConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="picture\Alarm.ico" />
+    <Content Include="picture\Alarm_sel.ico" />
+    <Content Include="picture\bigbk.ico" />
+    <Content Include="picture\bigbk_red.png" />
+    <Content Include="picture\bigbk_sel .ico" />
+    <Content Include="picture\Chart.ico" />
+    <Content Include="picture\Chart_sel.ico" />
+    <Content Include="picture\GoHome.png" />
+    <Content Include="picture\GoHome_Gray.png" />
+    <Content Include="picture\Home.ico" />
+    <Content Include="picture\Home_sel.ico" />
+    <Content Include="picture\Pause-Gray.ico" />
+    <Content Include="picture\Pause.ico" />
+    <Content Include="picture\Run-Gray.ico" />
+    <Content Include="picture\Run.ico" />
+    <Content Include="picture\SaveErrorCode.bmp" />
+    <None Include="picture\SaveErrorCode.png" />
+    <Content Include="picture\SaveToExcel.ico" />
+    <Content Include="picture\Set _sel.ico" />
+    <Content Include="picture\Set.ico" />
+    <Content Include="picture\smbk.ico" />
+    <Content Include="picture\smbk_red.png" />
+    <Content Include="picture\smbk_sel.ico" />
+    <Content Include="picture\Stop-Gray.ico" />
+    <Content Include="picture\Stop.ico" />
+    <Content Include="picture\User.ico" />
+    <Content Include="picture\User_sel.ico" />
+    <Content Include="picture\Vision.ico" />
+    <None Include="picture\VisionFile.ico" />
+    <Content Include="picture\Vision_sel.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Script\CodeEditor.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
