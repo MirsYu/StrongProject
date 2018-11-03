@@ -4,7 +4,7 @@
 winexe
 C#
 .cs
-C:\Users\strong\Documents\GitHub\StrongProject\StrongProject\obj\x86\Debug\
+C:\Users\strong\Source\Repos\StrongProject\StrongProject\obj\x86\Debug\
 StrongProject
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 1-1012877175
 41-1915453136
 192-2124628878
-23362396620
+241152106422
 Script\CodeEditor.xaml;
 
-False
+True
 

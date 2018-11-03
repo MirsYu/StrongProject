@@ -29,9 +29,6 @@ namespace StrongProject
 		public List<IOinputStatus> tag_IOinputStatusList = new List<IOinputStatus>();
 		public List<IOoutputStatus> tag_IOIOoutputStatus = new List<IOoutputStatus>();
 
-		private static readonly ILog log = LogManager.GetLogger("TEST");
-
-
 		public void UiInit()
 		{
 			userControl_ShowAllPoint1 = new UserControl_ShowAllPoint();
@@ -66,7 +63,6 @@ namespace StrongProject
 			userControl_ShowAllPoint1.Location = new Point(0, CBStnChioce.Location.Y + CBStnChioce.Size.Height + 10);
 			userControl_ShowAllPoint1.Size = new Size(userControl_ShowAllPoint1.Size.Width - 100, tabCtrlDebug.Size.Height + 30);
 			Console.SetOut(new ConsoleOut(textBox_Log));
-			log.Info("Test");
 		}
 
 		public FrmDebug(Frm_Frame frm, Work _work)
@@ -187,11 +183,13 @@ namespace StrongProject
 				return;
 			comboBox_IO.Items.Clear();
 			CBStnChioce.Items.Clear();
+			comboBox_FlowName.Items.Clear();
 			foreach (StationModule sm in worker.Config.arrWorkStation)
 			{
 				if (sm.strStationName != "" && sm.strStationName != null)
 				{
 					CBStnChioce.Items.Add(sm.strStationName);
+					comboBox_FlowName.Items.Add(sm.strStationName);
 					comboBox_IO.Items.Add(sm.strStationName);
 				}
 			}
@@ -809,6 +807,76 @@ namespace StrongProject
 		{
 			StationManage.Distancemode = "长距";
 		}
+
+
+		#region tets
+		private static readonly ILog log = LogManager.GetLogger("DebugUI.cs");
+
+		/// <summary>
+		/// 父节点
+		/// </summary>
+		TreeNode node = new TreeNode();
+
+		/// <summary>
+		/// 子节点
+		/// </summary>
+		TreeNode chlid;
+
+		private void comboBox_FlowName_SelectedIndexChanged(object sender, EventArgs e)
+		{
+			// 获取节点信息 
+			// push 到 terrview上
+			// Tree view 可拖拽
+			// 节点选中 获得参数
+
+			tag_StationModule = StationManage.FindStation(comboBox_FlowName.Text);
+			if (tag_StationModule != null)
+			{
+				node.Nodes.Clear();
+				node.Remove();
+				treeView_FlowStruct.Nodes.Clear();
+				node.Text = comboBox_FlowName.Text;
+			}
+			for (int i = 0; i < tag_StationModule.arrPoint.Count; i++)
+			{
+				// 工位名称
+				chlid = new TreeNode();
+				chlid.Text = tag_StationModule.arrPoint[i].strName;
+				// 绑定选中事件
+				node.Nodes.Add(chlid);
+			}
+			treeView_FlowStruct.Nodes.Add(node);
+		}
+
+		private void treeView_FlowStruct_MouseDown(object sender, MouseEventArgs e)
+		{
+			if ((sender as TreeView) != null)
+			{
+				treeView_FlowStruct.SelectedNode = treeView_FlowStruct.GetNodeAt(e.X, e.Y);
+				// 找到对应的StationModule 
+
+				// 先获取到轴的信息
+				for (int a = 0; a < tag_StationModule.arrAxis.Count;a++)
+				{
+					dataGridView1.Rows.Clear();
+				}
+
+				for (int i = 0; i < tag_StationModule.arrPoint.Count; i++)
+				{
+					// 这里是一个点位信息
+					if (tag_StationModule.arrPoint[i].strName == treeView_FlowStruct.SelectedNode.Text)
+					{
+
+					}
+				}
+			}
+		}
+		#endregion
+
+
+
+
+
 	}
 
 }

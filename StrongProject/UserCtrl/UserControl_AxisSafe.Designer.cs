@@ -39,7 +39,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Location = new System.Drawing.Point(119, 7);
+			this.label1.Location = new System.Drawing.Point(98, 7);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(53, 12);
 			this.label1.TabIndex = 0;
@@ -47,14 +47,14 @@
 			// 
 			// textBox_Max
 			// 
-			this.textBox_Max.Location = new System.Drawing.Point(178, 4);
+			this.textBox_Max.Location = new System.Drawing.Point(157, 3);
 			this.textBox_Max.Name = "textBox_Max";
 			this.textBox_Max.Size = new System.Drawing.Size(100, 21);
 			this.textBox_Max.TabIndex = 1;
 			// 
 			// textBox_Min
 			// 
-			this.textBox_Min.Location = new System.Drawing.Point(343, 4);
+			this.textBox_Min.Location = new System.Drawing.Point(322, 3);
 			this.textBox_Min.Name = "textBox_Min";
 			this.textBox_Min.Size = new System.Drawing.Size(100, 21);
 			this.textBox_Min.TabIndex = 3;
@@ -62,7 +62,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Location = new System.Drawing.Point(284, 7);
+			this.label2.Location = new System.Drawing.Point(263, 7);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(53, 12);
 			this.label2.TabIndex = 2;
@@ -70,7 +70,7 @@
 			// 
 			// button_Save
 			// 
-			this.button_Save.Location = new System.Drawing.Point(449, 3);
+			this.button_Save.Location = new System.Drawing.Point(428, 3);
 			this.button_Save.Name = "button_Save";
 			this.button_Save.Size = new System.Drawing.Size(75, 23);
 			this.button_Save.TabIndex = 4;
@@ -81,7 +81,7 @@
 			// label_Asix
 			// 
 			this.label_Asix.AutoSize = true;
-			this.label_Asix.Location = new System.Drawing.Point(3, 7);
+			this.label_Asix.Location = new System.Drawing.Point(12, 7);
 			this.label_Asix.Name = "label_Asix";
 			this.label_Asix.Size = new System.Drawing.Size(41, 12);
 			this.label_Asix.TabIndex = 5;
@@ -99,7 +99,7 @@
 			this.Controls.Add(this.textBox_Max);
 			this.Controls.Add(this.label1);
 			this.Name = "UserControl_AxisSafe";
-			this.Size = new System.Drawing.Size(528, 27);
+			this.Size = new System.Drawing.Size(508, 27);
 			this.Load += new System.EventHandler(this.UserControl_AxisSafe_Load);
 			this.ResumeLayout(false);
 			this.PerformLayout();

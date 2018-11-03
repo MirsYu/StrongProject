@@ -238,8 +238,8 @@
 			this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
 			this.shapeContainer1.Name = "shapeContainer1";
 			this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-			this.lineShape1});
-			this.shapeContainer1.Size = new System.Drawing.Size(1873, 27);
+            this.lineShape1});
+			this.shapeContainer1.Size = new System.Drawing.Size(1873, 100);
 			this.shapeContainer1.TabIndex = 47;
 			this.shapeContainer1.TabStop = false;
 			// 
@@ -379,7 +379,7 @@
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.shapeContainer1);
 			this.Name = "AxisLabel";
-			this.Size = new System.Drawing.Size(1873, 27);
+			this.Size = new System.Drawing.Size(1873, 100);
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
