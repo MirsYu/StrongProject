@@ -71,8 +71,8 @@
       <HintPath>..\packages\log4net.2.0.8\lib\net40-full\log4net.dll</HintPath>
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
-    <Reference Include="Microsoft.VisualBasic.PowerPacks.Vs, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\..\..\..\Desktop\SPA\StrongProject\bin\Debug\microsoft.visualbasic.powerpacks.vs.dll</HintPath>
+    <Reference Include="microsoft.visualbasic.powerpacks.vs">
+      <HintPath>.\microsoft.visualbasic.powerpacks.vs.dll</HintPath>
     </Reference>
     <Reference Include="Newtonsoft.Json, Version=11.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.11.0.2\lib\net40\Newtonsoft.Json.dll</HintPath>
@@ -130,11 +130,9 @@
     </Compile>
     <Compile Include="FrmForm\Form1IoAllocation.cs">
       <SubType>Form</SubType>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="FrmForm\Form1IoAllocation.designer.cs">
       <DependentUpon>Form1IoAllocation.cs</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Compile>
     <Compile Include="FrmForm\Form_MessageBos.cs">
       <SubType>Form</SubType>
@@ -536,6 +534,12 @@
     <Compile Include="UserCtrl\UserControl_socketList.Designer.cs">
       <DependentUpon>UserControl_socketList.cs</DependentUpon>
     </Compile>
+    <Compile Include="UserCtrl\WebControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\WebControl.Designer.cs">
+      <DependentUpon>WebControl.cs</DependentUpon>
+    </Compile>
     <Compile Include="WorkManage\Rest.cs" />
     <Compile Include="WorkManage\Work.cs" />
     <Compile Include="WorkManage\workBase.cs" />
@@ -556,7 +560,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmForm\Form1IoAllocation.resx">
       <DependentUpon>Form1IoAllocation.cs</DependentUpon>
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmForm\Form_MessageBos.resx">
       <DependentUpon>Form_MessageBos.cs</DependentUpon>
@@ -748,25 +751,28 @@
     <EmbeddedResource Include="UserCtrl\UserControl_socketList.resx">
       <DependentUpon>UserControl_socketList.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\WebControl.resx">
+      <DependentUpon>WebControl.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="app.config" />
-    <None Include="bin\Debug\DLL\Dmc1000.lib">
+    <EmbeddedResource Include="Dmc1000.lib">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="bin\Debug\DLL\GTS400.cfg">
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTS400.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="bin\Debug\DLL\GTS4001.cfg">
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTS4001.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="bin\Debug\DLL\GTS800.cfg">
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTS800.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="bin\Debug\DLL\GTS8005.cfg">
+    </EmbeddedResource>
+    <EmbeddedResource Include="GTS8005.cfg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <Content Include="bin\Debug\DLL\LTDMC.lib">
+    </EmbeddedResource>
+    <EmbeddedResource Include="LTDMC.lib">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -957,42 +963,51 @@
     <None Include="picture\LOGO_01.png" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="bin\Debug\DLL\8940A1m.dll">
+    <EmbeddedResource Include="8940A1m.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\adt8960m.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="adt8960m.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\adtIO3224.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="adtIO3224.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\Cognex.VisionPro.Core.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cognex.VisionPro.Core.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\Cognex.VisionPro.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cognex.VisionPro.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\Dmc1000.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dmc1000.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\DMC1000.H">
+    </EmbeddedResource>
+    <EmbeddedResource Include="DMC1000.H">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\gts.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="gts.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\LJV7_IF.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="LJV7_IF.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\LTDMC.dll">
+    </EmbeddedResource>
+    <EmbeddedResource Include="LTDMC.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="bin\Debug\DLL\LTDMC.h">
+    </EmbeddedResource>
+    <EmbeddedResource Include="LTDMC.h">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="LogConfig.xml">
+    </EmbeddedResource>
+    <EmbeddedResource Include="DY.Core.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogConfig.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Microsoft.VisualBasic.PowerPacks.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="microsoft.visualbasic.powerpacks.vs.dll">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
     <Content Include="picture\Alarm.ico" />
     <Content Include="picture\Alarm_sel.ico" />
     <Content Include="picture\bigbk.ico" />
@@ -1030,6 +1045,7 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

@@ -1,2 +1,0 @@
-2018-10-30 12:11:23,224 2983 [1] INFO  (TEST:33 Frm_Frame_Load) - test
-2018-10-30 12:11:35,702 15460 [1] INFO  (TEST:69 UiInit) - Test

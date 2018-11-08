@@ -114,6 +114,8 @@ namespace StrongProject
 		{
 			LogIn frmLogin = new LogIn(this);
 			frmLogin.ShowDialog();
+
+
 		}
 
 		private void toolStripMenuBoard_Click(object sender, EventArgs e)

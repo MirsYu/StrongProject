@@ -1,2 +1,0 @@
-2018-10-29 17:12:12,741 1753 [1] INFO  (TEST:33 Frm_Frame_Load) - test
-2018-10-29 17:12:37,532 1933 [1] INFO  (TEST:33 Frm_Frame_Load) - test

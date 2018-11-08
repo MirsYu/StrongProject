@@ -78,7 +78,6 @@ namespace StrongProject
 				Thread.Sleep(20);
 			}
 			Color[] color = { Global.WorkVar.SRRed, Global.WorkVar.SRRed };// 
-			tag_NGControl1.DrawRing(xName, yPercent, yValue, color);
 
 			string[] seriesName1 = { "△X_1", "△X_2", "△Y_1", "△Y_2" };
 			string[] xName1 = new string[10];
