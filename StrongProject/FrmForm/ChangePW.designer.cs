@@ -67,7 +67,7 @@
 			// 
 			// button_userpassword
 			// 
-			this.button_userpassword.Font = new System.Drawing.Font("幼圆", 9F);
+			this.button_userpassword.Font = new System.Drawing.Font("Consolas", 9F);
 			this.button_userpassword.Location = new System.Drawing.Point(252, 20);
 			this.button_userpassword.Name = "button_userpassword";
 			this.button_userpassword.Size = new System.Drawing.Size(75, 49);
@@ -78,7 +78,7 @@
 			// 
 			// textBox_userpassword
 			// 
-			this.textBox_userpassword.Font = new System.Drawing.Font("幼圆", 9F);
+			this.textBox_userpassword.Font = new System.Drawing.Font("Consolas", 9F);
 			this.textBox_userpassword.Location = new System.Drawing.Point(97, 20);
 			this.textBox_userpassword.Name = "textBox_userpassword";
 			this.textBox_userpassword.PasswordChar = '*';
@@ -88,7 +88,7 @@
 			// label5
 			// 
 			this.label5.AutoSize = true;
-			this.label5.Font = new System.Drawing.Font("幼圆", 9F);
+			this.label5.Font = new System.Drawing.Font("Consolas", 9F);
 			this.label5.Location = new System.Drawing.Point(32, 52);
 			this.label5.Name = "label5";
 			this.label5.Size = new System.Drawing.Size(59, 17);
@@ -97,7 +97,7 @@
 			// 
 			// textBox_userpassword_
 			// 
-			this.textBox_userpassword_.Font = new System.Drawing.Font("幼圆", 9F);
+			this.textBox_userpassword_.Font = new System.Drawing.Font("Consolas", 9F);
 			this.textBox_userpassword_.Location = new System.Drawing.Point(97, 49);
 			this.textBox_userpassword_.Name = "textBox_userpassword_";
 			this.textBox_userpassword_.PasswordChar = '*';
@@ -107,7 +107,7 @@
 			// label6
 			// 
 			this.label6.AutoSize = true;
-			this.label6.Font = new System.Drawing.Font("幼圆", 9F);
+			this.label6.Font = new System.Drawing.Font("Consolas", 9F);
 			this.label6.Location = new System.Drawing.Point(32, 23);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(59, 17);
@@ -130,7 +130,7 @@
 			// 
 			// button_adminpassword
 			// 
-			this.button_adminpassword.Font = new System.Drawing.Font("幼圆", 9F);
+			this.button_adminpassword.Font = new System.Drawing.Font("Consolas", 9F);
 			this.button_adminpassword.Location = new System.Drawing.Point(252, 20);
 			this.button_adminpassword.Name = "button_adminpassword";
 			this.button_adminpassword.Size = new System.Drawing.Size(75, 49);
@@ -141,7 +141,7 @@
 			// 
 			// textBox_adminpassword
 			// 
-			this.textBox_adminpassword.Font = new System.Drawing.Font("幼圆", 9F);
+			this.textBox_adminpassword.Font = new System.Drawing.Font("Consolas", 9F);
 			this.textBox_adminpassword.Location = new System.Drawing.Point(97, 20);
 			this.textBox_adminpassword.Name = "textBox_adminpassword";
 			this.textBox_adminpassword.PasswordChar = '*';
@@ -150,7 +150,7 @@
 			// 
 			// textBox_adminpassword_
 			// 
-			this.textBox_adminpassword_.Font = new System.Drawing.Font("幼圆", 9F);
+			this.textBox_adminpassword_.Font = new System.Drawing.Font("Consolas", 9F);
 			this.textBox_adminpassword_.Location = new System.Drawing.Point(97, 49);
 			this.textBox_adminpassword_.Name = "textBox_adminpassword_";
 			this.textBox_adminpassword_.PasswordChar = '*';
@@ -160,7 +160,7 @@
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("幼圆", 9F);
+			this.label3.Font = new System.Drawing.Font("Consolas", 9F);
 			this.label3.Location = new System.Drawing.Point(32, 23);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(59, 17);
@@ -170,7 +170,7 @@
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Font = new System.Drawing.Font("幼圆", 9F);
+			this.label4.Font = new System.Drawing.Font("Consolas", 9F);
 			this.label4.Location = new System.Drawing.Point(32, 52);
 			this.label4.Name = "label4";
 			this.label4.Size = new System.Drawing.Size(59, 17);
@@ -193,7 +193,7 @@
 			// 
 			// textBox_superpassword_
 			// 
-			this.textBox_superpassword_.Font = new System.Drawing.Font("幼圆", 9F);
+			this.textBox_superpassword_.Font = new System.Drawing.Font("Consolas", 9F);
 			this.textBox_superpassword_.Location = new System.Drawing.Point(97, 57);
 			this.textBox_superpassword_.Name = "textBox_superpassword_";
 			this.textBox_superpassword_.PasswordChar = '*';
@@ -203,7 +203,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("幼圆", 9F);
+			this.label2.Font = new System.Drawing.Font("Consolas", 9F);
 			this.label2.Location = new System.Drawing.Point(32, 60);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(59, 17);
@@ -212,7 +212,7 @@
 			// 
 			// textBox_superpassword
 			// 
-			this.textBox_superpassword.Font = new System.Drawing.Font("幼圆", 9F);
+			this.textBox_superpassword.Font = new System.Drawing.Font("Consolas", 9F);
 			this.textBox_superpassword.Location = new System.Drawing.Point(97, 28);
 			this.textBox_superpassword.Name = "textBox_superpassword";
 			this.textBox_superpassword.PasswordChar = '*';
@@ -222,7 +222,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("幼圆", 9F);
+			this.label1.Font = new System.Drawing.Font("Consolas", 9F);
 			this.label1.Location = new System.Drawing.Point(32, 31);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(59, 17);
@@ -232,7 +232,7 @@
 			// button_superpassword
 			// 
 			this.button_superpassword.BackgroundImage = global::StrongProject.Properties.Resources.LOGO_01;
-			this.button_superpassword.Font = new System.Drawing.Font("幼圆", 9F);
+			this.button_superpassword.Font = new System.Drawing.Font("Consolas", 9F);
 			this.button_superpassword.Location = new System.Drawing.Point(252, 28);
 			this.button_superpassword.Name = "button_superpassword";
 			this.button_superpassword.Size = new System.Drawing.Size(75, 49);

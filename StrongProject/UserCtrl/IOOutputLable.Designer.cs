@@ -39,40 +39,40 @@
 			// label4
 			// 
 			this.label4.AutoSize = true;
-			this.label4.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label4.Location = new System.Drawing.Point(285, 2);
+			this.label4.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label4.Location = new System.Drawing.Point(279, 7);
 			this.label4.Name = "label4";
-			this.label4.Size = new System.Drawing.Size(32, 17);
+			this.label4.Size = new System.Drawing.Size(31, 12);
 			this.label4.TabIndex = 3;
 			this.label4.Text = "电平";
 			// 
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label3.Location = new System.Drawing.Point(235, 2);
+			this.label3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label3.Location = new System.Drawing.Point(229, 7);
 			this.label3.Name = "label3";
-			this.label3.Size = new System.Drawing.Size(44, 17);
+			this.label3.Size = new System.Drawing.Size(44, 12);
 			this.label3.TabIndex = 4;
 			this.label3.Text = "索引位";
 			// 
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label2.Location = new System.Drawing.Point(190, 2);
+			this.label2.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label2.Location = new System.Drawing.Point(184, 7);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(32, 17);
+			this.label2.Size = new System.Drawing.Size(31, 12);
 			this.label2.TabIndex = 1;
 			this.label2.Text = "卡号";
 			// 
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label1.Location = new System.Drawing.Point(52, 2);
+			this.label1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label1.Location = new System.Drawing.Point(46, 7);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(56, 17);
+			this.label1.Size = new System.Drawing.Size(57, 12);
 			this.label1.TabIndex = 2;
 			this.label1.Text = "输出标签";
 			// 
@@ -90,7 +90,7 @@
 			this.shapeContainer1.Margin = new System.Windows.Forms.Padding(0);
 			this.shapeContainer1.Name = "shapeContainer1";
 			this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
-			this.lineShape1});
+            this.lineShape1});
 			this.shapeContainer1.Size = new System.Drawing.Size(317, 26);
 			this.shapeContainer1.TabIndex = 5;
 			this.shapeContainer1.TabStop = false;

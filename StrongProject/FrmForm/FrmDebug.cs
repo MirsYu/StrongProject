@@ -1,7 +1,9 @@
 ﻿using log4net;
+using StrongProject.UserCtrl;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
+using System.Text;
 using System.Windows.Forms;
 
 namespace StrongProject
@@ -29,6 +31,8 @@ namespace StrongProject
 		public List<IOinputStatus> tag_IOinputStatusList = new List<IOinputStatus>();
 		public List<IOoutputStatus> tag_IOIOoutputStatus = new List<IOoutputStatus>();
 
+		CustomTree customTree = new CustomTree();
+
 		public void UiInit()
 		{
 			userControl_ShowAllPoint1 = new UserControl_ShowAllPoint();
@@ -51,6 +55,7 @@ namespace StrongProject
 			tabPage_config.Controls.Add(userControl1_offset1);
 			tabPage_port.Controls.Add(userControl_portPerameter1);
 			TabPagConnect.Controls.Add(userControl_socketList1);
+			tabPage_Flow.Controls.Add(customTree);
 
 			userControl_portPerameter1.Location = new Point(0, 0);
 			userControl_socketList1.Location = new Point(0, 0);
@@ -61,8 +66,11 @@ namespace StrongProject
 			ioAllShow1.Size = new Size(tabPage_automatic.Size.Width, tabPage_automatic.Size.Height - 10);
 			userControl_ShowAllPoint1.tag_Work = worker;
 			userControl_ShowAllPoint1.Location = new Point(0, CBStnChioce.Location.Y + CBStnChioce.Size.Height + 10);
-			userControl_ShowAllPoint1.Size = new Size(userControl_ShowAllPoint1.Size.Width - 100, tabCtrlDebug.Size.Height + 30);
-			Console.SetOut(new ConsoleOut(textBox_Log));
+			userControl_ShowAllPoint1.Size = new Size(checkBox1.Location.X - CBStnChioce.Location.X - 10, this.Size.Height - CBStnChioce.Location.Y - CBStnChioce.Size.Height - 40);
+
+			customTree.Location = new Point(comboBox_FlowName.Location.X + 10, comboBox_FlowName.Location.Y + 10);
+			customTree.Size = new Size(tabPage_Flow.Size.Width / 2, tabPage_Flow.Size.Height - comboBox_FlowName.Size.Height - 10);
+
 		}
 
 		public FrmDebug(Frm_Frame frm, Work _work)
@@ -302,14 +310,14 @@ namespace StrongProject
 				if (m != -1)
 				{
 					adc = tag_AxisConfigList[m];
-					adc.Location = new Point(i * adc.Size.Width, 5);
+					adc.Location = new Point(i * adc.Size.Width, 15);
 					CBChoiceAxis.Items.Add(ac.AxisName);
 				}
 				else
 				{
 					adc = new AxisDebugCtrl(ac, worker);
 					tag_AxisConfigList.Add(adc);
-					adc.Location = new Point(i * adc.Size.Width, 5);
+					adc.Location = new Point(i * adc.Size.Width, 15);
 					groupBox_Axis.Controls.Add(adc);
 					CBChoiceAxis.Items.Add(ac.AxisName);
 				}
@@ -808,75 +816,9 @@ namespace StrongProject
 			StationManage.Distancemode = "长距";
 		}
 
-
-		#region tets
-		private static readonly ILog log = LogManager.GetLogger("DebugUI.cs");
-
-		/// <summary>
-		/// 父节点
-		/// </summary>
-		TreeNode node = new TreeNode();
-
-		/// <summary>
-		/// 子节点
-		/// </summary>
-		TreeNode chlid;
-
 		private void comboBox_FlowName_SelectedIndexChanged(object sender, EventArgs e)
 		{
-			// 获取节点信息 
-			// push 到 terrview上
-			// Tree view 可拖拽
-			// 节点选中 获得参数
-
-			tag_StationModule = StationManage.FindStation(comboBox_FlowName.Text);
-			if (tag_StationModule != null)
-			{
-				node.Nodes.Clear();
-				node.Remove();
-				treeView_FlowStruct.Nodes.Clear();
-				node.Text = comboBox_FlowName.Text;
-			}
-			for (int i = 0; i < tag_StationModule.arrPoint.Count; i++)
-			{
-				// 工位名称
-				chlid = new TreeNode();
-				chlid.Text = tag_StationModule.arrPoint[i].strName;
-				// 绑定选中事件
-				node.Nodes.Add(chlid);
-			}
-			treeView_FlowStruct.Nodes.Add(node);
+			customTree.Init(comboBox_FlowName.Text);
 		}
-
-		private void treeView_FlowStruct_MouseDown(object sender, MouseEventArgs e)
-		{
-			if ((sender as TreeView) != null)
-			{
-				treeView_FlowStruct.SelectedNode = treeView_FlowStruct.GetNodeAt(e.X, e.Y);
-				// 找到对应的StationModule 
-
-				// 先获取到轴的信息
-				for (int a = 0; a < tag_StationModule.arrAxis.Count;a++)
-				{
-					dataGridView1.Rows.Clear();
-				}
-
-				for (int i = 0; i < tag_StationModule.arrPoint.Count; i++)
-				{
-					// 这里是一个点位信息
-					if (tag_StationModule.arrPoint[i].strName == treeView_FlowStruct.SelectedNode.Text)
-					{
-
-					}
-				}
-			}
-		}
-		#endregion
-
-
-
-
-
 	}
-
 }

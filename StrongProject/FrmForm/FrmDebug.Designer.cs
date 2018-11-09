@@ -77,8 +77,6 @@ namespace StrongProject
 			this.tabPage_config = new System.Windows.Forms.TabPage();
 			this.tabPage2 = new System.Windows.Forms.TabPage();
 			this.tabPage_port = new System.Windows.Forms.TabPage();
-			this.tabPage_Log = new System.Windows.Forms.TabPage();
-			this.textBox_Log = new System.Windows.Forms.TextBox();
 			this.tabPage_Flow = new System.Windows.Forms.TabPage();
 			this.button5 = new System.Windows.Forms.Button();
 			this.groupBox2 = new System.Windows.Forms.GroupBox();
@@ -86,14 +84,12 @@ namespace StrongProject
 			this.groupBox1 = new System.Windows.Forms.GroupBox();
 			this.dataGridView1 = new System.Windows.Forms.DataGridView();
 			this.comboBox_FlowName = new System.Windows.Forms.ComboBox();
-			this.treeView_FlowStruct = new System.Windows.Forms.TreeView();
 			this.tabCtrlDebug.SuspendLayout();
 			this.TabPagManual.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.PointDistance)).BeginInit();
 			this.CBioMessage.SuspendLayout();
 			this.plIOmessage.SuspendLayout();
 			this.AXISgroupBox.SuspendLayout();
-			this.tabPage_Log.SuspendLayout();
 			this.tabPage_Flow.SuspendLayout();
 			this.groupBox2.SuspendLayout();
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
@@ -110,7 +106,6 @@ namespace StrongProject
 			this.tabCtrlDebug.Controls.Add(this.tabPage_config);
 			this.tabCtrlDebug.Controls.Add(this.tabPage2);
 			this.tabCtrlDebug.Controls.Add(this.tabPage_port);
-			this.tabCtrlDebug.Controls.Add(this.tabPage_Log);
 			this.tabCtrlDebug.Controls.Add(this.tabPage_Flow);
 			this.tabCtrlDebug.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.tabCtrlDebug.Location = new System.Drawing.Point(0, 0);
@@ -168,7 +163,7 @@ namespace StrongProject
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label3.Location = new System.Drawing.Point(1027, 33);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(59, 12);
@@ -185,7 +180,7 @@ namespace StrongProject
             0,
             0});
 			this.PointDistance.Name = "PointDistance";
-			this.PointDistance.Size = new System.Drawing.Size(140, 21);
+			this.PointDistance.Size = new System.Drawing.Size(140, 22);
 			this.PointDistance.TabIndex = 62;
 			this.PointDistance.Value = new decimal(new int[] {
             1,
@@ -206,7 +201,7 @@ namespace StrongProject
 			// label6
 			// 
 			this.label6.AutoSize = true;
-			this.label6.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label6.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label6.Location = new System.Drawing.Point(1027, 8);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(59, 12);
@@ -259,7 +254,7 @@ namespace StrongProject
 			// 
 			this.TB_RightStationLog.Location = new System.Drawing.Point(299, 135);
 			this.TB_RightStationLog.Name = "TB_RightStationLog";
-			this.TB_RightStationLog.Size = new System.Drawing.Size(25, 21);
+			this.TB_RightStationLog.Size = new System.Drawing.Size(25, 22);
 			this.TB_RightStationLog.TabIndex = 54;
 			this.TB_RightStationLog.Text = "0";
 			this.TB_RightStationLog.Visible = false;
@@ -269,7 +264,7 @@ namespace StrongProject
 			// 
 			this.TB_LeftStationLog.Location = new System.Drawing.Point(176, 135);
 			this.TB_LeftStationLog.Name = "TB_LeftStationLog";
-			this.TB_LeftStationLog.Size = new System.Drawing.Size(35, 21);
+			this.TB_LeftStationLog.Size = new System.Drawing.Size(35, 22);
 			this.TB_LeftStationLog.TabIndex = 53;
 			this.TB_LeftStationLog.Text = "0";
 			this.TB_LeftStationLog.Visible = false;
@@ -325,7 +320,7 @@ namespace StrongProject
 			// 
 			// button3
 			// 
-			this.button3.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold);
+			this.button3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.button3.Location = new System.Drawing.Point(203, 1);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(67, 32);
@@ -349,7 +344,7 @@ namespace StrongProject
 			// 
 			// button2
 			// 
-			this.button2.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.button2.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.button2.Location = new System.Drawing.Point(339, 1);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(67, 32);
@@ -360,7 +355,7 @@ namespace StrongProject
 			// 
 			// button1
 			// 
-			this.button1.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.button1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.button1.Location = new System.Drawing.Point(271, 1);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(67, 32);
@@ -371,7 +366,7 @@ namespace StrongProject
 			// 
 			// AxisCfigBT
 			// 
-			this.AxisCfigBT.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.AxisCfigBT.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.AxisCfigBT.Location = new System.Drawing.Point(135, 1);
 			this.AxisCfigBT.Name = "AxisCfigBT";
 			this.AxisCfigBT.Size = new System.Drawing.Size(67, 32);
@@ -385,7 +380,7 @@ namespace StrongProject
 			this.CBioMessage.AutoSize = true;
 			this.CBioMessage.Controls.Add(this.comboBox_IO);
 			this.CBioMessage.Controls.Add(this.plIOmessage);
-			this.CBioMessage.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.CBioMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.CBioMessage.Location = new System.Drawing.Point(661, 338);
 			this.CBioMessage.Name = "CBioMessage";
 			this.CBioMessage.Size = new System.Drawing.Size(579, 212);
@@ -409,9 +404,9 @@ namespace StrongProject
 			this.plIOmessage.BackColor = System.Drawing.Color.White;
 			this.plIOmessage.Controls.Add(this.shapeContainer1);
 			this.plIOmessage.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.plIOmessage.Location = new System.Drawing.Point(3, 17);
+			this.plIOmessage.Location = new System.Drawing.Point(3, 18);
 			this.plIOmessage.Name = "plIOmessage";
-			this.plIOmessage.Size = new System.Drawing.Size(573, 192);
+			this.plIOmessage.Size = new System.Drawing.Size(573, 191);
 			this.plIOmessage.TabIndex = 40;
 			// 
 			// shapeContainer1
@@ -421,7 +416,7 @@ namespace StrongProject
 			this.shapeContainer1.Name = "shapeContainer1";
 			this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
-			this.shapeContainer1.Size = new System.Drawing.Size(573, 192);
+			this.shapeContainer1.Size = new System.Drawing.Size(573, 191);
 			this.shapeContainer1.TabIndex = 0;
 			this.shapeContainer1.TabStop = false;
 			// 
@@ -465,7 +460,7 @@ namespace StrongProject
 			// 
 			this.checkBox6.AutoSize = true;
 			this.checkBox6.Enabled = false;
-			this.checkBox6.Location = new System.Drawing.Point(7, 32);
+			this.checkBox6.Location = new System.Drawing.Point(10, 32);
 			this.checkBox6.Name = "checkBox6";
 			this.checkBox6.Size = new System.Drawing.Size(60, 16);
 			this.checkBox6.TabIndex = 25;
@@ -476,7 +471,7 @@ namespace StrongProject
 			// checkBox2
 			// 
 			this.checkBox2.AutoSize = true;
-			this.checkBox2.Location = new System.Drawing.Point(7, 14);
+			this.checkBox2.Location = new System.Drawing.Point(16, 14);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(48, 16);
 			this.checkBox2.TabIndex = 25;
@@ -486,8 +481,8 @@ namespace StrongProject
 			// 
 			// button4
 			// 
-			this.button4.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button4.Location = new System.Drawing.Point(6, 250);
+			this.button4.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.button4.Location = new System.Drawing.Point(6, 253);
 			this.button4.Name = "button4";
 			this.button4.Size = new System.Drawing.Size(65, 32);
 			this.button4.TabIndex = 24;
@@ -507,8 +502,8 @@ namespace StrongProject
 			// label15
 			// 
 			this.label15.AutoSize = true;
-			this.label15.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label15.Location = new System.Drawing.Point(4, 50);
+			this.label15.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label15.Location = new System.Drawing.Point(14, 51);
 			this.label15.Name = "label15";
 			this.label15.Size = new System.Drawing.Size(53, 12);
 			this.label15.TabIndex = 22;
@@ -517,8 +512,8 @@ namespace StrongProject
 			// label17
 			// 
 			this.label17.AutoSize = true;
-			this.label17.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label17.Location = new System.Drawing.Point(3, 135);
+			this.label17.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label17.Location = new System.Drawing.Point(14, 145);
 			this.label17.Name = "label17";
 			this.label17.Size = new System.Drawing.Size(53, 12);
 			this.label17.TabIndex = 20;
@@ -526,8 +521,8 @@ namespace StrongProject
 			// 
 			// button_home
 			// 
-			this.button_home.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button_home.Location = new System.Drawing.Point(6, 220);
+			this.button_home.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.button_home.Location = new System.Drawing.Point(6, 221);
 			this.button_home.Name = "button_home";
 			this.button_home.Size = new System.Drawing.Size(65, 32);
 			this.button_home.TabIndex = 13;
@@ -538,8 +533,8 @@ namespace StrongProject
 			// label8
 			// 
 			this.label8.AutoSize = true;
-			this.label8.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label8.Location = new System.Drawing.Point(3, 85);
+			this.label8.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label8.Location = new System.Drawing.Point(14, 95);
 			this.label8.Name = "label8";
 			this.label8.Size = new System.Drawing.Size(53, 12);
 			this.label8.TabIndex = 21;
@@ -548,8 +543,8 @@ namespace StrongProject
 			// label16
 			// 
 			this.label16.AutoSize = true;
-			this.label16.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label16.Location = new System.Drawing.Point(3, 112);
+			this.label16.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label16.Location = new System.Drawing.Point(14, 122);
 			this.label16.Name = "label16";
 			this.label16.Size = new System.Drawing.Size(53, 12);
 			this.label16.TabIndex = 21;
@@ -565,7 +560,7 @@ namespace StrongProject
 			// 
 			// OpenSevroBT
 			// 
-			this.OpenSevroBT.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.OpenSevroBT.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.OpenSevroBT.Location = new System.Drawing.Point(6, 189);
 			this.OpenSevroBT.Name = "OpenSevroBT";
 			this.OpenSevroBT.Size = new System.Drawing.Size(65, 32);
@@ -579,7 +574,7 @@ namespace StrongProject
 			this.tabPage_automatic.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_automatic.Name = "tabPage_automatic";
 			this.tabPage_automatic.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_automatic.Size = new System.Drawing.Size(964, 544);
+			this.tabPage_automatic.Size = new System.Drawing.Size(1246, 553);
 			this.tabPage_automatic.TabIndex = 2;
 			this.tabPage_automatic.Text = "IO模块";
 			this.tabPage_automatic.UseVisualStyleBackColor = true;
@@ -590,7 +585,7 @@ namespace StrongProject
 			this.TabPagConnect.Location = new System.Drawing.Point(4, 22);
 			this.TabPagConnect.Name = "TabPagConnect";
 			this.TabPagConnect.Padding = new System.Windows.Forms.Padding(3);
-			this.TabPagConnect.Size = new System.Drawing.Size(964, 544);
+			this.TabPagConnect.Size = new System.Drawing.Size(1246, 553);
 			this.TabPagConnect.TabIndex = 1;
 			this.TabPagConnect.Text = "通讯调试系统";
 			// 
@@ -598,7 +593,7 @@ namespace StrongProject
 			// 
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Size = new System.Drawing.Size(964, 544);
+			this.tabPage1.Size = new System.Drawing.Size(1246, 553);
 			this.tabPage1.TabIndex = 3;
 			this.tabPage1.Text = "模块启动";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -608,7 +603,7 @@ namespace StrongProject
 			this.tabPage_config.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_config.Name = "tabPage_config";
 			this.tabPage_config.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_config.Size = new System.Drawing.Size(964, 544);
+			this.tabPage_config.Size = new System.Drawing.Size(1246, 553);
 			this.tabPage_config.TabIndex = 4;
 			this.tabPage_config.Text = "配置文件管理";
 			this.tabPage_config.UseVisualStyleBackColor = true;
@@ -618,7 +613,7 @@ namespace StrongProject
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(964, 544);
+			this.tabPage2.Size = new System.Drawing.Size(1246, 553);
 			this.tabPage2.TabIndex = 5;
 			this.tabPage2.Text = "参数保存";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -628,28 +623,10 @@ namespace StrongProject
 			this.tabPage_port.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_port.Name = "tabPage_port";
 			this.tabPage_port.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_port.Size = new System.Drawing.Size(964, 544);
+			this.tabPage_port.Size = new System.Drawing.Size(1246, 553);
 			this.tabPage_port.TabIndex = 6;
 			this.tabPage_port.Text = "串口通行配置";
 			this.tabPage_port.UseVisualStyleBackColor = true;
-			// 
-			// tabPage_Log
-			// 
-			this.tabPage_Log.Controls.Add(this.textBox_Log);
-			this.tabPage_Log.Location = new System.Drawing.Point(4, 22);
-			this.tabPage_Log.Name = "tabPage_Log";
-			this.tabPage_Log.Size = new System.Drawing.Size(964, 544);
-			this.tabPage_Log.TabIndex = 7;
-			this.tabPage_Log.Text = "Log";
-			this.tabPage_Log.UseVisualStyleBackColor = true;
-			// 
-			// textBox_Log
-			// 
-			this.textBox_Log.Location = new System.Drawing.Point(3, 21);
-			this.textBox_Log.Multiline = true;
-			this.textBox_Log.Name = "textBox_Log";
-			this.textBox_Log.Size = new System.Drawing.Size(796, 419);
-			this.textBox_Log.TabIndex = 0;
 			// 
 			// tabPage_Flow
 			// 
@@ -657,10 +634,9 @@ namespace StrongProject
 			this.tabPage_Flow.Controls.Add(this.groupBox2);
 			this.tabPage_Flow.Controls.Add(this.groupBox1);
 			this.tabPage_Flow.Controls.Add(this.comboBox_FlowName);
-			this.tabPage_Flow.Controls.Add(this.treeView_FlowStruct);
 			this.tabPage_Flow.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_Flow.Name = "tabPage_Flow";
-			this.tabPage_Flow.Size = new System.Drawing.Size(964, 544);
+			this.tabPage_Flow.Size = new System.Drawing.Size(1246, 553);
 			this.tabPage_Flow.TabIndex = 9;
 			this.tabPage_Flow.Text = "流程配置系统_测试";
 			this.tabPage_Flow.UseVisualStyleBackColor = true;
@@ -688,10 +664,10 @@ namespace StrongProject
 			// 
 			this.dataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.dataGridView2.Location = new System.Drawing.Point(3, 17);
+			this.dataGridView2.Location = new System.Drawing.Point(3, 18);
 			this.dataGridView2.Name = "dataGridView2";
 			this.dataGridView2.RowTemplate.Height = 23;
-			this.dataGridView2.Size = new System.Drawing.Size(575, 141);
+			this.dataGridView2.Size = new System.Drawing.Size(575, 140);
 			this.dataGridView2.TabIndex = 2;
 			// 
 			// groupBox1
@@ -708,10 +684,10 @@ namespace StrongProject
 			// 
 			this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
 			this.dataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-			this.dataGridView1.Location = new System.Drawing.Point(3, 17);
+			this.dataGridView1.Location = new System.Drawing.Point(3, 18);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.RowTemplate.Height = 23;
-			this.dataGridView1.Size = new System.Drawing.Size(575, 177);
+			this.dataGridView1.Size = new System.Drawing.Size(575, 176);
 			this.dataGridView1.TabIndex = 2;
 			// 
 			// comboBox_FlowName
@@ -723,21 +699,13 @@ namespace StrongProject
 			this.comboBox_FlowName.TabIndex = 1;
 			this.comboBox_FlowName.SelectedIndexChanged += new System.EventHandler(this.comboBox_FlowName_SelectedIndexChanged);
 			// 
-			// treeView_FlowStruct
-			// 
-			this.treeView_FlowStruct.Location = new System.Drawing.Point(42, 65);
-			this.treeView_FlowStruct.Name = "treeView_FlowStruct";
-			this.treeView_FlowStruct.Size = new System.Drawing.Size(284, 457);
-			this.treeView_FlowStruct.TabIndex = 0;
-			this.treeView_FlowStruct.MouseDown += new System.Windows.Forms.MouseEventHandler(this.treeView_FlowStruct_MouseDown);
-			// 
 			// FrmDebug
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1254, 579);
 			this.Controls.Add(this.tabCtrlDebug);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "FrmDebug";
@@ -751,8 +719,6 @@ namespace StrongProject
 			this.plIOmessage.ResumeLayout(false);
 			this.AXISgroupBox.ResumeLayout(false);
 			this.AXISgroupBox.PerformLayout();
-			this.tabPage_Log.ResumeLayout(false);
-			this.tabPage_Log.PerformLayout();
 			this.tabPage_Flow.ResumeLayout(false);
 			this.groupBox2.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
@@ -813,11 +779,8 @@ namespace StrongProject
 		private System.Windows.Forms.TabPage tabPage_port;
 		private System.Windows.Forms.ComboBox comboBox1;
 		private System.Windows.Forms.CheckBox checkBox6;
-		private System.Windows.Forms.TabPage tabPage_Log;
-		private System.Windows.Forms.TextBox textBox_Log;
 		private System.Windows.Forms.TabPage tabPage_Flow;
 		private System.Windows.Forms.ComboBox comboBox_FlowName;
-		private System.Windows.Forms.TreeView treeView_FlowStruct;
 		private System.Windows.Forms.DataGridView dataGridView1;
 		private System.Windows.Forms.GroupBox groupBox1;
 		private System.Windows.Forms.GroupBox groupBox2;

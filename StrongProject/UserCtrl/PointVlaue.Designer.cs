@@ -153,7 +153,7 @@
 			// label_Step
 			// 
 			this.label_Step.AutoSize = true;
-			this.label_Step.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label_Step.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label_Step.Location = new System.Drawing.Point(3, 7);
 			this.label_Step.Name = "label_Step";
 			this.label_Step.Size = new System.Drawing.Size(12, 12);

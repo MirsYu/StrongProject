@@ -256,7 +256,7 @@
 			// lblPortInd
 			// 
 			this.lblPortInd.BackColor = System.Drawing.Color.Maroon;
-			this.lblPortInd.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblPortInd.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblPortInd.Location = new System.Drawing.Point(5, 194);
 			this.lblPortInd.Name = "lblPortInd";
 			this.lblPortInd.Size = new System.Drawing.Size(26, 25);
@@ -282,7 +282,7 @@
 			// 
 			// btnSPopen
 			// 
-			this.btnSPopen.Font = new System.Drawing.Font("宋体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.btnSPopen.Font = new System.Drawing.Font("Consolas", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.btnSPopen.Location = new System.Drawing.Point(37, 194);
 			this.btnSPopen.Name = "btnSPopen";
 			this.btnSPopen.Size = new System.Drawing.Size(82, 25);

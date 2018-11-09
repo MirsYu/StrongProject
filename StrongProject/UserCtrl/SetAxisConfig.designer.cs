@@ -328,7 +328,7 @@
 			// 
 			// checkBox_Select
 			// 
-			this.checkBox_Select.Font = new System.Drawing.Font("宋体", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.checkBox_Select.Font = new System.Drawing.Font("Consolas", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.checkBox_Select.Location = new System.Drawing.Point(3, 3);
 			this.checkBox_Select.Name = "checkBox_Select";
 			this.checkBox_Select.Size = new System.Drawing.Size(17, 20);

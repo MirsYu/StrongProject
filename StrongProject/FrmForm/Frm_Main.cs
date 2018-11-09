@@ -12,8 +12,11 @@ namespace StrongProject
 		Frm_Frame frmFrame = null;// new Frm_Frame();
 		public Work tag_work;
 		public MyNGControl tag_NGControl1;
-		public UserControl_LogOut tag_LogOut;
-		public MyChart tag_Chart1;
+		public UserControl_LogOut logOutControl = new UserControl_LogOut();
+
+		public WebControl webControl_NG = new WebControl();
+		public WebControl webControl_Charts = new WebControl();
+
 		public Frm_Main(Frm_Frame frm, Work work)
 		{
 			tag_work = work;
@@ -29,26 +32,20 @@ namespace StrongProject
 			{
 				this.Size = new Size(frmFrame.Size.Width, frmFrame.Size.Height - 50);
 			}
-			tag_NGControl1 = new MyNGControl();
-			tag_NGControl1.BackColor = Color.FromArgb(240, 240, 240);
-			tag_NGControl1.Decimals = 1;
-			tag_NGControl1.Location = new System.Drawing.Point(0, 42);
-			tag_NGControl1.Name = "NGControl1";
-			tag_NGControl1.SeriesFont = new System.Drawing.Font("幼圆", 9F);
-			tag_NGControl1.Size = new System.Drawing.Size(370, 250);
-			panel4.Controls.Add(tag_NGControl1);
+			webControl_NG.RefreshURL(new Uri("http://www.mirsyu.xyz/HTML/NG.html"));
+			panel_NG.Controls.Add(webControl_NG);
+			webControl_NG.Location = new Point(0, 0);
+			webControl_NG.Size = webControl_NG.Parent.Size;
 
-			tag_Chart1 = new MyChart();
-			tag_Chart1.Size = new Size(735, 190);
-			tag_Chart1.Location = new Point(-30, 4);
-			tag_Chart1.LegendPosition = new MyChart.LegendsPosition(false, 15, 84, 55, 2);
-			tag_Chart1.IntAngle = -45;
-			panel2.Controls.Add(tag_Chart1);
+			webControl_Charts.RefreshURL(new Uri("http://www.mirsyu.xyz/HTML/Charts.html"));
+			panel_Charts.Controls.Add(webControl_Charts);
+			webControl_Charts.Location = new Point(0, 0);
+			webControl_Charts.Size = webControl_Charts.Parent.Size;
 
-			tag_LogOut = new UserControl_LogOut();
-			tag_LogOut.Size = new Size(671, 268);
-			tag_LogOut.Location = new Point(0, 2);
-			tabPage2.Controls.Add(tag_LogOut);
+
+			groupBox_RunInfo.Controls.Add(logOutControl);
+			logOutControl.Location = new Point(5, 20);
+			logOutControl.Size = new Size(groupBox_RunInfo.Size.Width - 10, groupBox_RunInfo.Size.Height - 25);
 		}
 		private void myChartPieShow(object sender, EventArgs e)
 		{
@@ -56,12 +53,6 @@ namespace StrongProject
 		}
 		private void Frm_Main_Load(object sender, EventArgs e)
 		{
-			dataGridView1.AllowUserToAddRows = false;
-			for (int i = 0; i < 10; i++)
-			{
-				string[] strTemp = new string[8] { (i + 1).ToString(), "PASS", "ABCDEFDHREGGJVNFHFJRI", "10.345", "44.643", "88.345", "345.345", "534.532" };
-				dataGridView1.Rows.Add(strTemp);
-			}
 			timer1.Start();
 
 
@@ -93,9 +84,6 @@ namespace StrongProject
 			}
 			SeriesChartType[] type = { SeriesChartType.Line, SeriesChartType.Line, SeriesChartType.Line, SeriesChartType.Line };
 			Color[] color1 = { Color.FromArgb(175, 216, 153), Color.FromArgb(135, 244, 153), Color.FromArgb(225, 116, 153), Color.FromArgb(175, 156, 253) };
-			tag_Chart1.DrawMyChart(seriesName1, type, xName1, yValue1, color1);
-
-
 		}
 
 
@@ -192,12 +180,5 @@ namespace StrongProject
 				Global.WorkVar._config.Save();
 			}
 		}
-
-		private void textBox2_TextChanged(object sender, EventArgs e)
-		{
-
-		}
-
-
 	}
 }

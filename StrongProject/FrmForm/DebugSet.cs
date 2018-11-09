@@ -160,9 +160,6 @@ namespace StrongProject
 
 		private void button_AddAxis_Click(object sender, EventArgs e)
 		{
-			AddAxisForm axis = new AddAxisForm(_Worker);
-			axis.Show();
-			return;
 			if (intAxisControlCount >= StationManage.intStationAxisCount)
 			{
 				MessageBoxLog.Show("工位可配轴数已达最大");

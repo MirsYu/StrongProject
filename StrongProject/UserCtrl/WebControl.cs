@@ -6,6 +6,7 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using System.Threading;
 
 namespace StrongProject
 {
@@ -17,7 +18,7 @@ namespace StrongProject
 			this.webBrowser_NG.ScriptErrorsSuppressed = true;
 		}
 
-		public void RefreshURL(string URL)
+		public void RefreshURL(Uri URL)
 		{
 			this.webBrowser_NG.Navigate(URL);
 			this.webBrowser_NG.Refresh();

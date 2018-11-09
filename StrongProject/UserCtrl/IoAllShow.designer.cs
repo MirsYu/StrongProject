@@ -147,7 +147,7 @@
 			// comboBox_motiontype
 			// 
 			this.comboBox_motiontype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_motiontype.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.comboBox_motiontype.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_motiontype.FormattingEnabled = true;
 			this.comboBox_motiontype.Items.AddRange(new object[] {
 			"无",

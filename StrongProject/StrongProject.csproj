@@ -288,6 +288,12 @@
     </Compile>
     <Compile Include="Script\MyCompletionData.cs" />
     <Compile Include="soc\SocketClient.cs" />
+    <Compile Include="UserCtrl\CustomTree.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserCtrl\CustomTree.Designer.cs">
+      <DependentUpon>CustomTree.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserCtrl\MyNGControl.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -627,6 +633,9 @@
     </Compile>
     <EmbeddedResource Include="Script\Code.resx">
       <DependentUpon>Code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserCtrl\CustomTree.resx">
+      <DependentUpon>CustomTree.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="UserCtrl\MyNGControl.resx">
       <DependentUpon>MyNGControl.cs</DependentUpon>
@@ -1015,15 +1024,16 @@
     <Content Include="picture\bigbk_sel .ico" />
     <Content Include="picture\Chart.ico" />
     <Content Include="picture\Chart_sel.ico" />
+    <Content Include="picture\folder.png" />
     <Content Include="picture\GoHome.png" />
     <Content Include="picture\GoHome_Gray.png" />
     <Content Include="picture\Home.ico" />
     <Content Include="picture\Home_sel.ico" />
+    <Content Include="picture\node.png" />
     <Content Include="picture\Pause-Gray.ico" />
     <Content Include="picture\Pause.ico" />
     <Content Include="picture\Run-Gray.ico" />
     <Content Include="picture\Run.ico" />
-    <Content Include="picture\SaveErrorCode.bmp" />
     <None Include="picture\SaveErrorCode.png" />
     <Content Include="picture\SaveToExcel.ico" />
     <Content Include="picture\Set _sel.ico" />

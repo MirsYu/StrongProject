@@ -39,7 +39,7 @@
 			// comboBox_motiontype
 			// 
 			this.comboBox_motiontype.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_motiontype.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.comboBox_motiontype.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_motiontype.FormattingEnabled = true;
 			this.comboBox_motiontype.Items.AddRange(new object[] {
 			"无",
@@ -66,7 +66,7 @@
 			// 
 			this.comboBox_io.DisplayMember = "323";
 			this.comboBox_io.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_io.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.comboBox_io.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_io.FormattingEnabled = true;
 			this.comboBox_io.Items.AddRange(new object[] {
 			"无"});
@@ -79,7 +79,7 @@
 			// comboBox_status
 			// 
 			this.comboBox_status.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_status.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.comboBox_status.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_status.FormattingEnabled = true;
 			this.comboBox_status.Items.AddRange(new object[] {
 			"无"});
@@ -91,7 +91,7 @@
 			// 
 			// textBox1
 			// 
-			this.textBox1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.textBox1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.textBox1.Location = new System.Drawing.Point(3, 2);
 			this.textBox1.Name = "textBox1";
 			this.textBox1.Size = new System.Drawing.Size(109, 21);
@@ -100,7 +100,7 @@
 			// comboBox_Type
 			// 
 			this.comboBox_Type.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-			this.comboBox_Type.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.comboBox_Type.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_Type.FormattingEnabled = true;
 			this.comboBox_Type.Items.AddRange(new object[] {
 			"C_8940",

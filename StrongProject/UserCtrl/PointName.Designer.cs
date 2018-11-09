@@ -33,7 +33,7 @@
 			// 
 			// lblname
 			// 
-			this.lblname.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblname.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblname.ForeColor = System.Drawing.Color.Navy;
 			this.lblname.Location = new System.Drawing.Point(4, 0);
 			this.lblname.Name = "lblname";

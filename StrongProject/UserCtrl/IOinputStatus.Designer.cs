@@ -45,7 +45,7 @@
 			// lblInputname
 			// 
 			this.lblInputname.AutoSize = true;
-			this.lblInputname.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblInputname.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblInputname.Location = new System.Drawing.Point(36, 3);
 			this.lblInputname.Name = "lblInputname";
 			this.lblInputname.Size = new System.Drawing.Size(70, 17);

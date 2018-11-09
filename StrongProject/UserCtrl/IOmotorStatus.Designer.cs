@@ -36,7 +36,7 @@
 			// lblmotorname
 			// 
 			this.lblmotorname.AutoSize = true;
-			this.lblmotorname.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblmotorname.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblmotorname.Location = new System.Drawing.Point(90, 6);
 			this.lblmotorname.Name = "lblmotorname";
 			this.lblmotorname.Size = new System.Drawing.Size(59, 17);

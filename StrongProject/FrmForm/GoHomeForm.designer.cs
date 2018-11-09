@@ -41,7 +41,7 @@
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.GoHomeGroupBox.Controls.Add(this.button_Cancel);
 			this.GoHomeGroupBox.Controls.Add(this.label1);
-			this.GoHomeGroupBox.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.GoHomeGroupBox.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.GoHomeGroupBox.Location = new System.Drawing.Point(1, -7);
 			this.GoHomeGroupBox.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.GoHomeGroupBox.Name = "GoHomeGroupBox";
@@ -65,7 +65,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label1.Location = new System.Drawing.Point(87, 28);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(184, 16);
@@ -79,7 +79,7 @@
 			this.CancelButton = this.button_Cancel;
 			this.ClientSize = new System.Drawing.Size(369, 98);
 			this.Controls.Add(this.GoHomeGroupBox);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
 			this.Name = "GoHomeForm";

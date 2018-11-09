@@ -133,6 +133,16 @@ namespace StrongProject.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap folder {
+            get {
+                object obj = ResourceManager.GetObject("folder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap GoHome {
             get {
                 object obj = ResourceManager.GetObject("GoHome", resourceCulture);
@@ -196,6 +206,16 @@ namespace StrongProject.Properties {
         internal static System.Drawing.Bitmap LOGO_01 {
             get {
                 object obj = ResourceManager.GetObject("LOGO_01", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap node {
+            get {
+                object obj = ResourceManager.GetObject("node", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -63,8 +63,7 @@ namespace StrongProject
 			// 
 			// panel1
 			// 
-			this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+			this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
 			this.panel1.Controls.Add(this.label2);
@@ -80,7 +79,7 @@ namespace StrongProject
 			// 
 			this.label2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left)));
-			this.label2.Font = new System.Drawing.Font("幼圆", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label2.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
 			this.label2.Location = new System.Drawing.Point(334, 2);
@@ -97,7 +96,7 @@ namespace StrongProject
 			this.menuStrip3.AutoSize = false;
 			this.menuStrip3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
 			this.menuStrip3.Dock = System.Windows.Forms.DockStyle.None;
-			this.menuStrip3.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.menuStrip3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.menuStrip3.ImageScalingSize = new System.Drawing.Size(64, 64);
 			this.menuStrip3.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuProductData,
@@ -120,7 +119,7 @@ namespace StrongProject
 			// 
 			// toolStripMenuCameraData
 			// 
-			this.toolStripMenuCameraData.Font = new System.Drawing.Font("幼圆", 12F);
+			this.toolStripMenuCameraData.Font = new System.Drawing.Font("Consolas", 12F);
 			this.toolStripMenuCameraData.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuCameraData.Image")));
 			this.toolStripMenuCameraData.Name = "toolStripMenuCameraData";
 			this.toolStripMenuCameraData.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
@@ -133,7 +132,7 @@ namespace StrongProject
 			this.toolStripMenuLogin.Name = "toolStripMenuLogin";
 			this.toolStripMenuLogin.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
 			this.toolStripMenuLogin.Size = new System.Drawing.Size(72, 66);
-			this.toolStripMenuLogin.Click += new System.EventHandler(this.toolStripMenuLogin_Click_1);
+			this.toolStripMenuLogin.Click += new System.EventHandler(this.toolStripMenuLogin_Click);
 			// 
 			// menuStrip2
 			// 
@@ -142,7 +141,7 @@ namespace StrongProject
 			this.menuStrip2.AutoSize = false;
 			this.menuStrip2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
 			this.menuStrip2.Dock = System.Windows.Forms.DockStyle.None;
-			this.menuStrip2.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.menuStrip2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.menuStrip2.ImageScalingSize = new System.Drawing.Size(64, 64);
 			this.menuStrip2.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuReset,
@@ -167,7 +166,7 @@ namespace StrongProject
 			// 
 			// toolStripMenuStart
 			// 
-			this.toolStripMenuStart.Font = new System.Drawing.Font("幼圆", 12F);
+			this.toolStripMenuStart.Font = new System.Drawing.Font("Consolas", 12F);
 			this.toolStripMenuStart.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuStart.Image")));
 			this.toolStripMenuStart.Name = "toolStripMenuStart";
 			this.toolStripMenuStart.Padding = new System.Windows.Forms.Padding(0);
@@ -199,7 +198,7 @@ namespace StrongProject
 			this.menuStrip1.AutoSize = false;
 			this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
 			this.menuStrip1.Dock = System.Windows.Forms.DockStyle.None;
-			this.menuStrip1.Font = new System.Drawing.Font("幼圆", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.menuStrip1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.menuStrip1.ImageScalingSize = new System.Drawing.Size(60, 60);
 			this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.toolStripMenuMain,
@@ -225,7 +224,7 @@ namespace StrongProject
 			// 
 			// toolStripMenuDebug
 			// 
-			this.toolStripMenuDebug.Font = new System.Drawing.Font("幼圆", 12F);
+			this.toolStripMenuDebug.Font = new System.Drawing.Font("Consolas", 12F);
 			this.toolStripMenuDebug.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuDebug.Image")));
 			this.toolStripMenuDebug.Name = "toolStripMenuDebug";
 			this.toolStripMenuDebug.Padding = new System.Windows.Forms.Padding(0);
@@ -259,8 +258,7 @@ namespace StrongProject
 			// 
 			// panel3
 			// 
-			this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
+			this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
 			this.panel3.Controls.Add(this.lbl_User);
@@ -276,7 +274,7 @@ namespace StrongProject
 			this.lbl_User.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.lbl_User.AutoSize = true;
-			this.lbl_User.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lbl_User.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lbl_User.Location = new System.Drawing.Point(3, 5);
 			this.lbl_User.Name = "lbl_User";
 			this.lbl_User.Size = new System.Drawing.Size(29, 12);
@@ -288,7 +286,7 @@ namespace StrongProject
 			this.lblVersion.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblVersion.AutoSize = true;
-			this.lblVersion.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblVersion.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblVersion.Location = new System.Drawing.Point(618, 5);
 			this.lblVersion.Name = "lblVersion";
 			this.lblVersion.Size = new System.Drawing.Size(41, 12);
@@ -300,7 +298,7 @@ namespace StrongProject
 			// 
 			this.lblDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblDay.AutoSize = true;
-			this.lblDay.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblDay.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblDay.Location = new System.Drawing.Point(1075, 5);
 			this.lblDay.Name = "lblDay";
 			this.lblDay.Size = new System.Drawing.Size(53, 12);
@@ -317,7 +315,7 @@ namespace StrongProject
 			this.panelForm.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.panelForm.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.panelForm.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.panelForm.Location = new System.Drawing.Point(5, 74);
 			this.panelForm.Name = "panelForm";
 			this.panelForm.Size = new System.Drawing.Size(1254, 579);
@@ -332,7 +330,7 @@ namespace StrongProject
 			this.Controls.Add(this.panelForm);
 			this.Controls.Add(this.panel3);
 			this.Controls.Add(this.panel1);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.menuStrip1;
 			this.Name = "Frm_Frame";

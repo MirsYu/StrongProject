@@ -56,7 +56,7 @@
 			// 
 			// listBox1
 			// 
-			this.listBox1.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.listBox1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.listBox1.FormattingEnabled = true;
 			this.listBox1.ItemHeight = 19;
 			this.listBox1.Location = new System.Drawing.Point(24, 80);
@@ -66,7 +66,7 @@
 			// 
 			// listBox2
 			// 
-			this.listBox2.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.listBox2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.listBox2.FormattingEnabled = true;
 			this.listBox2.ItemHeight = 19;
 			this.listBox2.Location = new System.Drawing.Point(398, 80);
@@ -83,7 +83,7 @@
 			this.Controls.Add(this.listBox1);
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.Name = "FrmAxisManage";
 			this.Text = "轴管理";
 			this.Load += new System.EventHandler(this.FrmAxisManage_Load);

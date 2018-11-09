@@ -44,7 +44,7 @@
 			// button_cancel
 			// 
 			this.button_cancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.button_cancel.Font = new System.Drawing.Font("幼圆", 9F);
+			this.button_cancel.Font = new System.Drawing.Font("Consolas", 9F);
 			this.button_cancel.Location = new System.Drawing.Point(167, 203);
 			this.button_cancel.Name = "button_cancel";
 			this.button_cancel.Size = new System.Drawing.Size(198, 33);
@@ -55,7 +55,7 @@
 			// 
 			// button_ok
 			// 
-			this.button_ok.Font = new System.Drawing.Font("幼圆", 9F);
+			this.button_ok.Font = new System.Drawing.Font("Consolas", 9F);
 			this.button_ok.Location = new System.Drawing.Point(167, 158);
 			this.button_ok.Name = "button_ok";
 			this.button_ok.Size = new System.Drawing.Size(103, 33);
@@ -85,7 +85,7 @@
 			// label2
 			// 
 			this.label2.AutoSize = true;
-			this.label2.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label2.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label2.Location = new System.Drawing.Point(164, 114);
 			this.label2.Name = "label2";
 			this.label2.Size = new System.Drawing.Size(59, 17);
@@ -95,7 +95,7 @@
 			// label1
 			// 
 			this.label1.AutoSize = true;
-			this.label1.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label1.Location = new System.Drawing.Point(164, 81);
 			this.label1.Name = "label1";
 			this.label1.Size = new System.Drawing.Size(59, 17);
@@ -105,7 +105,7 @@
 			// BtnToOp
 			// 
 			this.BtnToOp.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-			this.BtnToOp.Font = new System.Drawing.Font("幼圆", 9F);
+			this.BtnToOp.Font = new System.Drawing.Font("Consolas", 9F);
 			this.BtnToOp.Location = new System.Drawing.Point(276, 158);
 			this.BtnToOp.Name = "BtnToOp";
 			this.BtnToOp.Size = new System.Drawing.Size(89, 33);
@@ -117,7 +117,7 @@
 			// label3
 			// 
 			this.label3.AutoSize = true;
-			this.label3.Font = new System.Drawing.Font("幼圆", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label3.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label3.ForeColor = System.Drawing.SystemColors.ControlText;
 			this.label3.Location = new System.Drawing.Point(111, 9);
 			this.label3.Name = "label3";

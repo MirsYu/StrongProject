@@ -34,7 +34,7 @@
 			// label11
 			// 
 			this.label11.AutoSize = true;
-			this.label11.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label11.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label11.Location = new System.Drawing.Point(16, 8);
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(56, 17);

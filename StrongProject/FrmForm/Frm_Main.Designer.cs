@@ -64,7 +64,7 @@
 			// 
 			// label3
 			// 
-			this.label3.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label3.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label3.Image = global::StrongProject.Properties.Resources.bigbk_red;
 			this.label3.Location = new System.Drawing.Point(8, 6);
 			this.label3.Name = "label3";
@@ -75,7 +75,7 @@
 			// 
 			// label4
 			// 
-			this.label4.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label4.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label4.Image = global::StrongProject.Properties.Resources.bigbk_red;
 			this.label4.Location = new System.Drawing.Point(140, 6);
 			this.label4.Name = "label4";
@@ -86,7 +86,7 @@
 			// 
 			// label2
 			// 
-			this.label2.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label2.Image = global::StrongProject.Properties.Resources.bigbk_sel_;
 			this.label2.Location = new System.Drawing.Point(272, 6);
 			this.label2.Name = "label2";
@@ -97,7 +97,7 @@
 			// 
 			// label_state
 			// 
-			this.label_state.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label_state.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label_state.Image = global::StrongProject.Properties.Resources.bigbk_sel_;
 			this.label_state.Location = new System.Drawing.Point(716, 6);
 			this.label_state.Name = "label_state";
@@ -108,7 +108,7 @@
 			// 
 			// label6
 			// 
-			this.label6.Font = new System.Drawing.Font("幼圆", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.label6.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label6.Image = global::StrongProject.Properties.Resources.bigbk_sel_;
 			this.label6.Location = new System.Drawing.Point(404, 6);
 			this.label6.Name = "label6";
@@ -160,7 +160,7 @@
 			this.Controls.Add(this.panel_NG);
 			this.Controls.Add(this.panel_Charts);
 			this.Controls.Add(this.panel1);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Name = "Frm_Main";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;

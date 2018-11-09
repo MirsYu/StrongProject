@@ -47,7 +47,7 @@
 			// 
 			// listBox2
 			// 
-			this.listBox2.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.listBox2.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.listBox2.FormattingEnabled = true;
 			this.listBox2.ItemHeight = 19;
 			this.listBox2.Location = new System.Drawing.Point(407, 63);
@@ -57,7 +57,7 @@
 			// 
 			// listBox1
 			// 
-			this.listBox1.Font = new System.Drawing.Font("宋体", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.listBox1.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.listBox1.FormattingEnabled = true;
 			this.listBox1.ItemHeight = 19;
 			this.listBox1.Location = new System.Drawing.Point(33, 63);

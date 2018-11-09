@@ -58,7 +58,7 @@
 			// 
 			// lblMsg
 			// 
-			this.lblMsg.Font = new System.Drawing.Font("幼圆", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.lblMsg.Font = new System.Drawing.Font("Consolas", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.lblMsg.ForeColor = System.Drawing.Color.Red;
 			this.lblMsg.Location = new System.Drawing.Point(3, 8);
 			this.lblMsg.Name = "lblMsg";
@@ -87,7 +87,7 @@
 			this.ClientSize = new System.Drawing.Size(593, 219);
 			this.ControlBox = false;
 			this.Controls.Add(this.panel1);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "FrmShowMsg";

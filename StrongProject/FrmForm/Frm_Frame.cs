@@ -53,7 +53,6 @@ namespace StrongProject
 			timer1.Start();
 
 			var version = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
-			System.Reflection.Assembly.GetExecutingAssembly().GetName().Version.ToString();
 			lblVersion.Text = "版本号:" + version.ToString();
 			//lblDay.Text = "当前时间:" + DateTime.UtcNow.ToString();
 			//lblDay.Text = "程序生成时间:"+System.IO.File.GetLastWriteTime(this.GetType().Assembly.Location).ToString();
@@ -73,7 +72,6 @@ namespace StrongProject
 
 			tag_UserControl_portShow.Size = new Size(lblDay.Location.X - tag_UserControl_portShow.Location.X - 10, tag_UserControl_portShow.Size.Height);
 			panel3.Controls.Add(tag_UserControl_portShow);
-
 
 
 			tag_UserControl_SN = new UserCtrl.UserControl_SN();

@@ -49,21 +49,21 @@ namespace StrongProject
 			*/
 
 
-			tag_ExcisionStation = new ExcisionStation(_Work);
-			workObject.Add(tag_ExcisionStation);
+			//tag_ExcisionStation = new ExcisionStation(_Work);
+			//workObject.Add(tag_ExcisionStation);
 
-			tag_RightStation = new RightStation(_Work);
-			workObject.Add(tag_RightStation);
+			//tag_RightStation = new RightStation(_Work);
+			//workObject.Add(tag_RightStation);
 
-			tag_LeftStation = new LeftStation(_Work);
-			workObject.Add(tag_LeftStation);
+			//tag_LeftStation = new LeftStation(_Work);
+			//workObject.Add(tag_LeftStation);
 
 
-			tag_ResetStation = new ResetStation(_Work);
-			workObject.Add(tag_ResetStation);
+			//tag_ResetStation = new ResetStation(_Work);
+			//workObject.Add(tag_ResetStation);
 
-			tag_LeftCCD = new LeftCCD(_Work);
-			workObject.Add(tag_LeftCCD);
+			//tag_LeftCCD = new LeftCCD(_Work);
+			//workObject.Add(tag_LeftCCD);
 
 		}
 

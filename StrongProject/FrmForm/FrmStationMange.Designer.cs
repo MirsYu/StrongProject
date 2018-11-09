@@ -398,7 +398,7 @@
 			this.Controls.Add(this.groupBox_Net);
 			this.Controls.Add(this.trVStation);
 			this.Controls.Add(this.checkBox_count);
-			this.Font = new System.Drawing.Font("幼圆", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "FrmStationMange";
 			this.Text = "工位管理";

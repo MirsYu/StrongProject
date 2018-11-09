@@ -40,10 +40,11 @@
 			// CBpointMessage
 			// 
 			this.CBpointMessage.Controls.Add(this.plpointMessage);
-			this.CBpointMessage.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.CBpointMessage.Location = new System.Drawing.Point(18, 3);
+			this.CBpointMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.CBpointMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.CBpointMessage.Location = new System.Drawing.Point(0, 0);
 			this.CBpointMessage.Name = "CBpointMessage";
-			this.CBpointMessage.Size = new System.Drawing.Size(564, 400);
+			this.CBpointMessage.Size = new System.Drawing.Size(592, 400);
 			this.CBpointMessage.TabIndex = 44;
 			this.CBpointMessage.TabStop = false;
 			this.CBpointMessage.Text = "点位信息栏";
@@ -53,9 +54,10 @@
 			this.plpointMessage.AutoScroll = true;
 			this.plpointMessage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.plpointMessage.ContextMenuStrip = this.contextMenuStrip1;
-			this.plpointMessage.Location = new System.Drawing.Point(4, 20);
+			this.plpointMessage.Dock = System.Windows.Forms.DockStyle.Fill;
+			this.plpointMessage.Location = new System.Drawing.Point(3, 17);
 			this.plpointMessage.Name = "plpointMessage";
-			this.plpointMessage.Size = new System.Drawing.Size(554, 350);
+			this.plpointMessage.Size = new System.Drawing.Size(586, 380);
 			this.plpointMessage.TabIndex = 38;
 			// 
 			// contextMenuStrip1
