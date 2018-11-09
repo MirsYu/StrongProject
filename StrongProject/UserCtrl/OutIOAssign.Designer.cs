@@ -107,7 +107,7 @@
 			this.Name = "OutIOAssign";
 			this.Size = new System.Drawing.Size(757, 391);
 			this.Load += new System.EventHandler(this.OutIOAssign_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

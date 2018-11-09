@@ -269,7 +269,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_ACCTime)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_StopSpeed)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_S_StopTime)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

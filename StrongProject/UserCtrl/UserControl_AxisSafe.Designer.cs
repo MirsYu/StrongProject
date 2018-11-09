@@ -101,7 +101,7 @@
 			this.Name = "UserControl_AxisSafe";
 			this.Size = new System.Drawing.Size(508, 27);
 			this.Load += new System.EventHandler(this.UserControl_AxisSafe_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

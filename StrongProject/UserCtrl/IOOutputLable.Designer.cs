@@ -107,7 +107,7 @@
 			this.Controls.Add(this.shapeContainer1);
 			this.Name = "IOOutputLable";
 			this.Size = new System.Drawing.Size(317, 26);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

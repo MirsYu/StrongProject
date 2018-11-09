@@ -60,7 +60,7 @@
 			this.Size = new System.Drawing.Size(129, 23);
 			this.Load += new System.EventHandler(this.SetP_Distance_Load);
 			((System.ComponentModel.ISupportInitialize)(this.PointDistance)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

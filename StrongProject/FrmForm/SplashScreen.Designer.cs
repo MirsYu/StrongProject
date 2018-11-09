@@ -38,7 +38,7 @@
 			this.Name = "SplashScreen";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "SplashScreen";
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

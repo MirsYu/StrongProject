@@ -192,7 +192,7 @@
 			this.Name = "PointSet";
 			this.Text = "PointSet";
 			this.Load += new System.EventHandler(this.PointSet_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

@@ -37,7 +37,7 @@
 			this.Name = "UCL_StationMotion";
 			this.Size = new System.Drawing.Size(874, 466);
 			this.Load += new System.EventHandler(this.UCL_StationMotion_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

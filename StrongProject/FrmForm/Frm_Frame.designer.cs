@@ -65,14 +65,14 @@ namespace StrongProject
 			// 
 			this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
 			this.panel1.Controls.Add(this.label2);
 			this.panel1.Controls.Add(this.menuStrip3);
 			this.panel1.Controls.Add(this.menuStrip2);
 			this.panel1.Controls.Add(this.menuStrip1);
-			this.panel1.Location = new System.Drawing.Point(5, 1);
+			this.panel1.Location = new System.Drawing.Point(3, 3);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(1254, 70);
+			this.panel1.Size = new System.Drawing.Size(1342, 87);
 			this.panel1.TabIndex = 0;
 			// 
 			// label2
@@ -82,9 +82,9 @@ namespace StrongProject
 			this.label2.Font = new System.Drawing.Font("Consolas", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
 			this.label2.Image = ((System.Drawing.Image)(resources.GetObject("label2.Image")));
-			this.label2.Location = new System.Drawing.Point(334, 2);
+			this.label2.Location = new System.Drawing.Point(349, 6);
 			this.label2.Name = "label2";
-			this.label2.Size = new System.Drawing.Size(123, 64);
+			this.label2.Size = new System.Drawing.Size(133, 74);
 			this.label2.TabIndex = 2;
 			this.label2.Text = "Strong";
 			this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -102,9 +102,9 @@ namespace StrongProject
             this.toolStripMenuProductData,
             this.toolStripMenuCameraData,
             this.toolStripMenuLogin});
-			this.menuStrip3.Location = new System.Drawing.Point(1038, 0);
+			this.menuStrip3.Location = new System.Drawing.Point(1103, 6);
 			this.menuStrip3.Name = "menuStrip3";
-			this.menuStrip3.Size = new System.Drawing.Size(228, 70);
+			this.menuStrip3.Size = new System.Drawing.Size(235, 74);
 			this.menuStrip3.TabIndex = 3;
 			this.menuStrip3.Text = "menuStrip1";
 			// 
@@ -114,7 +114,7 @@ namespace StrongProject
 			this.toolStripMenuProductData.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuProductData.Image")));
 			this.toolStripMenuProductData.Name = "toolStripMenuProductData";
 			this.toolStripMenuProductData.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-			this.toolStripMenuProductData.Size = new System.Drawing.Size(72, 66);
+			this.toolStripMenuProductData.Size = new System.Drawing.Size(72, 70);
 			this.toolStripMenuProductData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			// 
 			// toolStripMenuCameraData
@@ -123,7 +123,7 @@ namespace StrongProject
 			this.toolStripMenuCameraData.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuCameraData.Image")));
 			this.toolStripMenuCameraData.Name = "toolStripMenuCameraData";
 			this.toolStripMenuCameraData.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-			this.toolStripMenuCameraData.Size = new System.Drawing.Size(72, 66);
+			this.toolStripMenuCameraData.Size = new System.Drawing.Size(72, 70);
 			this.toolStripMenuCameraData.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			// 
 			// toolStripMenuLogin
@@ -131,7 +131,7 @@ namespace StrongProject
 			this.toolStripMenuLogin.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuLogin.Image")));
 			this.toolStripMenuLogin.Name = "toolStripMenuLogin";
 			this.toolStripMenuLogin.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-			this.toolStripMenuLogin.Size = new System.Drawing.Size(72, 66);
+			this.toolStripMenuLogin.Size = new System.Drawing.Size(72, 70);
 			this.toolStripMenuLogin.Click += new System.EventHandler(this.toolStripMenuLogin_Click);
 			// 
 			// menuStrip2
@@ -148,9 +148,9 @@ namespace StrongProject
             this.toolStripMenuStart,
             this.toolStripMenuStop,
             this.toolStripMenuEStop});
-			this.menuStrip2.Location = new System.Drawing.Point(453, 0);
+			this.menuStrip2.Location = new System.Drawing.Point(530, 6);
 			this.menuStrip2.Name = "menuStrip2";
-			this.menuStrip2.Size = new System.Drawing.Size(280, 70);
+			this.menuStrip2.Size = new System.Drawing.Size(279, 74);
 			this.menuStrip2.TabIndex = 3;
 			this.menuStrip2.Text = "menuStrip1";
 			// 
@@ -160,7 +160,7 @@ namespace StrongProject
 			this.toolStripMenuReset.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuReset.Image")));
 			this.toolStripMenuReset.Name = "toolStripMenuReset";
 			this.toolStripMenuReset.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuReset.Size = new System.Drawing.Size(68, 66);
+			this.toolStripMenuReset.Size = new System.Drawing.Size(68, 70);
 			this.toolStripMenuReset.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.toolStripMenuReset.Click += new System.EventHandler(this.toolStripMenuReset_Click);
 			// 
@@ -170,7 +170,7 @@ namespace StrongProject
 			this.toolStripMenuStart.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuStart.Image")));
 			this.toolStripMenuStart.Name = "toolStripMenuStart";
 			this.toolStripMenuStart.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuStart.Size = new System.Drawing.Size(68, 66);
+			this.toolStripMenuStart.Size = new System.Drawing.Size(68, 70);
 			this.toolStripMenuStart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.toolStripMenuStart.Click += new System.EventHandler(this.toolStripMenuStart_Click);
 			// 
@@ -179,7 +179,7 @@ namespace StrongProject
 			this.toolStripMenuStop.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuStop.Image")));
 			this.toolStripMenuStop.Name = "toolStripMenuStop";
 			this.toolStripMenuStop.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuStop.Size = new System.Drawing.Size(68, 66);
+			this.toolStripMenuStop.Size = new System.Drawing.Size(68, 70);
 			this.toolStripMenuStop.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.toolStripMenuStop.Click += new System.EventHandler(this.toolStripMenuStop_Click);
 			// 
@@ -188,7 +188,7 @@ namespace StrongProject
 			this.toolStripMenuEStop.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuEStop.Image")));
 			this.toolStripMenuEStop.Name = "toolStripMenuEStop";
 			this.toolStripMenuEStop.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuEStop.Size = new System.Drawing.Size(68, 66);
+			this.toolStripMenuEStop.Size = new System.Drawing.Size(68, 70);
 			this.toolStripMenuEStop.Click += new System.EventHandler(this.toolStripMenuEStop_Click);
 			// 
 			// menuStrip1
@@ -206,9 +206,9 @@ namespace StrongProject
             this.toolStripMenuVision,
             this.toolStripMenuAlarm,
             this.toolStripMenuChart});
-			this.menuStrip1.Location = new System.Drawing.Point(-2, 0);
+			this.menuStrip1.Location = new System.Drawing.Point(6, 6);
 			this.menuStrip1.Name = "menuStrip1";
-			this.menuStrip1.Size = new System.Drawing.Size(329, 68);
+			this.menuStrip1.Size = new System.Drawing.Size(329, 74);
 			this.menuStrip1.TabIndex = 2;
 			this.menuStrip1.Text = "menuStrip1";
 			// 
@@ -218,7 +218,7 @@ namespace StrongProject
 			this.toolStripMenuMain.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuMain.Image")));
 			this.toolStripMenuMain.Name = "toolStripMenuMain";
 			this.toolStripMenuMain.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuMain.Size = new System.Drawing.Size(64, 64);
+			this.toolStripMenuMain.Size = new System.Drawing.Size(64, 70);
 			this.toolStripMenuMain.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.toolStripMenuMain.Click += new System.EventHandler(this.toolStripMenuMain_Click);
 			// 
@@ -228,7 +228,7 @@ namespace StrongProject
 			this.toolStripMenuDebug.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuDebug.Image")));
 			this.toolStripMenuDebug.Name = "toolStripMenuDebug";
 			this.toolStripMenuDebug.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuDebug.Size = new System.Drawing.Size(64, 64);
+			this.toolStripMenuDebug.Size = new System.Drawing.Size(64, 70);
 			this.toolStripMenuDebug.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			this.toolStripMenuDebug.Click += new System.EventHandler(this.toolStripMenuDebug_Click);
 			// 
@@ -237,7 +237,7 @@ namespace StrongProject
 			this.toolStripMenuVision.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuVision.Image")));
 			this.toolStripMenuVision.Name = "toolStripMenuVision";
 			this.toolStripMenuVision.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuVision.Size = new System.Drawing.Size(64, 64);
+			this.toolStripMenuVision.Size = new System.Drawing.Size(64, 70);
 			this.toolStripMenuVision.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			// 
 			// toolStripMenuAlarm
@@ -245,7 +245,7 @@ namespace StrongProject
 			this.toolStripMenuAlarm.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuAlarm.Image")));
 			this.toolStripMenuAlarm.Name = "toolStripMenuAlarm";
 			this.toolStripMenuAlarm.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuAlarm.Size = new System.Drawing.Size(64, 64);
+			this.toolStripMenuAlarm.Size = new System.Drawing.Size(64, 70);
 			this.toolStripMenuAlarm.Click += new System.EventHandler(this.toolStripMenuAlarm_Click);
 			// 
 			// toolStripMenuChart
@@ -253,20 +253,20 @@ namespace StrongProject
 			this.toolStripMenuChart.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuChart.Image")));
 			this.toolStripMenuChart.Name = "toolStripMenuChart";
 			this.toolStripMenuChart.Padding = new System.Windows.Forms.Padding(0);
-			this.toolStripMenuChart.Size = new System.Drawing.Size(64, 64);
+			this.toolStripMenuChart.Size = new System.Drawing.Size(64, 70);
 			this.toolStripMenuChart.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
 			// 
 			// panel3
 			// 
 			this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-			this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(250)))), ((int)(((byte)(250)))));
+			this.panel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
 			this.panel3.Controls.Add(this.lbl_User);
 			this.panel3.Controls.Add(this.lblVersion);
 			this.panel3.Controls.Add(this.lblDay);
-			this.panel3.Location = new System.Drawing.Point(5, 659);
+			this.panel3.Location = new System.Drawing.Point(3, 775);
 			this.panel3.Name = "panel3";
-			this.panel3.Size = new System.Drawing.Size(1254, 20);
+			this.panel3.Size = new System.Drawing.Size(1342, 25);
 			this.panel3.TabIndex = 2;
 			// 
 			// lbl_User
@@ -275,7 +275,7 @@ namespace StrongProject
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.lbl_User.AutoSize = true;
 			this.lbl_User.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.lbl_User.Location = new System.Drawing.Point(3, 5);
+			this.lbl_User.Location = new System.Drawing.Point(3, 7);
 			this.lbl_User.Name = "lbl_User";
 			this.lbl_User.Size = new System.Drawing.Size(29, 12);
 			this.lbl_User.TabIndex = 1;
@@ -287,7 +287,7 @@ namespace StrongProject
             | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblVersion.AutoSize = true;
 			this.lblVersion.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.lblVersion.Location = new System.Drawing.Point(618, 5);
+			this.lblVersion.Location = new System.Drawing.Point(618, 7);
 			this.lblVersion.Name = "lblVersion";
 			this.lblVersion.Size = new System.Drawing.Size(41, 12);
 			this.lblVersion.TabIndex = 0;
@@ -299,7 +299,7 @@ namespace StrongProject
 			this.lblDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblDay.AutoSize = true;
 			this.lblDay.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.lblDay.Location = new System.Drawing.Point(1075, 5);
+			this.lblDay.Location = new System.Drawing.Point(1163, 7);
 			this.lblDay.Name = "lblDay";
 			this.lblDay.Size = new System.Drawing.Size(53, 12);
 			this.lblDay.TabIndex = 0;
@@ -312,27 +312,29 @@ namespace StrongProject
 			// 
 			// panelForm
 			// 
-			this.panelForm.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+			this.panelForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
 			this.panelForm.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.panelForm.Location = new System.Drawing.Point(5, 74);
+			this.panelForm.Location = new System.Drawing.Point(3, 96);
 			this.panelForm.Name = "panelForm";
-			this.panelForm.Size = new System.Drawing.Size(1254, 579);
+			this.panelForm.Size = new System.Drawing.Size(1342, 673);
 			this.panelForm.TabIndex = 3;
 			// 
 			// Frm_Frame
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.BackColor = System.Drawing.SystemColors.Control;
-			this.ClientSize = new System.Drawing.Size(1264, 682);
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
+			this.ClientSize = new System.Drawing.Size(1350, 802);
 			this.Controls.Add(this.panelForm);
 			this.Controls.Add(this.panel3);
 			this.Controls.Add(this.panel1);
+			this.DoubleBuffered = true;
 			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.MainMenuStrip = this.menuStrip1;
+			this.MaximizeBox = false;
+			this.MinimizeBox = false;
 			this.Name = "Frm_Frame";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
 			this.Text = "Strong_SPA_Ver1.0.0";

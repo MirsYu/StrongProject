@@ -59,7 +59,7 @@
 			this.Name = "SetPoint";
 			this.Size = new System.Drawing.Size(1487, 25);
 			this.Load += new System.EventHandler(this.SetPoint_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

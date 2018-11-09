@@ -76,7 +76,7 @@
 			this.Name = "stepTrialRun";
 			this.Size = new System.Drawing.Size(320, 31);
 			this.Load += new System.EventHandler(this.stepTrialRun_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

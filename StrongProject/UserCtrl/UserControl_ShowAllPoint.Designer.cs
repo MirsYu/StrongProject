@@ -85,7 +85,7 @@
 			this.SizeChanged += new System.EventHandler(this.UserControl_ShowAllPoint_SizeChanged);
 			this.CBpointMessage.ResumeLayout(false);
 			this.contextMenuStrip1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

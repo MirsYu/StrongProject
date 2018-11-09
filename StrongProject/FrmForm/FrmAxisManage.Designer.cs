@@ -87,7 +87,7 @@
 			this.Name = "FrmAxisManage";
 			this.Text = "轴管理";
 			this.Load += new System.EventHandler(this.FrmAxisManage_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

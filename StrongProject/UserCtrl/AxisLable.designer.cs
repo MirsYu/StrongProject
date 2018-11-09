@@ -380,7 +380,7 @@
 			this.Controls.Add(this.shapeContainer1);
 			this.Name = "AxisLabel";
 			this.Size = new System.Drawing.Size(1873, 20);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

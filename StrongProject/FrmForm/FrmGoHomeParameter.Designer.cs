@@ -41,7 +41,7 @@
 			this.Name = "FrmGoHomeParameter";
 			this.Text = "FrmGoHomeParameter";
 			this.Load += new System.EventHandler(this.FrmGoHomeParameter_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

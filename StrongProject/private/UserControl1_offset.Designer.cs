@@ -247,7 +247,7 @@
 			this.Load += new System.EventHandler(this.UserControl1_offset_Load);
 			((System.ComponentModel.ISupportInitialize)(this.num_CutterCY)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.num_TestCY)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

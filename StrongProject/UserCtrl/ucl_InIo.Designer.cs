@@ -85,7 +85,7 @@
 			this.Controls.Add(this.label_name);
 			this.Name = "ucl_InIo";
 			this.Size = new System.Drawing.Size(271, 33);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

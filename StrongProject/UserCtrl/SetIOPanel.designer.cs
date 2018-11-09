@@ -139,7 +139,7 @@
 			this.Controls.Add(this.comboBox_status);
 			this.Name = "SetIOPanel";
 			this.Size = new System.Drawing.Size(335, 23);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

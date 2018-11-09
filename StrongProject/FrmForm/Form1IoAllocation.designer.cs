@@ -37,7 +37,7 @@
 			this.ClientSize = new System.Drawing.Size(939, 423);
 			this.Name = "Form1IoAllocation";
 			this.Text = "IO配置";
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

@@ -89,7 +89,7 @@
 			this.Load += new System.EventHandler(this.GoHomeForm_Load);
 			this.GoHomeGroupBox.ResumeLayout(false);
 			this.GoHomeGroupBox.PerformLayout();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

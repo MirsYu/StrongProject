@@ -269,7 +269,7 @@
 			this.Name = "goHomeParameter";
 			this.Size = new System.Drawing.Size(305, 364);
 			this.Load += new System.EventHandler(this.goHomeParameter_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

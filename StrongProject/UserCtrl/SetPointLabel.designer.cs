@@ -48,7 +48,7 @@
 			this.Controls.Add(this.label11);
 			this.Name = "SetPointLabel";
 			this.Size = new System.Drawing.Size(2259, 31);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

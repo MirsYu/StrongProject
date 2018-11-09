@@ -61,7 +61,7 @@
 			this.ForeColor = System.Drawing.SystemColors.ControlDark;
 			this.Name = "LineCtrl";
 			this.Size = new System.Drawing.Size(1102, 12);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

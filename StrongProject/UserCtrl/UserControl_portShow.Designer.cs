@@ -37,7 +37,7 @@
 			this.Name = "UserControl_portShow";
 			this.Size = new System.Drawing.Size(490, 38);
 			this.Load += new System.EventHandler(this.UserControl_portShow_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

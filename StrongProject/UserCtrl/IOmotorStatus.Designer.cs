@@ -60,7 +60,7 @@
 			this.Controls.Add(this.OutputBT);
 			this.Name = "IOmotorStatus";
 			this.Size = new System.Drawing.Size(182, 30);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

@@ -108,7 +108,7 @@
 			this.Name = "AddAxisForm";
 			this.Text = "AddAxisForm";
 			this.Load += new System.EventHandler(this.AddAxisForm_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

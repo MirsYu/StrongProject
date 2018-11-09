@@ -73,7 +73,7 @@
 			this.Name = "IOoutputStatus";
 			this.Size = new System.Drawing.Size(224, 31);
 			this.Load += new System.EventHandler(this.IOoutputStatus_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

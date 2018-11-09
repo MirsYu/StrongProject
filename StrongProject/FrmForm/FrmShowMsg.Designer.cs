@@ -97,7 +97,7 @@
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.FrmShowMsg_FormClosing);
 			this.Load += new System.EventHandler(this.FrmShowMsg_Load);
 			this.panel1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

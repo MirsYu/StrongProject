@@ -124,7 +124,7 @@
 			this.Name = "FrmAxisSafeManage";
 			this.Text = "点位轴防呆配置";
 			this.Load += new System.EventHandler(this.FrmAxisSafeManage_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

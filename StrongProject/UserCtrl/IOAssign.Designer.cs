@@ -107,7 +107,7 @@
 			this.Name = "IOAssign";
 			this.Size = new System.Drawing.Size(754, 446);
 			this.Load += new System.EventHandler(this.IOAssign_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

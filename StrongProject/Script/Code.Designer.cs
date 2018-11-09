@@ -50,7 +50,7 @@
 			this.Name = "Code";
 			this.Text = "Code";
 			this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Code_FormClosing);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

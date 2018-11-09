@@ -37,7 +37,7 @@
 			this.Name = "MyNGControl";
 			this.Load += new System.EventHandler(this.MyNGControl_Load);
 			this.Paint += new System.Windows.Forms.PaintEventHandler(this.MyNGControl_Paint);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

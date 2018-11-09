@@ -41,7 +41,7 @@
 			this.Name = "FrmData";
 			this.Text = "FrmData";
 			this.Load += new System.EventHandler(this.FrmData_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

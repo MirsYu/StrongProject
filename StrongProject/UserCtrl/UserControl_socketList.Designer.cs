@@ -75,7 +75,7 @@
 			this.Size = new System.Drawing.Size(945, 150);
 			this.Load += new System.EventHandler(this.UserControl_socketList_Load);
 			this.contextMenuStrip1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

@@ -186,19 +186,19 @@ namespace StrongProject
 			switch (wndIndex)
 			{
 				case Global.CConst.FRM_MAIN:
-					this.fMain.Location = new Point(3, 0);
+					this.fMain.Location = new Point(0, 0);
 					this.fMain.Show();
 					Global.CConst.Form_Var = Global.CConst.FRM_MAIN;
 					this.toolStripMenuMain.Image = global::StrongProject.Properties.Resources.Home_sel;
 					break;
 				case Global.CConst.FRM_DEBUG:
-					this.fDebug.Location = new Point(3, 0);
+					this.fDebug.Location = new Point(0, 0);
 					this.fDebug.Show();
 					Global.CConst.Form_Var = Global.CConst.FRM_DEBUG;
 					this.toolStripMenuDebug.Image = global::StrongProject.Properties.Resources.Set__sel;
 					break;
 				case Global.CConst.FORM_ALARM:
-					this.fAlarm.Location = new Point(3, 0);
+					this.fAlarm.Location = new Point(0, 0);
 					this.fAlarm.Show();
 					Global.CConst.Form_Var = Global.CConst.FORM_ALARM;
 					this.toolStripMenuAlarm.Image = global::StrongProject.Properties.Resources.Alarm_sel;

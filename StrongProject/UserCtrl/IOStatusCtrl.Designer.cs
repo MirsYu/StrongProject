@@ -140,7 +140,7 @@
 			this.Size = new System.Drawing.Size(616, 506);
 			((System.ComponentModel.ISupportInitialize)(this.OutputConfigList)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.InputConfigList)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

@@ -50,7 +50,7 @@
 			this.Name = "PointName";
 			this.Size = new System.Drawing.Size(40, 17);
 			this.Load += new System.EventHandler(this.PointName_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

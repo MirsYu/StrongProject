@@ -57,7 +57,7 @@
 			this.Name = "IOSet";
 			this.Size = new System.Drawing.Size(980, 500);
 			this.Load += new System.EventHandler(this.IOSet_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

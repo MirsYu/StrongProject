@@ -282,7 +282,7 @@
 			this.Text = "IO输入列表";
 			this.Load += new System.EventHandler(this.FrmInIoList_Load);
 			this.contextMenuStrip1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

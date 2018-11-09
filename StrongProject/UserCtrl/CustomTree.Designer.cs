@@ -91,7 +91,7 @@
 			this.Controls.Add(this.treeView_Flow);
 			this.Name = "CustomTree";
 			this.Size = new System.Drawing.Size(458, 480);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

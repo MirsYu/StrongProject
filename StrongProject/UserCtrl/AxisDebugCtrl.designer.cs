@@ -202,7 +202,7 @@
 			this.Size = new System.Drawing.Size(65, 237);
 			this.Load += new System.EventHandler(this.AxisDebugCtrl_Load);
 			this.panel1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

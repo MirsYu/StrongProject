@@ -133,7 +133,7 @@
 			this.Text = "Frm_Alarm";
 			this.Load += new System.EventHandler(this.Frm_Alarm_Load);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

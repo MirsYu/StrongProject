@@ -60,7 +60,7 @@
 			this.Size = new System.Drawing.Size(313, 240);
 			this.Load += new System.EventHandler(this.MyChart_Load);
 			((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

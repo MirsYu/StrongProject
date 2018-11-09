@@ -29,6 +29,7 @@
 		private void InitializeComponent()
 		{
 			this.components = new System.ComponentModel.Container();
+			System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_Main));
 			this.timer1 = new System.Windows.Forms.Timer(this.components);
 			this.panel1 = new System.Windows.Forms.Panel();
 			this.label3 = new System.Windows.Forms.Label();
@@ -51,15 +52,15 @@
 			// 
 			// panel1
 			// 
-			this.panel1.BackColor = System.Drawing.Color.White;
+			this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
 			this.panel1.Controls.Add(this.label3);
 			this.panel1.Controls.Add(this.label4);
 			this.panel1.Controls.Add(this.label2);
 			this.panel1.Controls.Add(this.label_state);
 			this.panel1.Controls.Add(this.label6);
-			this.panel1.Location = new System.Drawing.Point(3, 7);
+			this.panel1.Location = new System.Drawing.Point(0, 3);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(1244, 75);
+			this.panel1.Size = new System.Drawing.Size(1342, 75);
 			this.panel1.TabIndex = 18;
 			// 
 			// label3
@@ -119,55 +120,59 @@
 			// 
 			// groupBox_RunInfo
 			// 
-			this.groupBox_RunInfo.Location = new System.Drawing.Point(623, 464);
+			this.groupBox_RunInfo.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
+			this.groupBox_RunInfo.Location = new System.Drawing.Point(672, 458);
 			this.groupBox_RunInfo.Name = "groupBox_RunInfo";
-			this.groupBox_RunInfo.Size = new System.Drawing.Size(630, 112);
+			this.groupBox_RunInfo.Size = new System.Drawing.Size(670, 213);
 			this.groupBox_RunInfo.TabIndex = 467;
 			this.groupBox_RunInfo.TabStop = false;
 			this.groupBox_RunInfo.Text = "运行信息";
 			// 
 			// groupBox_RunData
 			// 
-			this.groupBox_RunData.Location = new System.Drawing.Point(3, 464);
+			this.groupBox_RunData.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
+			this.groupBox_RunData.Location = new System.Drawing.Point(0, 458);
 			this.groupBox_RunData.Name = "groupBox_RunData";
-			this.groupBox_RunData.Size = new System.Drawing.Size(614, 112);
+			this.groupBox_RunData.Size = new System.Drawing.Size(670, 213);
 			this.groupBox_RunData.TabIndex = 466;
 			this.groupBox_RunData.TabStop = false;
 			this.groupBox_RunData.Text = "生产数据";
 			// 
 			// panel_NG
 			// 
-			this.panel_NG.BackColor = System.Drawing.Color.White;
-			this.panel_NG.Location = new System.Drawing.Point(623, 84);
+			this.panel_NG.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
+			this.panel_NG.Location = new System.Drawing.Point(672, 81);
 			this.panel_NG.Name = "panel_NG";
-			this.panel_NG.Size = new System.Drawing.Size(624, 374);
+			this.panel_NG.Size = new System.Drawing.Size(670, 374);
 			this.panel_NG.TabIndex = 465;
 			// 
 			// panel_Charts
 			// 
-			this.panel_Charts.Location = new System.Drawing.Point(4, 84);
+			this.panel_Charts.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
+			this.panel_Charts.Location = new System.Drawing.Point(0, 81);
 			this.panel_Charts.Name = "panel_Charts";
-			this.panel_Charts.Size = new System.Drawing.Size(613, 374);
+			this.panel_Charts.Size = new System.Drawing.Size(670, 374);
 			this.panel_Charts.TabIndex = 464;
 			// 
 			// Frm_Main
 			// 
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
-			this.BackColor = System.Drawing.Color.White;
-			this.ClientSize = new System.Drawing.Size(1254, 579);
+			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(215)))), ((int)(((byte)(171)))), ((int)(((byte)(130)))));
+			this.ClientSize = new System.Drawing.Size(1342, 673);
+			this.Controls.Add(this.panel_NG);
 			this.Controls.Add(this.groupBox_RunInfo);
 			this.Controls.Add(this.groupBox_RunData);
-			this.Controls.Add(this.panel_NG);
 			this.Controls.Add(this.panel_Charts);
 			this.Controls.Add(this.panel1);
 			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
 			this.Name = "Frm_Main";
 			this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
 			this.Text = "Frm_Main";
 			this.Load += new System.EventHandler(this.Frm_Main_Load);
 			this.panel1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

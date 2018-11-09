@@ -130,7 +130,7 @@
 			this.SizeChanged += new System.EventHandler(this.UserControl_configIni_SizeChanged);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
 			this.contextMenuStrip1.ResumeLayout(false);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

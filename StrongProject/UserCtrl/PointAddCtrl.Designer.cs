@@ -102,7 +102,7 @@
 			this.Controls.Add(this.comboBox6);
 			this.Name = "PointAddCtrl";
 			this.Size = new System.Drawing.Size(340, 42);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

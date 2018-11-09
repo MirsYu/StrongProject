@@ -95,7 +95,7 @@
 			this.Controls.Add(this.shapeContainer1);
 			this.Name = "IONameLable";
 			this.Size = new System.Drawing.Size(570, 21);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

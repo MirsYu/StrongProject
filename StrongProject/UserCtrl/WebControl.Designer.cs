@@ -51,7 +51,7 @@
 			this.DoubleBuffered = true;
 			this.Name = "WebControl";
 			this.Size = new System.Drawing.Size(521, 388);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

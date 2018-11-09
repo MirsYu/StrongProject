@@ -70,7 +70,7 @@
 			this.Name = "UserControl_SN";
 			this.Size = new System.Drawing.Size(496, 30);
 			this.Load += new System.EventHandler(this.UserControl_SN_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

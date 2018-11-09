@@ -107,7 +107,7 @@
 			this.Controls.Add(this.shapeContainer1);
 			this.Name = "IOInputLable";
 			this.Size = new System.Drawing.Size(329, 27);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

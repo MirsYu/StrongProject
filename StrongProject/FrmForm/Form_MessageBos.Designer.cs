@@ -74,7 +74,7 @@
 			this.Text = "Form_MessageBos";
 			this.Load += new System.EventHandler(this.Form_MessageBos_Load);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

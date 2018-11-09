@@ -187,7 +187,7 @@
 			this.Name = "UserControl_NetSocket";
 			this.Size = new System.Drawing.Size(427, 243);
 			this.Load += new System.EventHandler(this.UserControl_NetSocket_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

@@ -152,7 +152,7 @@
 			this.Load += new System.EventHandler(this.LogIn_Load);
 			this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.LogIn_KeyDown);
 			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

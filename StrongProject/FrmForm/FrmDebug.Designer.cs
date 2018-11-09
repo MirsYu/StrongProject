@@ -111,7 +111,7 @@ namespace StrongProject
 			this.tabCtrlDebug.Location = new System.Drawing.Point(0, 0);
 			this.tabCtrlDebug.Name = "tabCtrlDebug";
 			this.tabCtrlDebug.SelectedIndex = 0;
-			this.tabCtrlDebug.Size = new System.Drawing.Size(1254, 579);
+			this.tabCtrlDebug.Size = new System.Drawing.Size(1342, 673);
 			this.tabCtrlDebug.TabIndex = 0;
 			// 
 			// TabPagManual
@@ -143,7 +143,7 @@ namespace StrongProject
 			this.TabPagManual.Location = new System.Drawing.Point(4, 22);
 			this.TabPagManual.Name = "TabPagManual";
 			this.TabPagManual.Padding = new System.Windows.Forms.Padding(3);
-			this.TabPagManual.Size = new System.Drawing.Size(1246, 553);
+			this.TabPagManual.Size = new System.Drawing.Size(1334, 647);
 			this.TabPagManual.TabIndex = 0;
 			this.TabPagManual.Text = "手动调试系统";
 			// 
@@ -153,7 +153,7 @@ namespace StrongProject
 			this.comboBox1.Items.AddRange(new object[] {
             "连续",
             "寸动"});
-			this.comboBox1.Location = new System.Drawing.Point(1160, 4);
+			this.comboBox1.Location = new System.Drawing.Point(1245, 5);
 			this.comboBox1.Name = "comboBox1";
 			this.comboBox1.Size = new System.Drawing.Size(77, 20);
 			this.comboBox1.TabIndex = 64;
@@ -164,7 +164,7 @@ namespace StrongProject
 			// 
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label3.Location = new System.Drawing.Point(1027, 33);
+			this.label3.Location = new System.Drawing.Point(1112, 34);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(59, 12);
 			this.label3.TabIndex = 63;
@@ -173,7 +173,7 @@ namespace StrongProject
 			// PointDistance
 			// 
 			this.PointDistance.DecimalPlaces = 3;
-			this.PointDistance.Location = new System.Drawing.Point(1095, 29);
+			this.PointDistance.Location = new System.Drawing.Point(1180, 30);
 			this.PointDistance.Maximum = new decimal(new int[] {
             360,
             0,
@@ -192,7 +192,7 @@ namespace StrongProject
 			// CBSpeedLevel
 			// 
 			this.CBSpeedLevel.FormattingEnabled = true;
-			this.CBSpeedLevel.Location = new System.Drawing.Point(1095, 4);
+			this.CBSpeedLevel.Location = new System.Drawing.Point(1180, 5);
 			this.CBSpeedLevel.Name = "CBSpeedLevel";
 			this.CBSpeedLevel.Size = new System.Drawing.Size(54, 20);
 			this.CBSpeedLevel.TabIndex = 60;
@@ -202,7 +202,7 @@ namespace StrongProject
 			// 
 			this.label6.AutoSize = true;
 			this.label6.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label6.Location = new System.Drawing.Point(1027, 8);
+			this.label6.Location = new System.Drawing.Point(1112, 9);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(59, 12);
 			this.label6.TabIndex = 61;
@@ -211,7 +211,7 @@ namespace StrongProject
 			// checkBox5
 			// 
 			this.checkBox5.AutoSize = true;
-			this.checkBox5.Location = new System.Drawing.Point(745, 31);
+			this.checkBox5.Location = new System.Drawing.Point(830, 32);
 			this.checkBox5.Name = "checkBox5";
 			this.checkBox5.Size = new System.Drawing.Size(72, 16);
 			this.checkBox5.TabIndex = 58;
@@ -222,7 +222,7 @@ namespace StrongProject
 			// checkBox4
 			// 
 			this.checkBox4.AutoSize = true;
-			this.checkBox4.Location = new System.Drawing.Point(745, 6);
+			this.checkBox4.Location = new System.Drawing.Point(830, 7);
 			this.checkBox4.Name = "checkBox4";
 			this.checkBox4.Size = new System.Drawing.Size(72, 16);
 			this.checkBox4.TabIndex = 57;
@@ -275,7 +275,7 @@ namespace StrongProject
 			this.checkBox_sup.AutoSize = true;
 			this.checkBox_sup.Checked = true;
 			this.checkBox_sup.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox_sup.Location = new System.Drawing.Point(823, 31);
+			this.checkBox_sup.Location = new System.Drawing.Point(908, 32);
 			this.checkBox_sup.Name = "checkBox_sup";
 			this.checkBox_sup.Size = new System.Drawing.Size(96, 16);
 			this.checkBox_sup.TabIndex = 52;
@@ -286,7 +286,7 @@ namespace StrongProject
 			// checkBox3
 			// 
 			this.checkBox3.AutoSize = true;
-			this.checkBox3.Location = new System.Drawing.Point(925, 31);
+			this.checkBox3.Location = new System.Drawing.Point(1010, 32);
 			this.checkBox3.Name = "checkBox3";
 			this.checkBox3.Size = new System.Drawing.Size(84, 16);
 			this.checkBox3.TabIndex = 50;
@@ -299,7 +299,7 @@ namespace StrongProject
 			this.checkBox3_safeLight.AutoSize = true;
 			this.checkBox3_safeLight.Checked = true;
 			this.checkBox3_safeLight.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox3_safeLight.Location = new System.Drawing.Point(823, 6);
+			this.checkBox3_safeLight.Location = new System.Drawing.Point(908, 7);
 			this.checkBox3_safeLight.Name = "checkBox3_safeLight";
 			this.checkBox3_safeLight.Size = new System.Drawing.Size(96, 16);
 			this.checkBox3_safeLight.TabIndex = 49;
@@ -310,7 +310,7 @@ namespace StrongProject
 			// checkBox3_statioOpen
 			// 
 			this.checkBox3_statioOpen.AutoSize = true;
-			this.checkBox3_statioOpen.Location = new System.Drawing.Point(667, 31);
+			this.checkBox3_statioOpen.Location = new System.Drawing.Point(752, 32);
 			this.checkBox3_statioOpen.Name = "checkBox3_statioOpen";
 			this.checkBox3_statioOpen.Size = new System.Drawing.Size(72, 16);
 			this.checkBox3_statioOpen.TabIndex = 48;
@@ -321,7 +321,7 @@ namespace StrongProject
 			// button3
 			// 
 			this.button3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button3.Location = new System.Drawing.Point(203, 1);
+			this.button3.Location = new System.Drawing.Point(248, 3);
 			this.button3.Name = "button3";
 			this.button3.Size = new System.Drawing.Size(67, 32);
 			this.button3.TabIndex = 47;
@@ -334,7 +334,7 @@ namespace StrongProject
 			this.checkBox1.AutoSize = true;
 			this.checkBox1.Checked = true;
 			this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox1.Location = new System.Drawing.Point(667, 6);
+			this.checkBox1.Location = new System.Drawing.Point(752, 7);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(72, 16);
 			this.checkBox1.TabIndex = 46;
@@ -345,7 +345,7 @@ namespace StrongProject
 			// button2
 			// 
 			this.button2.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button2.Location = new System.Drawing.Point(339, 1);
+			this.button2.Location = new System.Drawing.Point(432, 3);
 			this.button2.Name = "button2";
 			this.button2.Size = new System.Drawing.Size(67, 32);
 			this.button2.TabIndex = 45;
@@ -356,7 +356,7 @@ namespace StrongProject
 			// button1
 			// 
 			this.button1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.button1.Location = new System.Drawing.Point(271, 1);
+			this.button1.Location = new System.Drawing.Point(340, 3);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(67, 32);
 			this.button1.TabIndex = 44;
@@ -367,7 +367,7 @@ namespace StrongProject
 			// AxisCfigBT
 			// 
 			this.AxisCfigBT.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.AxisCfigBT.Location = new System.Drawing.Point(135, 1);
+			this.AxisCfigBT.Location = new System.Drawing.Point(156, 3);
 			this.AxisCfigBT.Name = "AxisCfigBT";
 			this.AxisCfigBT.Size = new System.Drawing.Size(67, 32);
 			this.AxisCfigBT.TabIndex = 7;
@@ -381,9 +381,9 @@ namespace StrongProject
 			this.CBioMessage.Controls.Add(this.comboBox_IO);
 			this.CBioMessage.Controls.Add(this.plIOmessage);
 			this.CBioMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.CBioMessage.Location = new System.Drawing.Point(661, 338);
+			this.CBioMessage.Location = new System.Drawing.Point(749, 347);
 			this.CBioMessage.Name = "CBioMessage";
-			this.CBioMessage.Size = new System.Drawing.Size(579, 212);
+			this.CBioMessage.Size = new System.Drawing.Size(579, 294);
 			this.CBioMessage.TabIndex = 42;
 			this.CBioMessage.TabStop = false;
 			this.CBioMessage.Text = "I/O信息栏";
@@ -406,7 +406,7 @@ namespace StrongProject
 			this.plIOmessage.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.plIOmessage.Location = new System.Drawing.Point(3, 18);
 			this.plIOmessage.Name = "plIOmessage";
-			this.plIOmessage.Size = new System.Drawing.Size(573, 191);
+			this.plIOmessage.Size = new System.Drawing.Size(573, 273);
 			this.plIOmessage.TabIndex = 40;
 			// 
 			// shapeContainer1
@@ -416,7 +416,7 @@ namespace StrongProject
 			this.shapeContainer1.Name = "shapeContainer1";
 			this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
-			this.shapeContainer1.Size = new System.Drawing.Size(573, 191);
+			this.shapeContainer1.Size = new System.Drawing.Size(573, 273);
 			this.shapeContainer1.TabIndex = 0;
 			this.shapeContainer1.TabStop = false;
 			// 
@@ -431,9 +431,9 @@ namespace StrongProject
 			// CBStnChioce
 			// 
 			this.CBStnChioce.FormattingEnabled = true;
-			this.CBStnChioce.Location = new System.Drawing.Point(5, 6);
+			this.CBStnChioce.Location = new System.Drawing.Point(3, 9);
 			this.CBStnChioce.Name = "CBStnChioce";
-			this.CBStnChioce.Size = new System.Drawing.Size(127, 20);
+			this.CBStnChioce.Size = new System.Drawing.Size(147, 20);
 			this.CBStnChioce.TabIndex = 35;
 			this.CBStnChioce.SelectedIndexChanged += new System.EventHandler(this.StnChioceCB_SelectedIndexChanged);
 			// 
@@ -450,9 +450,9 @@ namespace StrongProject
 			this.AXISgroupBox.Controls.Add(this.label16);
 			this.AXISgroupBox.Controls.Add(this.CBChoiceAxis);
 			this.AXISgroupBox.Controls.Add(this.OpenSevroBT);
-			this.AXISgroupBox.Location = new System.Drawing.Point(661, 45);
+			this.AXISgroupBox.Location = new System.Drawing.Point(746, 46);
 			this.AXISgroupBox.Name = "AXISgroupBox";
-			this.AXISgroupBox.Size = new System.Drawing.Size(579, 287);
+			this.AXISgroupBox.Size = new System.Drawing.Size(579, 295);
 			this.AXISgroupBox.TabIndex = 3;
 			this.AXISgroupBox.TabStop = false;
 			// 
@@ -471,7 +471,7 @@ namespace StrongProject
 			// checkBox2
 			// 
 			this.checkBox2.AutoSize = true;
-			this.checkBox2.Location = new System.Drawing.Point(16, 14);
+			this.checkBox2.Location = new System.Drawing.Point(10, 10);
 			this.checkBox2.Name = "checkBox2";
 			this.checkBox2.Size = new System.Drawing.Size(48, 16);
 			this.checkBox2.TabIndex = 25;
@@ -703,7 +703,7 @@ namespace StrongProject
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1254, 579);
+			this.ClientSize = new System.Drawing.Size(1342, 673);
 			this.Controls.Add(this.tabCtrlDebug);
 			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
@@ -724,7 +724,7 @@ namespace StrongProject
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
 			this.groupBox1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 
 		}
 

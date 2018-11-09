@@ -215,7 +215,7 @@
 			this.Name = "PointVlaue";
 			this.Size = new System.Drawing.Size(1517, 25);
 			this.Load += new System.EventHandler(this.PointVlaue_Load);
-			this.ResumeLayout(false);
+			this.DoubleBuffered = true;this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}
