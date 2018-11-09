@@ -106,3 +106,4 @@ C:\Users\strong\Source\Repos\StrongProject\StrongProject\obj\x64\Debug\StrongPro
 C:\Users\strong\Source\Repos\StrongProject\StrongProject\obj\x64\Debug\StrongProject.pdb
 C:\Users\strong\Source\Repos\StrongProject\StrongProject\obj\x64\Debug\StrongProject.WebControl.resources
 C:\Users\strong\Source\Repos\StrongProject\StrongProject\obj\x64\Debug\StrongProject.UserCtrl.CustomTree.resources
+C:\Users\strong\Source\Repos\StrongProject\StrongProject\obj\x64\Debug\StrongProject.csprojAssemblyReference.cache
