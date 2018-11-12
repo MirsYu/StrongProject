@@ -8,6 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("sr.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("picture/alarm.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("picture/alarm_sel.ico")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("picture/bigbk.ico")]

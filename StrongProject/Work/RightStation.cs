@@ -111,7 +111,6 @@ namespace StrongProject
 					return -1;
 				}
 			}
-			return 0;
 		}
 		/// <summary>
 		/// 开真空并检测真空吸，第2步嵌入的代码，返回0 表示成功

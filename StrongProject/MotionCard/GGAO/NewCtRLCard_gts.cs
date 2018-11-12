@@ -13,6 +13,12 @@ namespace StrongProject
 			tag_Manufacturer = MotionCardManufacturer.MotionCardManufacturer_gts;
 		}
 
+		private const int intCardCount = 3; //卡的数量 (两个8轴 1个四轴)
+		private const int intAxisCountForCard = 8;//卡轴的数量
+		private const int intExtendIoCount = 3;   //扩展IO模块数量 
+		private const int intExtendStartId = 11; //扩展模块起始号
+
+
 		public void SR_FunInit()
 		{
 
@@ -52,9 +58,15 @@ namespace StrongProject
 		/// <returns></returns>
 		public short _SR_InitCard()
 		{
-			if (InitCard(0, "\\GTS400.cfg") == false)
+			if (InitCard(0, "\\GTS800.cfg") == false)
 			{
 				string str = "固高控制卡初始化失败!";
+				MessageBoxLog.Show(str);
+				return -1;
+			}
+			if (InitExtCard(0,"\\ExtModule.cfg") == false)
+			{
+				string str = "固高扩展卡初始化失败!";
 				MessageBoxLog.Show(str);
 				return -1;
 			}
@@ -85,27 +97,49 @@ namespace StrongProject
 				CommandResult("GT_GetSts", sRtn);
 				return false;
 			}
-			//清除轴状态、使能轴 
-			for (short axis = 0; axis < 4; axis++)
+			////清除轴状态、使能轴 
+			//for (short axis = 0; axis < 4; axis++)
+			//{
+			//	sRtn = mc.GT_ClrSts(car, (short)(axis + 1), 1);
+			//	if (sRtn != shrGtsSuccess)
+			//	{
+			//		CommandResult("GT_GetSts", sRtn);
+			//		return false;
+			//	}
+			//	sRtn = mc.GT_AxisOn(car, (short)(axis + 1));
+			//	if (sRtn != shrGtsSuccess)
+			//	{
+			//		CommandResult("GT_GetSts", sRtn);
+			//		return false;
+			//	}
+			//}
+			////清除指定轴的报警和限位
+			//sRtn = mc.GT_ClrSts(car, 1, 4);
+			//if (sRtn != shrGtsSuccess)
+			//{
+			//	CommandResult("GT_GetSts", sRtn);
+			//	return false;
+			//}
+			return true;
+		}
+
+		/// <summary>
+		/// 程序初始化卡函数
+		/// </summary>
+		/// <returns></returns>
+		public bool InitExtCard(short card,string path)
+		{
+			short shrResult;
+			shrResult = mc.GT_OpenExtMdlGts(card, "Gts.dll");
+			if (shrResult != shrGtsSuccess)
 			{
-				sRtn = mc.GT_ClrSts(car, (short)(axis + 1), 1);
-				if (sRtn != shrGtsSuccess)
-				{
-					CommandResult("GT_GetSts", sRtn);
-					return false;
-				}
-				sRtn = mc.GT_AxisOn(car, (short)(axis + 1));
-				if (sRtn != shrGtsSuccess)
-				{
-					CommandResult("GT_GetSts", sRtn);
-					return false;
-				}
+				CommandResult("GT_OpenExtMdlGts", shrResult);
+				return false;
 			}
-			//清除指定轴的报警和限位
-			sRtn = mc.GT_ClrSts(car, 1, 4);
-			if (sRtn != shrGtsSuccess)
+			shrResult = mc.GT_LoadExtConfigGts(card, Application.StartupPath + path);
+			if (shrResult != shrGtsSuccess)
 			{
-				CommandResult("GT_GetSts", sRtn);
+				CommandResult("GT_OpenExtMdlGts", shrResult);
 				return false;
 			}
 			return true;

@@ -1,4 +1,5 @@
-﻿using log4net;
+﻿using CefSharp;
+using log4net;
 using System;
 using System.Drawing;
 using System.Windows.Forms;
@@ -9,7 +10,7 @@ namespace StrongProject
 	public partial class Frm_Frame : Form
 	{
 
-		private static readonly ILog log = LogManager.GetLogger("TEST");
+		private static readonly ILog log = LogManager.GetLogger("Frm_Frame.cs");
 		public Work tag_work;
 		public UserCtrl.UserControl_portShow tag_UserControl_portShow = null;
 
@@ -20,7 +21,6 @@ namespace StrongProject
 			InitializeComponent();
 		}
 		public Frm_Main fMain = null;
-		//// public Frm_Main fMain = null;
 		public FrmDebug fDebug = null;
 		public Frm_Alarm fAlarm = null;
 
@@ -89,7 +89,7 @@ namespace StrongProject
 			{
 				NewCtrlCardV0.SetOutputIoBit(servoOnSwith, 1);
 			}
-
+			log.Info("Frm_Frame Is Load");
 		}
 
 		private void toolStripMenuMain_Click(object sender, EventArgs e)
@@ -235,6 +235,7 @@ namespace StrongProject
 			{
 				e.Cancel = true;
 			}
+			Cef.Shutdown();
 		}
 
 		private void Frm_Frame_FormClosed(object sender, FormClosedEventArgs e)
@@ -460,6 +461,19 @@ namespace StrongProject
 			{
 				NewCtrlCardV0.SetOutputIoBit(greenlight, 1);
 			}
+		}
+
+		//信息弹窗
+		private delegate void del(string str, bool showYesNO, string title);
+
+		private void ShowMesg(string str, bool showYesNO, string title)
+		{
+			Global.Forms.Msg.MessageTopMost(str, false, false, false);
+		}
+
+		public void ShowFormMesg(string mesg, bool showYesNO, string title)
+		{
+			this.Invoke(new del(ShowMesg), mesg, showYesNO, title);
 		}
 	}
 }

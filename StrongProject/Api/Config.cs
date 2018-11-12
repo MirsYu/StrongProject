@@ -209,9 +209,6 @@ namespace StrongProject
 			return _Config;
 
 		}
-		#endregion
 	}
-
-
-
+	#endregion
 }

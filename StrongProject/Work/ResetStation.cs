@@ -182,7 +182,6 @@ namespace StrongProject
 			{
 				return -1;
 			}
-			return 0;
 		}
 		/// <summary>
 		/// 流程用线程执行执行的函数 无返回值

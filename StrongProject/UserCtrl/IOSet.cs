@@ -54,7 +54,8 @@ namespace StrongProject
 						continue;
 					}
 					listObject.Add(ioP);
-					SetIOPanel ioinput = new SetIOPanel(ioP);
+					SetIOPanel ioinput = new SetIOPanel();
+					ioinput.IO = ioP;
 					ioinput.Location = new Point(i % 2 * 340, i / 2 * 30);
 					panel_IO.Controls.Add(ioinput);
 					tag_list.Add(ioinput);
@@ -67,7 +68,8 @@ namespace StrongProject
 						continue;
 					}
 					listObject.Add(ioP);
-					SetIOPanel ioinput = new SetIOPanel(ioP);
+					SetIOPanel ioinput = new SetIOPanel();
+					ioinput.IO = ioP;
 					ioinput.Location = new Point(0, j * 30);
 					panel_out.Controls.Add(ioinput);
 					tag_list.Add(ioinput);
@@ -103,7 +105,8 @@ namespace StrongProject
 							continue;
 						}
 						listObject.Add(ioP);
-						SetIOPanel ioinput = new SetIOPanel(ioP);
+						SetIOPanel ioinput = new SetIOPanel();
+						ioinput.IO = ioP;
 						ioinput.Location = new Point(i % 2 * 340, i / 2 * 30);
 						panel_IO.Controls.Add(ioinput);
 						tag_list.Add(ioinput);
@@ -116,7 +119,8 @@ namespace StrongProject
 							continue;
 						}
 						listObject.Add(ioP);
-						SetIOPanel ioinput = new SetIOPanel(ioP);
+						SetIOPanel ioinput = new SetIOPanel();
+						ioinput.IO = ioP;
 						ioinput.Location = new Point(0, j * 30);
 						panel_out.Controls.Add(ioinput);
 						tag_list.Add(ioinput);

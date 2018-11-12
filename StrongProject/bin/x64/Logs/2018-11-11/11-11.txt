@@ -1,0 +1,2 @@
+2018-11-11 11:11:27,361 6166 [1] INFO  (Frm_Frame.cs:92 Frm_Frame_Load) - Frm_Frame Is Load
+2018-11-11 11:11:49,699 6739 [1] INFO  (Frm_Frame.cs:92 Frm_Frame_Load) - Frm_Frame Is Load

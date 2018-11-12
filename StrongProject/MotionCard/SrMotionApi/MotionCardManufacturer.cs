@@ -11,7 +11,8 @@
 		MotionCardManufacturer_DMC1000B,
 		MotionCardManufacturer_gts,
 		MotionCardManufacturer_IOBegin,
-		MotionCardManufacturer_IO3224 = MotionCardManufacturer_IOBegin,
+		MotionCardManufacturer_gtsExt = MotionCardManufacturer_IOBegin,
+		MotionCardManufacturer_IO3224 ,
 		MotionCardManufacturer_max
 	}
 }

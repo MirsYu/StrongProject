@@ -48,7 +48,10 @@ namespace StrongProject
 					return "DMC1000B";
 					break;
 				case MotionCardManufacturer.MotionCardManufacturer_gts:
-					return "GTS400";
+					return "GTS800";
+					break;
+				case MotionCardManufacturer.MotionCardManufacturer_gtsExt:
+					return "GTS800Ext";
 					break;
 				case MotionCardManufacturer.MotionCardManufacturer_IO3224:
 					return "IO3224 ";
@@ -668,7 +671,11 @@ namespace StrongProject
 			return -1;
 		}
 
-
+		/// <summary>
+		/// 寻找限位 -有问题
+		/// </summary>
+		/// <param name="_acf"></param>
+		/// <returns></returns>
 		public short SR_GoHome(AxisConfig _acf)
 		{
 			if (HomeFindLimit(_acf) == 0)

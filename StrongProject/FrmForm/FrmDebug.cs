@@ -68,8 +68,8 @@ namespace StrongProject
 			userControl_ShowAllPoint1.Location = new Point(0, CBStnChioce.Location.Y + CBStnChioce.Size.Height + 10);
 			userControl_ShowAllPoint1.Size = new Size(checkBox1.Location.X - CBStnChioce.Location.X - 10, this.Size.Height - CBStnChioce.Location.Y - CBStnChioce.Size.Height - 40);
 
-			customTree.Location = new Point(comboBox_FlowName.Location.X + 10, comboBox_FlowName.Location.Y + 10);
-			customTree.Size = new Size(tabPage_Flow.Size.Width / 2, tabPage_Flow.Size.Height - comboBox_FlowName.Size.Height - 10);
+			customTree.Location = new Point(comboBox_FlowName.Location.X, comboBox_FlowName.Location.Y +comboBox_FlowName.Size.Height+10);
+			customTree.Size = new Size(tabPage_Flow.Size.Width / 2, tabPage_Flow.Size.Height - comboBox_FlowName.Size.Height - 50);
 
 		}
 

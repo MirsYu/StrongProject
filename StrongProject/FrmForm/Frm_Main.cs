@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CefSharp;
+using System;
 using System.Drawing;
 using System.Linq;
 using System.Threading;
@@ -32,12 +33,19 @@ namespace StrongProject
 			{
 				this.Size = new Size(frmFrame.Size.Width, frmFrame.Size.Height - 50);
 			}
-			webControl_NG.RefreshURL(new Uri("http://www.mirsyu.xyz/HTML/NG.html"));
-			panel_NG.Controls.Add(webControl_NG);
+			CefSettings settings = new CefSettings();
+			Cef.Initialize(settings);
+			//webControl_NG.InitializeChromium("http://www.mirsyu.xyz/SPA/NG.html");
+			//webControl_NG.InitializeChromium("http://www.mirsyu.xyz/SPA/doc-example_tutorial-dynamic-data.html");
+            webControl_NG.InitializeChromium("http://127.0.0.1:8080/SPA/doc-example_tutorial-dynamic-data.html");
+
+
+            panel_NG.Controls.Add(webControl_NG);
 			webControl_NG.Location = new Point(0, 0);
 			webControl_NG.Size = webControl_NG.Parent.Size;
 
-			webControl_Charts.RefreshURL(new Uri("http://www.mirsyu.xyz/HTML/Charts.html"));
+			webControl_Charts.InitializeChromium("http://127.0.0.1:8080/SPA/Charts.html");
+
 			panel_Charts.Controls.Add(webControl_Charts);
 			webControl_Charts.Location = new Point(0, 0);
 			webControl_Charts.Size = webControl_Charts.Parent.Size;

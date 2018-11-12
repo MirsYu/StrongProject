@@ -43,6 +43,7 @@ namespace StrongProject
 			short ret = 0;
 			short ret1 = 0;
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_gts] = new NewCtRLCard_gts(4);
+			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_gtsExt] = new NewCtRLCard_gtsExt();
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_8940] = new NewCtrlCard_ZWX8940();
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_8960m] = new NewCtrlCard_ZWX8690m();
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_IO3224] = new NewCtrlCard_IO3224();
@@ -268,7 +269,6 @@ namespace StrongProject
 				case 2:
 					shrResult = Base_.SR_GoOneHome(axisC);
 					break;
-
 				case 3:
 					shrResult = Base_.SR_GoOneHomeOrg(axisC);
 					break;

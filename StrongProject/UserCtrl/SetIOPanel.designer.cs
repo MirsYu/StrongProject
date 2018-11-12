@@ -42,24 +42,19 @@
 			this.comboBox_motiontype.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_motiontype.FormattingEnabled = true;
 			this.comboBox_motiontype.Items.AddRange(new object[] {
-			"无",
-			"1卡",
-			"2卡",
-			"3卡",
-			"4卡",
-			"5卡",
-			"6卡",
-			"7卡",
-			"8卡",
-			"9卡",
-			"10卡",
-			"11卡",
-			"12卡",
-			"13卡"});
-			this.comboBox_motiontype.Location = new System.Drawing.Point(115, 1);
+            "无",
+            "1卡",
+            "2卡",
+            "3卡",
+            "4卡",
+            "扩0卡",
+			"扩1卡",
+			"扩2卡",
+			"扩3卡",});
+			this.comboBox_motiontype.Location = new System.Drawing.Point(113, 1);
 			this.comboBox_motiontype.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.comboBox_motiontype.Name = "comboBox_motiontype";
-			this.comboBox_motiontype.Size = new System.Drawing.Size(30, 20);
+			this.comboBox_motiontype.Size = new System.Drawing.Size(42, 20);
 			this.comboBox_motiontype.TabIndex = 1;
 			// 
 			// comboBox_io
@@ -69,8 +64,8 @@
 			this.comboBox_io.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_io.FormattingEnabled = true;
 			this.comboBox_io.Items.AddRange(new object[] {
-			"无"});
-			this.comboBox_io.Location = new System.Drawing.Point(146, 1);
+            "无"});
+			this.comboBox_io.Location = new System.Drawing.Point(156, 1);
 			this.comboBox_io.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.comboBox_io.Name = "comboBox_io";
 			this.comboBox_io.Size = new System.Drawing.Size(40, 20);
@@ -82,8 +77,8 @@
 			this.comboBox_status.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_status.FormattingEnabled = true;
 			this.comboBox_status.Items.AddRange(new object[] {
-			"无"});
-			this.comboBox_status.Location = new System.Drawing.Point(185, 1);
+            "无"});
+			this.comboBox_status.Location = new System.Drawing.Point(197, 1);
 			this.comboBox_status.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.comboBox_status.Name = "comboBox_status";
 			this.comboBox_status.Size = new System.Drawing.Size(35, 20);
@@ -92,9 +87,9 @@
 			// textBox1
 			// 
 			this.textBox1.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.textBox1.Location = new System.Drawing.Point(3, 2);
+			this.textBox1.Location = new System.Drawing.Point(3, 0);
 			this.textBox1.Name = "textBox1";
-			this.textBox1.Size = new System.Drawing.Size(109, 21);
+			this.textBox1.Size = new System.Drawing.Size(109, 22);
 			this.textBox1.TabIndex = 2;
 			// 
 			// comboBox_Type
@@ -103,15 +98,16 @@
 			this.comboBox_Type.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_Type.FormattingEnabled = true;
 			this.comboBox_Type.Items.AddRange(new object[] {
-			"C_8940",
-			"C_8960m",
-			"DMC3800",
-			"DMC3600",
-			"DMC3400",
-			"DMC1000B",
-			"GTS400",
-			"IO_3224"});
-			this.comboBox_Type.Location = new System.Drawing.Point(262, 1);
+            "C_8940",
+            "C_8960m",
+            "DMC3800",
+            "DMC3600",
+            "DMC3400",
+            "DMC1000B",
+            "GTS800",
+			"GTS800Ext",
+            "IO_3224"});
+			this.comboBox_Type.Location = new System.Drawing.Point(275, 1);
 			this.comboBox_Type.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.comboBox_Type.Name = "comboBox_Type";
 			this.comboBox_Type.Size = new System.Drawing.Size(62, 20);
@@ -119,7 +115,7 @@
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(221, 0);
+			this.button1.Location = new System.Drawing.Point(233, 0);
 			this.button1.Name = "button1";
 			this.button1.Size = new System.Drawing.Size(41, 23);
 			this.button1.TabIndex = 4;
@@ -137,9 +133,10 @@
 			this.Controls.Add(this.comboBox_motiontype);
 			this.Controls.Add(this.comboBox_io);
 			this.Controls.Add(this.comboBox_status);
+			this.DoubleBuffered = true;
 			this.Name = "SetIOPanel";
-			this.Size = new System.Drawing.Size(335, 23);
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.Size = new System.Drawing.Size(342, 23);
+			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

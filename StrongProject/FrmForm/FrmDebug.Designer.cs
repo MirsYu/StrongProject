@@ -574,7 +574,7 @@ namespace StrongProject
 			this.tabPage_automatic.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_automatic.Name = "tabPage_automatic";
 			this.tabPage_automatic.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_automatic.Size = new System.Drawing.Size(1246, 553);
+			this.tabPage_automatic.Size = new System.Drawing.Size(1334, 647);
 			this.tabPage_automatic.TabIndex = 2;
 			this.tabPage_automatic.Text = "IO模块";
 			this.tabPage_automatic.UseVisualStyleBackColor = true;
@@ -585,7 +585,7 @@ namespace StrongProject
 			this.TabPagConnect.Location = new System.Drawing.Point(4, 22);
 			this.TabPagConnect.Name = "TabPagConnect";
 			this.TabPagConnect.Padding = new System.Windows.Forms.Padding(3);
-			this.TabPagConnect.Size = new System.Drawing.Size(1246, 553);
+			this.TabPagConnect.Size = new System.Drawing.Size(1334, 647);
 			this.TabPagConnect.TabIndex = 1;
 			this.TabPagConnect.Text = "通讯调试系统";
 			// 
@@ -593,7 +593,7 @@ namespace StrongProject
 			// 
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Size = new System.Drawing.Size(1246, 553);
+			this.tabPage1.Size = new System.Drawing.Size(1334, 647);
 			this.tabPage1.TabIndex = 3;
 			this.tabPage1.Text = "模块启动";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -603,7 +603,7 @@ namespace StrongProject
 			this.tabPage_config.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_config.Name = "tabPage_config";
 			this.tabPage_config.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_config.Size = new System.Drawing.Size(1246, 553);
+			this.tabPage_config.Size = new System.Drawing.Size(1334, 647);
 			this.tabPage_config.TabIndex = 4;
 			this.tabPage_config.Text = "配置文件管理";
 			this.tabPage_config.UseVisualStyleBackColor = true;
@@ -613,7 +613,7 @@ namespace StrongProject
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(1246, 553);
+			this.tabPage2.Size = new System.Drawing.Size(1334, 647);
 			this.tabPage2.TabIndex = 5;
 			this.tabPage2.Text = "参数保存";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -623,7 +623,7 @@ namespace StrongProject
 			this.tabPage_port.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_port.Name = "tabPage_port";
 			this.tabPage_port.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_port.Size = new System.Drawing.Size(1246, 553);
+			this.tabPage_port.Size = new System.Drawing.Size(1334, 647);
 			this.tabPage_port.TabIndex = 6;
 			this.tabPage_port.Text = "串口通行配置";
 			this.tabPage_port.UseVisualStyleBackColor = true;
@@ -636,14 +636,14 @@ namespace StrongProject
 			this.tabPage_Flow.Controls.Add(this.comboBox_FlowName);
 			this.tabPage_Flow.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_Flow.Name = "tabPage_Flow";
-			this.tabPage_Flow.Size = new System.Drawing.Size(1246, 553);
+			this.tabPage_Flow.Size = new System.Drawing.Size(1334, 647);
 			this.tabPage_Flow.TabIndex = 9;
 			this.tabPage_Flow.Text = "流程配置系统_测试";
 			this.tabPage_Flow.UseVisualStyleBackColor = true;
 			// 
 			// button5
 			// 
-			this.button5.Location = new System.Drawing.Point(380, 402);
+			this.button5.Location = new System.Drawing.Point(745, 606);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(75, 23);
 			this.button5.TabIndex = 5;
@@ -653,7 +653,7 @@ namespace StrongProject
 			// groupBox2
 			// 
 			this.groupBox2.Controls.Add(this.dataGridView2);
-			this.groupBox2.Location = new System.Drawing.Point(380, 203);
+			this.groupBox2.Location = new System.Drawing.Point(745, 203);
 			this.groupBox2.Name = "groupBox2";
 			this.groupBox2.Size = new System.Drawing.Size(581, 161);
 			this.groupBox2.TabIndex = 4;
@@ -673,7 +673,7 @@ namespace StrongProject
 			// groupBox1
 			// 
 			this.groupBox1.Controls.Add(this.dataGridView1);
-			this.groupBox1.Location = new System.Drawing.Point(380, 3);
+			this.groupBox1.Location = new System.Drawing.Point(745, 3);
 			this.groupBox1.Name = "groupBox1";
 			this.groupBox1.Size = new System.Drawing.Size(581, 197);
 			this.groupBox1.TabIndex = 3;
@@ -705,6 +705,7 @@ namespace StrongProject
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1342, 673);
 			this.Controls.Add(this.tabCtrlDebug);
+			this.DoubleBuffered = true;
 			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
 			this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -724,7 +725,7 @@ namespace StrongProject
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
 			this.groupBox1.ResumeLayout(false);
 			((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 
 		}
 

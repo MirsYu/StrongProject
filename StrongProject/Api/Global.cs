@@ -7,7 +7,47 @@ namespace StrongProject
 {
 	public class Global
 	{
+		#region 信息弹窗相关变量
+		public static class ShowMesgeInfon
+		{
+			public static Frm_Frame Fram = null;
+			public static bool HasShowForm = false;
+			public static bool bConfirmNo = false;  //点击返回否
+			public static bool bConfirmYes = false;  //点击返回是
+			public static bool bInitialized = false;//窗体初始化加载完成
 
+			public static void Init(Frm_Frame form)
+			{
+				Fram = form;
+			}
+
+			public static void MessageTopMost(string mes, bool showYesNO = false, string title = "提示(hint)")
+			{
+
+				while (HasShowForm)
+				{
+					Thread.Sleep(500);
+				}
+				HasShowForm = true;
+				ShowMesg(mes, showYesNO, title);
+
+			}
+			private static void ShowMesg(string mes, bool showYesNO, string title)
+			{
+				if (bInitialized)
+				{
+					Fram.ShowFormMesg(mes, showYesNO, title);
+				}
+				else
+				{
+					Global.Forms.Msg.MessageTopMost(mes, false, false, false);
+				}
+
+			}
+
+		}
+
+		#endregion
 		#region Const
 		//全局常量
 		public static class CConst
@@ -60,7 +100,7 @@ namespace StrongProject
 		//全局变量
 		public static class WorkVar
 		{
-
+			public static bool bIsAddPhoto = false;//是否开启3#相机多飞拍一次二维码
 			public static bool TopMostFormChooseYes = false;
 			public static bool TopMostFormShowing = false;
 
@@ -69,7 +109,8 @@ namespace StrongProject
 
 			public static bool ConnectCard = true;//是否连接卡
 
-
+			public static bool[] bHomeFinish_card0 = new bool[8] { false, false, false, false, false, false, false, false };//0卡的回零状态
+			public static bool[] bHomeFinish_card1 = new bool[4] { false, false, false, false };//1卡的回零状态
 
 
 			//new
@@ -99,7 +140,6 @@ namespace StrongProject
 			public static int Form_Var = 0;//窗口界面
 
 			public static SolderConfig _config = new SolderConfig();
-
 			public static string NowPopUpMsg = null;
 
 			/// <summary>
