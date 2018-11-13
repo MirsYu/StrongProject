@@ -35,9 +35,9 @@
 			// panel_out
 			// 
 			this.panel_out.AutoScroll = true;
-			this.panel_out.Location = new System.Drawing.Point(652, 3);
+			this.panel_out.Location = new System.Drawing.Point(713, 3);
 			this.panel_out.Name = "panel_out";
-			this.panel_out.Size = new System.Drawing.Size(325, 450);
+			this.panel_out.Size = new System.Drawing.Size(394, 607);
 			this.panel_out.TabIndex = 7;
 			// 
 			// panel_IO
@@ -45,7 +45,7 @@
 			this.panel_IO.AutoScroll = true;
 			this.panel_IO.Location = new System.Drawing.Point(3, 3);
 			this.panel_IO.Name = "panel_IO";
-			this.panel_IO.Size = new System.Drawing.Size(646, 450);
+			this.panel_IO.Size = new System.Drawing.Size(704, 607);
 			this.panel_IO.TabIndex = 6;
 			// 
 			// IOSet
@@ -54,10 +54,11 @@
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.panel_out);
 			this.Controls.Add(this.panel_IO);
+			this.DoubleBuffered = true;
 			this.Name = "IOSet";
-			this.Size = new System.Drawing.Size(980, 500);
+			this.Size = new System.Drawing.Size(1110, 613);
 			this.Load += new System.EventHandler(this.IOSet_Load);
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 
 		}
 

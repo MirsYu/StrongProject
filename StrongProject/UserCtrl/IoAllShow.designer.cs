@@ -51,7 +51,7 @@
 			this.panel_IO.AutoScroll = true;
 			this.panel_IO.Location = new System.Drawing.Point(6, 6);
 			this.panel_IO.Name = "panel_IO";
-			this.panel_IO.Size = new System.Drawing.Size(653, 450);
+			this.panel_IO.Size = new System.Drawing.Size(699, 604);
 			this.panel_IO.TabIndex = 0;
 			// 
 			// button1
@@ -76,9 +76,9 @@
 			// panel_out
 			// 
 			this.panel_out.AutoScroll = true;
-			this.panel_out.Location = new System.Drawing.Point(665, 6);
+			this.panel_out.Location = new System.Drawing.Point(711, 6);
 			this.panel_out.Name = "panel_out";
-			this.panel_out.Size = new System.Drawing.Size(280, 450);
+			this.panel_out.Size = new System.Drawing.Size(396, 604);
 			this.panel_out.TabIndex = 5;
 			this.panel_out.Paint += new System.Windows.Forms.PaintEventHandler(this.panel_out_Paint);
 			// 
@@ -101,7 +101,7 @@
 			this.tabControl1.Location = new System.Drawing.Point(3, 29);
 			this.tabControl1.Name = "tabControl1";
 			this.tabControl1.SelectedIndex = 0;
-			this.tabControl1.Size = new System.Drawing.Size(977, 500);
+			this.tabControl1.Size = new System.Drawing.Size(1118, 639);
 			this.tabControl1.TabIndex = 7;
 			// 
 			// tabPage1
@@ -111,7 +111,7 @@
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
 			this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage1.Size = new System.Drawing.Size(951, 474);
+			this.tabPage1.Size = new System.Drawing.Size(1110, 613);
 			this.tabPage1.TabIndex = 0;
 			this.tabPage1.Text = "IO控制";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -121,7 +121,7 @@
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(969, 474);
+			this.tabPage2.Size = new System.Drawing.Size(1110, 613);
 			this.tabPage2.TabIndex = 1;
 			this.tabPage2.Text = "IO设置";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -130,7 +130,7 @@
 			// 
 			this.tabPage3.Location = new System.Drawing.Point(4, 22);
 			this.tabPage3.Name = "tabPage3";
-			this.tabPage3.Size = new System.Drawing.Size(1172, 474);
+			this.tabPage3.Size = new System.Drawing.Size(1110, 613);
 			this.tabPage3.TabIndex = 2;
 			this.tabPage3.Text = "输入io分配";
 			this.tabPage3.UseVisualStyleBackColor = true;
@@ -139,7 +139,7 @@
 			// 
 			this.tabPage4.Location = new System.Drawing.Point(4, 22);
 			this.tabPage4.Name = "tabPage4";
-			this.tabPage4.Size = new System.Drawing.Size(1172, 474);
+			this.tabPage4.Size = new System.Drawing.Size(1110, 613);
 			this.tabPage4.TabIndex = 3;
 			this.tabPage4.Text = "输出IO分配";
 			this.tabPage4.UseVisualStyleBackColor = true;
@@ -150,20 +150,20 @@
 			this.comboBox_motiontype.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.comboBox_motiontype.FormattingEnabled = true;
 			this.comboBox_motiontype.Items.AddRange(new object[] {
-			"无",
-			"1卡",
-			"2卡",
-			"3卡",
-			"扩1",
-			"扩2",
-			"扩3",
-			"扩4",
-			"扩5",
-			"扩6",
-			"扩7",
-			"扩8",
-			"扩9",
-			"扩10"});
+            "无",
+            "1卡",
+            "2卡",
+            "3卡",
+            "扩1",
+            "扩2",
+            "扩3",
+            "扩4",
+            "扩5",
+            "扩6",
+            "扩7",
+            "扩8",
+            "扩9",
+            "扩10"});
 			this.comboBox_motiontype.Location = new System.Drawing.Point(85, 2);
 			this.comboBox_motiontype.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
 			this.comboBox_motiontype.Name = "comboBox_motiontype";
@@ -210,12 +210,13 @@
 			this.Controls.Add(this.button2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.button1);
+			this.DoubleBuffered = true;
 			this.Name = "IoAllShow";
-			this.Size = new System.Drawing.Size(980, 550);
+			this.Size = new System.Drawing.Size(1121, 667);
 			this.Load += new System.EventHandler(this.IoAllShow_Load);
 			this.tabControl1.ResumeLayout(false);
 			this.tabPage1.ResumeLayout(false);
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

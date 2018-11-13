@@ -262,7 +262,6 @@ C:\Users\ADLINK\Desktop\StrongProject\StrongProject\bin\x64\Debug\CefSharp.Core.
 C:\Users\ADLINK\Desktop\StrongProject\StrongProject\bin\x64\Debug\ICSharpCode.AvalonEdit.xml
 C:\Users\ADLINK\Desktop\StrongProject\StrongProject\bin\x64\Debug\log4net.xml
 C:\Users\ADLINK\Desktop\StrongProject\StrongProject\bin\x64\Debug\Newtonsoft.Json.xml
-C:\Users\ADLINK\Desktop\StrongProject\StrongProject\obj\x64\Debug\StrongProject.csprojAssemblyReference.cache
 C:\Users\ADLINK\Desktop\StrongProject\StrongProject\obj\x64\Debug\Script\CodeEditor.g.cs
 C:\Users\ADLINK\Desktop\StrongProject\StrongProject\obj\x64\Debug\StrongProject_Content.g.cs
 C:\Users\ADLINK\Desktop\StrongProject\StrongProject\obj\x64\Debug\StrongProject_MarkupCompile.cache

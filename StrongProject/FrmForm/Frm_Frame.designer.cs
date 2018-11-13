@@ -72,7 +72,7 @@ namespace StrongProject
 			this.panel1.Controls.Add(this.menuStrip1);
 			this.panel1.Location = new System.Drawing.Point(3, 3);
 			this.panel1.Name = "panel1";
-			this.panel1.Size = new System.Drawing.Size(1342, 87);
+			this.panel1.Size = new System.Drawing.Size(1129, 87);
 			this.panel1.TabIndex = 0;
 			// 
 			// label2
@@ -102,7 +102,7 @@ namespace StrongProject
             this.toolStripMenuProductData,
             this.toolStripMenuCameraData,
             this.toolStripMenuLogin});
-			this.menuStrip3.Location = new System.Drawing.Point(1103, 6);
+			this.menuStrip3.Location = new System.Drawing.Point(890, 6);
 			this.menuStrip3.Name = "menuStrip3";
 			this.menuStrip3.Size = new System.Drawing.Size(235, 74);
 			this.menuStrip3.TabIndex = 3;
@@ -264,9 +264,9 @@ namespace StrongProject
 			this.panel3.Controls.Add(this.lbl_User);
 			this.panel3.Controls.Add(this.lblVersion);
 			this.panel3.Controls.Add(this.lblDay);
-			this.panel3.Location = new System.Drawing.Point(3, 775);
+			this.panel3.Location = new System.Drawing.Point(3, 799);
 			this.panel3.Name = "panel3";
-			this.panel3.Size = new System.Drawing.Size(1342, 25);
+			this.panel3.Size = new System.Drawing.Size(1129, 25);
 			this.panel3.TabIndex = 2;
 			// 
 			// lbl_User
@@ -299,7 +299,7 @@ namespace StrongProject
 			this.lblDay.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
 			this.lblDay.AutoSize = true;
 			this.lblDay.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.lblDay.Location = new System.Drawing.Point(1163, 7);
+			this.lblDay.Location = new System.Drawing.Point(950, 7);
 			this.lblDay.Name = "lblDay";
 			this.lblDay.Size = new System.Drawing.Size(53, 12);
 			this.lblDay.TabIndex = 0;
@@ -316,7 +316,7 @@ namespace StrongProject
 			this.panelForm.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
 			this.panelForm.Location = new System.Drawing.Point(3, 96);
 			this.panelForm.Name = "panelForm";
-			this.panelForm.Size = new System.Drawing.Size(1342, 673);
+			this.panelForm.Size = new System.Drawing.Size(1129, 697);
 			this.panelForm.TabIndex = 3;
 			// 
 			// Frm_Frame
@@ -324,7 +324,7 @@ namespace StrongProject
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(254)))), ((int)(((byte)(248)))), ((int)(((byte)(239)))));
-			this.ClientSize = new System.Drawing.Size(1350, 802);
+			this.ClientSize = new System.Drawing.Size(1136, 826);
 			this.Controls.Add(this.panelForm);
 			this.Controls.Add(this.panel3);
 			this.Controls.Add(this.panel1);

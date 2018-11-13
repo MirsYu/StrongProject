@@ -111,7 +111,7 @@ namespace StrongProject
 			this.tabCtrlDebug.Location = new System.Drawing.Point(0, 0);
 			this.tabCtrlDebug.Name = "tabCtrlDebug";
 			this.tabCtrlDebug.SelectedIndex = 0;
-			this.tabCtrlDebug.Size = new System.Drawing.Size(1342, 673);
+			this.tabCtrlDebug.Size = new System.Drawing.Size(1129, 697);
 			this.tabCtrlDebug.TabIndex = 0;
 			// 
 			// TabPagManual
@@ -143,7 +143,7 @@ namespace StrongProject
 			this.TabPagManual.Location = new System.Drawing.Point(4, 22);
 			this.TabPagManual.Name = "TabPagManual";
 			this.TabPagManual.Padding = new System.Windows.Forms.Padding(3);
-			this.TabPagManual.Size = new System.Drawing.Size(1334, 647);
+			this.TabPagManual.Size = new System.Drawing.Size(1121, 671);
 			this.TabPagManual.TabIndex = 0;
 			this.TabPagManual.Text = "手动调试系统";
 			// 
@@ -164,7 +164,7 @@ namespace StrongProject
 			// 
 			this.label3.AutoSize = true;
 			this.label3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label3.Location = new System.Drawing.Point(1112, 34);
+			this.label3.Location = new System.Drawing.Point(966, 34);
 			this.label3.Name = "label3";
 			this.label3.Size = new System.Drawing.Size(59, 12);
 			this.label3.TabIndex = 63;
@@ -173,14 +173,14 @@ namespace StrongProject
 			// PointDistance
 			// 
 			this.PointDistance.DecimalPlaces = 3;
-			this.PointDistance.Location = new System.Drawing.Point(1180, 30);
+			this.PointDistance.Location = new System.Drawing.Point(1025, 30);
 			this.PointDistance.Maximum = new decimal(new int[] {
             360,
             0,
             0,
             0});
 			this.PointDistance.Name = "PointDistance";
-			this.PointDistance.Size = new System.Drawing.Size(140, 22);
+			this.PointDistance.Size = new System.Drawing.Size(93, 22);
 			this.PointDistance.TabIndex = 62;
 			this.PointDistance.Value = new decimal(new int[] {
             1,
@@ -192,9 +192,9 @@ namespace StrongProject
 			// CBSpeedLevel
 			// 
 			this.CBSpeedLevel.FormattingEnabled = true;
-			this.CBSpeedLevel.Location = new System.Drawing.Point(1180, 5);
+			this.CBSpeedLevel.Location = new System.Drawing.Point(1025, 5);
 			this.CBSpeedLevel.Name = "CBSpeedLevel";
-			this.CBSpeedLevel.Size = new System.Drawing.Size(54, 20);
+			this.CBSpeedLevel.Size = new System.Drawing.Size(93, 20);
 			this.CBSpeedLevel.TabIndex = 60;
 			this.CBSpeedLevel.SelectedIndexChanged += new System.EventHandler(this.CBSpeedLevel_SelectedIndexChanged);
 			// 
@@ -202,7 +202,7 @@ namespace StrongProject
 			// 
 			this.label6.AutoSize = true;
 			this.label6.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.label6.Location = new System.Drawing.Point(1112, 9);
+			this.label6.Location = new System.Drawing.Point(966, 9);
 			this.label6.Name = "label6";
 			this.label6.Size = new System.Drawing.Size(59, 12);
 			this.label6.TabIndex = 61;
@@ -211,7 +211,7 @@ namespace StrongProject
 			// checkBox5
 			// 
 			this.checkBox5.AutoSize = true;
-			this.checkBox5.Location = new System.Drawing.Point(830, 32);
+			this.checkBox5.Location = new System.Drawing.Point(695, 32);
 			this.checkBox5.Name = "checkBox5";
 			this.checkBox5.Size = new System.Drawing.Size(72, 16);
 			this.checkBox5.TabIndex = 58;
@@ -222,7 +222,7 @@ namespace StrongProject
 			// checkBox4
 			// 
 			this.checkBox4.AutoSize = true;
-			this.checkBox4.Location = new System.Drawing.Point(830, 7);
+			this.checkBox4.Location = new System.Drawing.Point(695, 7);
 			this.checkBox4.Name = "checkBox4";
 			this.checkBox4.Size = new System.Drawing.Size(72, 16);
 			this.checkBox4.TabIndex = 57;
@@ -275,7 +275,7 @@ namespace StrongProject
 			this.checkBox_sup.AutoSize = true;
 			this.checkBox_sup.Checked = true;
 			this.checkBox_sup.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox_sup.Location = new System.Drawing.Point(908, 32);
+			this.checkBox_sup.Location = new System.Drawing.Point(773, 32);
 			this.checkBox_sup.Name = "checkBox_sup";
 			this.checkBox_sup.Size = new System.Drawing.Size(96, 16);
 			this.checkBox_sup.TabIndex = 52;
@@ -286,7 +286,7 @@ namespace StrongProject
 			// checkBox3
 			// 
 			this.checkBox3.AutoSize = true;
-			this.checkBox3.Location = new System.Drawing.Point(1010, 32);
+			this.checkBox3.Location = new System.Drawing.Point(875, 32);
 			this.checkBox3.Name = "checkBox3";
 			this.checkBox3.Size = new System.Drawing.Size(84, 16);
 			this.checkBox3.TabIndex = 50;
@@ -299,7 +299,7 @@ namespace StrongProject
 			this.checkBox3_safeLight.AutoSize = true;
 			this.checkBox3_safeLight.Checked = true;
 			this.checkBox3_safeLight.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox3_safeLight.Location = new System.Drawing.Point(908, 7);
+			this.checkBox3_safeLight.Location = new System.Drawing.Point(773, 7);
 			this.checkBox3_safeLight.Name = "checkBox3_safeLight";
 			this.checkBox3_safeLight.Size = new System.Drawing.Size(96, 16);
 			this.checkBox3_safeLight.TabIndex = 49;
@@ -310,7 +310,7 @@ namespace StrongProject
 			// checkBox3_statioOpen
 			// 
 			this.checkBox3_statioOpen.AutoSize = true;
-			this.checkBox3_statioOpen.Location = new System.Drawing.Point(752, 32);
+			this.checkBox3_statioOpen.Location = new System.Drawing.Point(617, 32);
 			this.checkBox3_statioOpen.Name = "checkBox3_statioOpen";
 			this.checkBox3_statioOpen.Size = new System.Drawing.Size(72, 16);
 			this.checkBox3_statioOpen.TabIndex = 48;
@@ -334,7 +334,7 @@ namespace StrongProject
 			this.checkBox1.AutoSize = true;
 			this.checkBox1.Checked = true;
 			this.checkBox1.CheckState = System.Windows.Forms.CheckState.Checked;
-			this.checkBox1.Location = new System.Drawing.Point(752, 7);
+			this.checkBox1.Location = new System.Drawing.Point(617, 7);
 			this.checkBox1.Name = "checkBox1";
 			this.checkBox1.Size = new System.Drawing.Size(72, 16);
 			this.checkBox1.TabIndex = 46;
@@ -381,9 +381,9 @@ namespace StrongProject
 			this.CBioMessage.Controls.Add(this.comboBox_IO);
 			this.CBioMessage.Controls.Add(this.plIOmessage);
 			this.CBioMessage.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
-			this.CBioMessage.Location = new System.Drawing.Point(749, 347);
+			this.CBioMessage.Location = new System.Drawing.Point(614, 347);
 			this.CBioMessage.Name = "CBioMessage";
-			this.CBioMessage.Size = new System.Drawing.Size(579, 294);
+			this.CBioMessage.Size = new System.Drawing.Size(507, 294);
 			this.CBioMessage.TabIndex = 42;
 			this.CBioMessage.TabStop = false;
 			this.CBioMessage.Text = "I/O信息栏";
@@ -406,7 +406,7 @@ namespace StrongProject
 			this.plIOmessage.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.plIOmessage.Location = new System.Drawing.Point(3, 18);
 			this.plIOmessage.Name = "plIOmessage";
-			this.plIOmessage.Size = new System.Drawing.Size(573, 273);
+			this.plIOmessage.Size = new System.Drawing.Size(501, 273);
 			this.plIOmessage.TabIndex = 40;
 			// 
 			// shapeContainer1
@@ -416,7 +416,7 @@ namespace StrongProject
 			this.shapeContainer1.Name = "shapeContainer1";
 			this.shapeContainer1.Shapes.AddRange(new Microsoft.VisualBasic.PowerPacks.Shape[] {
             this.lineShape1});
-			this.shapeContainer1.Size = new System.Drawing.Size(573, 273);
+			this.shapeContainer1.Size = new System.Drawing.Size(501, 273);
 			this.shapeContainer1.TabIndex = 0;
 			this.shapeContainer1.TabStop = false;
 			// 
@@ -450,9 +450,9 @@ namespace StrongProject
 			this.AXISgroupBox.Controls.Add(this.label16);
 			this.AXISgroupBox.Controls.Add(this.CBChoiceAxis);
 			this.AXISgroupBox.Controls.Add(this.OpenSevroBT);
-			this.AXISgroupBox.Location = new System.Drawing.Point(746, 46);
+			this.AXISgroupBox.Location = new System.Drawing.Point(611, 46);
 			this.AXISgroupBox.Name = "AXISgroupBox";
-			this.AXISgroupBox.Size = new System.Drawing.Size(579, 295);
+			this.AXISgroupBox.Size = new System.Drawing.Size(507, 295);
 			this.AXISgroupBox.TabIndex = 3;
 			this.AXISgroupBox.TabStop = false;
 			// 
@@ -496,7 +496,7 @@ namespace StrongProject
 			this.groupBox_Axis.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(160)))), ((int)(((byte)(184)))), ((int)(((byte)(216)))));
 			this.groupBox_Axis.Location = new System.Drawing.Point(78, 10);
 			this.groupBox_Axis.Name = "groupBox_Axis";
-			this.groupBox_Axis.Size = new System.Drawing.Size(496, 280);
+			this.groupBox_Axis.Size = new System.Drawing.Size(426, 280);
 			this.groupBox_Axis.TabIndex = 23;
 			// 
 			// label15
@@ -574,7 +574,7 @@ namespace StrongProject
 			this.tabPage_automatic.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_automatic.Name = "tabPage_automatic";
 			this.tabPage_automatic.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_automatic.Size = new System.Drawing.Size(1334, 647);
+			this.tabPage_automatic.Size = new System.Drawing.Size(1121, 671);
 			this.tabPage_automatic.TabIndex = 2;
 			this.tabPage_automatic.Text = "IO模块";
 			this.tabPage_automatic.UseVisualStyleBackColor = true;
@@ -585,7 +585,7 @@ namespace StrongProject
 			this.TabPagConnect.Location = new System.Drawing.Point(4, 22);
 			this.TabPagConnect.Name = "TabPagConnect";
 			this.TabPagConnect.Padding = new System.Windows.Forms.Padding(3);
-			this.TabPagConnect.Size = new System.Drawing.Size(1334, 647);
+			this.TabPagConnect.Size = new System.Drawing.Size(1121, 671);
 			this.TabPagConnect.TabIndex = 1;
 			this.TabPagConnect.Text = "通讯调试系统";
 			// 
@@ -593,7 +593,7 @@ namespace StrongProject
 			// 
 			this.tabPage1.Location = new System.Drawing.Point(4, 22);
 			this.tabPage1.Name = "tabPage1";
-			this.tabPage1.Size = new System.Drawing.Size(1334, 647);
+			this.tabPage1.Size = new System.Drawing.Size(1121, 671);
 			this.tabPage1.TabIndex = 3;
 			this.tabPage1.Text = "模块启动";
 			this.tabPage1.UseVisualStyleBackColor = true;
@@ -603,7 +603,7 @@ namespace StrongProject
 			this.tabPage_config.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_config.Name = "tabPage_config";
 			this.tabPage_config.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_config.Size = new System.Drawing.Size(1334, 647);
+			this.tabPage_config.Size = new System.Drawing.Size(1121, 671);
 			this.tabPage_config.TabIndex = 4;
 			this.tabPage_config.Text = "配置文件管理";
 			this.tabPage_config.UseVisualStyleBackColor = true;
@@ -613,7 +613,7 @@ namespace StrongProject
 			this.tabPage2.Location = new System.Drawing.Point(4, 22);
 			this.tabPage2.Name = "tabPage2";
 			this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage2.Size = new System.Drawing.Size(1334, 647);
+			this.tabPage2.Size = new System.Drawing.Size(1121, 671);
 			this.tabPage2.TabIndex = 5;
 			this.tabPage2.Text = "参数保存";
 			this.tabPage2.UseVisualStyleBackColor = true;
@@ -623,7 +623,7 @@ namespace StrongProject
 			this.tabPage_port.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_port.Name = "tabPage_port";
 			this.tabPage_port.Padding = new System.Windows.Forms.Padding(3);
-			this.tabPage_port.Size = new System.Drawing.Size(1334, 647);
+			this.tabPage_port.Size = new System.Drawing.Size(1121, 671);
 			this.tabPage_port.TabIndex = 6;
 			this.tabPage_port.Text = "串口通行配置";
 			this.tabPage_port.UseVisualStyleBackColor = true;
@@ -636,14 +636,14 @@ namespace StrongProject
 			this.tabPage_Flow.Controls.Add(this.comboBox_FlowName);
 			this.tabPage_Flow.Location = new System.Drawing.Point(4, 22);
 			this.tabPage_Flow.Name = "tabPage_Flow";
-			this.tabPage_Flow.Size = new System.Drawing.Size(1334, 647);
+			this.tabPage_Flow.Size = new System.Drawing.Size(1121, 671);
 			this.tabPage_Flow.TabIndex = 9;
 			this.tabPage_Flow.Text = "流程配置系统_测试";
 			this.tabPage_Flow.UseVisualStyleBackColor = true;
 			// 
 			// button5
 			// 
-			this.button5.Location = new System.Drawing.Point(745, 606);
+			this.button5.Location = new System.Drawing.Point(1038, 640);
 			this.button5.Name = "button5";
 			this.button5.Size = new System.Drawing.Size(75, 23);
 			this.button5.TabIndex = 5;
@@ -653,9 +653,9 @@ namespace StrongProject
 			// groupBox2
 			// 
 			this.groupBox2.Controls.Add(this.dataGridView2);
-			this.groupBox2.Location = new System.Drawing.Point(745, 203);
+			this.groupBox2.Location = new System.Drawing.Point(622, 203);
 			this.groupBox2.Name = "groupBox2";
-			this.groupBox2.Size = new System.Drawing.Size(581, 161);
+			this.groupBox2.Size = new System.Drawing.Size(496, 161);
 			this.groupBox2.TabIndex = 4;
 			this.groupBox2.TabStop = false;
 			this.groupBox2.Text = "IO信息";
@@ -667,15 +667,15 @@ namespace StrongProject
 			this.dataGridView2.Location = new System.Drawing.Point(3, 18);
 			this.dataGridView2.Name = "dataGridView2";
 			this.dataGridView2.RowTemplate.Height = 23;
-			this.dataGridView2.Size = new System.Drawing.Size(575, 140);
+			this.dataGridView2.Size = new System.Drawing.Size(490, 140);
 			this.dataGridView2.TabIndex = 2;
 			// 
 			// groupBox1
 			// 
 			this.groupBox1.Controls.Add(this.dataGridView1);
-			this.groupBox1.Location = new System.Drawing.Point(745, 3);
+			this.groupBox1.Location = new System.Drawing.Point(622, 3);
 			this.groupBox1.Name = "groupBox1";
-			this.groupBox1.Size = new System.Drawing.Size(581, 197);
+			this.groupBox1.Size = new System.Drawing.Size(496, 197);
 			this.groupBox1.TabIndex = 3;
 			this.groupBox1.TabStop = false;
 			this.groupBox1.Text = "轴信息";
@@ -687,7 +687,7 @@ namespace StrongProject
 			this.dataGridView1.Location = new System.Drawing.Point(3, 18);
 			this.dataGridView1.Name = "dataGridView1";
 			this.dataGridView1.RowTemplate.Height = 23;
-			this.dataGridView1.Size = new System.Drawing.Size(575, 176);
+			this.dataGridView1.Size = new System.Drawing.Size(490, 176);
 			this.dataGridView1.TabIndex = 2;
 			// 
 			// comboBox_FlowName
@@ -703,7 +703,7 @@ namespace StrongProject
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-			this.ClientSize = new System.Drawing.Size(1342, 673);
+			this.ClientSize = new System.Drawing.Size(1129, 697);
 			this.Controls.Add(this.tabCtrlDebug);
 			this.DoubleBuffered = true;
 			this.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));

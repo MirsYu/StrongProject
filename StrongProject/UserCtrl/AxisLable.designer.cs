@@ -158,7 +158,7 @@
 			this.label11.Name = "label11";
 			this.label11.Size = new System.Drawing.Size(53, 12);
 			this.label11.TabIndex = 34;
-			this.label11.Text = "回原低度";
+			this.label11.Text = "回原低速";
 			// 
 			// label12
 			// 
@@ -378,9 +378,10 @@
 			this.Controls.Add(this.label2);
 			this.Controls.Add(this.label1);
 			this.Controls.Add(this.shapeContainer1);
+			this.DoubleBuffered = true;
 			this.Name = "AxisLabel";
 			this.Size = new System.Drawing.Size(1873, 20);
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}

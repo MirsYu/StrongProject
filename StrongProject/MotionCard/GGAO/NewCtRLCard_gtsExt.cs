@@ -98,7 +98,7 @@ namespace StrongProject
 
 			//if (card >= intExtendStartId)
 			{
-				shrResult = mc.GT_GetExtIoValueGts(0, (short)(card), ref ushortValue);
+				shrResult = mc.GT_GetExtIoBitGts(0, (short)(card), ioBit, ref ushortValue);
 				if (shrResult != shrGtsSuccess)
 				{
 					CommandResult("GT_GetExtIoValueGts", shrResult);
@@ -114,9 +114,16 @@ namespace StrongProject
 			//		return shrFail;
 			//	}
 			//}
-
-			bStatus = (pValue & (1 << ioBit)) > 0 ? true : false;
-			return 0;
+			if (ushortValue == 0)
+			{
+				bStatus = false;
+			}
+			else
+			{
+				bStatus = true; 
+			}
+			//bStatus = (pValue & (1 << ioBit)) > 0 ? true : false;
+			return shrResult;
 
 		}
 

@@ -2871,3 +2871,1211 @@
 [1112/203505:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [1112/203511:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [1112/203516:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084430:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084431:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/084431:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/084435:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084440:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084445:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084450:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084455:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084500:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084505:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084510:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084515:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084520:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084525:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084530:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084535:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084540:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084545:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084550:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084555:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084600:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084605:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084610:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084615:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084620:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084625:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084630:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084635:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084640:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084645:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084650:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084655:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084700:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084705:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084710:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084715:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084720:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084725:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084726:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[1113/084726:WARNING:channel.cc(359)] RawChannel write error
+[1113/084746:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084746:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/084746:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/084751:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084756:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084801:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084806:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084811:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084816:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084821:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084826:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084831:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084836:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084841:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084846:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084851:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084856:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084901:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084906:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084911:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084916:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084921:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084926:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084931:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084936:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084941:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084946:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084951:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/084956:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085001:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085006:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085011:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085016:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085021:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085026:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085031:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085036:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085041:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085046:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085051:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085056:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085101:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085106:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085111:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085116:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085121:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085126:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085131:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085136:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085141:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085146:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085151:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085156:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085201:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085206:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085211:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085216:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085221:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085226:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085231:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085236:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085241:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085246:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085251:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085256:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085301:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085306:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085311:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085316:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085321:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085326:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085331:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085336:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085341:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085346:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085351:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085356:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085401:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085406:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085411:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085413:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/085413:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/085413:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/085413:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/085557:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085557:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/085557:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/085602:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085607:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085612:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085617:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085622:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085627:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085632:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085637:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085642:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085647:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085652:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085657:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085702:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085707:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085712:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085717:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085722:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085727:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085732:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085737:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085742:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085747:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085752:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085757:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085802:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085807:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085812:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085816:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/085816:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/085816:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/085816:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/085843:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085843:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/085843:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/085848:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085853:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/085858:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090007:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090007:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/090007:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/090012:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090025:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090025:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/090025:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/090030:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090035:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090040:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090045:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090050:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090055:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090100:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090105:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090110:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090115:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090120:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090125:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090130:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090135:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090140:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090145:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090150:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090155:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090200:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090205:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/090208:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/090208:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/090208:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/090208:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/114733:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114733:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/114733:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/114738:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114743:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114748:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114753:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114758:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114803:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114808:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114813:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114818:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114823:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114855:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114855:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/114855:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/114900:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114905:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114910:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114915:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114920:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114925:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114930:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114935:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114940:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114945:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114950:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/114955:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115000:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115005:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115010:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115015:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115020:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115025:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115030:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115035:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115040:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115045:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115050:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115055:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115100:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115105:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115110:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115115:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115120:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115125:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115130:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115135:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115140:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115145:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115150:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115155:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115200:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115205:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115210:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115215:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115220:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115225:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115230:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115235:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115240:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115245:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115250:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115255:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115300:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115305:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115310:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115315:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115320:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115325:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115330:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115335:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115340:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115345:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115350:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115355:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115400:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115405:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115410:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115415:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115420:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115425:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115430:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115435:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115440:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115445:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115450:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115455:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115500:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115505:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115510:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115515:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115520:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115525:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115530:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115535:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115540:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115545:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115550:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115555:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115600:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115605:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115610:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115615:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115620:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115625:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115630:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115635:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115640:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115645:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115650:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115655:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115700:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115705:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115710:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115715:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115720:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115725:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115730:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115735:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115740:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115745:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115750:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115755:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115800:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115805:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115810:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115815:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115820:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115825:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115830:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115835:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115840:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115845:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115850:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115855:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115900:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115905:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115910:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115915:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115920:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115925:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115930:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115935:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115940:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115945:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115950:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/115955:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120000:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120005:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120010:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120015:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120020:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120025:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120030:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120035:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120040:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120045:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120050:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120055:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120100:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120105:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120110:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120115:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120120:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120125:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120130:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120135:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120140:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120145:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120150:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120155:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120200:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120205:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120210:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120215:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120220:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120225:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120230:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120235:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120240:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120245:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120250:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120255:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120300:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120305:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120310:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120315:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120320:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120325:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120330:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120335:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120340:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120345:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120350:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120355:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120400:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120405:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120410:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120415:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/120417:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/120417:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/120417:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/120417:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/134444:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134444:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/134444:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/134449:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134454:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134459:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134504:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134509:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134514:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134519:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134524:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134529:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134534:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134539:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134544:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134549:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134554:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134559:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134604:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134609:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134614:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134619:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134624:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134629:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134634:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134639:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134644:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134649:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134654:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134659:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134704:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134709:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134714:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134719:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134724:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134729:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134734:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134739:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134744:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134749:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134754:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134759:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134804:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134809:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134814:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134819:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/134819:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/134819:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/134819:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/134819:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/135947:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/135947:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/135947:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/135952:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/135957:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140002:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140007:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140012:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140017:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140022:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140027:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140032:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140037:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140042:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140047:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140052:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140057:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140102:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140107:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140112:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140117:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140122:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140127:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140132:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140137:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140142:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140147:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140152:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140157:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140202:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140207:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140212:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140217:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140222:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140227:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140232:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140237:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140242:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140247:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140252:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140257:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140302:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140307:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140312:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140317:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140322:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140323:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/140323:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/140323:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/140323:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/140328:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140328:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/140328:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/140333:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140338:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140343:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140348:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140353:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140358:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140403:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140408:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140413:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140418:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140423:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140428:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140433:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140438:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140443:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140448:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140453:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140458:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140503:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140508:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140513:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140518:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140523:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140528:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140533:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140538:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140543:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140548:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140553:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140558:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140603:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140608:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140613:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140618:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140623:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140628:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140633:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140638:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140643:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140648:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140653:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140658:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140659:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/140659:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/140659:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/140659:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/140950:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/140950:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/140950:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/141145:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/141145:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/141145:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/141150:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/141155:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/141200:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142002:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142002:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/142002:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/142016:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142016:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/142016:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/142021:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142705:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142705:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/142705:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/142710:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142715:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142720:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142725:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142730:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142735:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142740:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142745:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142750:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142755:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142800:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142805:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142810:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142815:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142820:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142825:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142830:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142835:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142840:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142845:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142850:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142855:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142900:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142905:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142910:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142915:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142920:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142925:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142930:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142935:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142940:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142941:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/142941:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/142941:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/142941:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/142954:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/142954:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/142954:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/142959:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143004:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143009:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143014:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143015:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/143015:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/143015:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/143015:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/143102:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143102:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143102:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143107:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143112:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143117:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143122:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143127:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143132:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143137:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143140:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/143140:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/143140:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/143140:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/143144:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143144:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143144:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143149:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143154:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143159:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143204:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143209:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143214:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143219:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143224:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143229:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143234:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143239:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143244:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143249:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143253:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/143253:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/143253:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/143253:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/143317:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143317:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143317:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143323:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143323:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143323:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143328:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143333:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143345:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143345:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143345:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143345:WARNING:ipc_channel_win.cc(370)] Unable to create pipe "\\.\pipe\chrome.4952.0.175432166" in client mode: 系统找不到指定的文件。 (0x2)
+[1113/143508:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143508:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143508:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143513:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143518:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143523:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143528:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143533:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143538:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143538:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/143538:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/143538:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/143538:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/143728:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143728:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143728:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143733:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143738:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143743:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143748:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143753:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143758:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143803:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143808:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143813:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143818:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143823:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143828:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143833:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143838:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143843:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143848:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143853:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143858:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143903:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143908:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143908:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/143908:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/143908:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/143908:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/143954:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/143955:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/143955:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/143959:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144004:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144009:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144014:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144019:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144024:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144029:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144034:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144039:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144044:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144049:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144054:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144059:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144104:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144109:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144114:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144119:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144124:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144129:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144134:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144139:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144144:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144149:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144154:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144159:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144204:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144209:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144214:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144219:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144224:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144229:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144234:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144239:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144244:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144249:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144254:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144259:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144304:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144309:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144314:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144319:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144324:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144329:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144334:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144339:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144344:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144349:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144354:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144359:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144404:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144409:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144414:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144419:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144424:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144429:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144435:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144440:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144445:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144450:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144455:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144500:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144505:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144510:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144515:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144520:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144525:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144530:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144535:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144540:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144545:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144550:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144555:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144600:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/144605:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151447:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151447:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/151447:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/151452:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151457:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151502:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151507:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151512:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151517:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151522:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151527:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151532:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151537:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151542:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151547:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151552:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151557:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151602:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151607:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151612:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151617:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151622:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151627:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151632:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151637:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151642:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151647:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151652:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151657:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151702:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151707:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151712:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151717:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151722:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151727:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151732:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151737:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151742:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151747:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151752:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151757:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151802:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151807:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151812:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151817:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151822:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151827:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151832:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151837:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151842:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151847:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151852:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151855:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/151855:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/151855:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/151855:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/151948:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151948:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/151948:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/151953:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/151958:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152003:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152008:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152013:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152018:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152023:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152028:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152033:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152038:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152043:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152048:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152053:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152058:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152103:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152108:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152113:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152118:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152123:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152128:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152133:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152138:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152143:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152148:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152153:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152158:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152203:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152208:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152213:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152218:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152223:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152228:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152231:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/152231:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/152231:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/152231:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/152401:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152401:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/152401:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/152406:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152411:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152416:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152421:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152426:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152431:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152436:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152441:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152446:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152451:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152456:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152501:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152551:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152551:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/152551:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/152556:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152601:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152606:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152611:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152616:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152621:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152626:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152631:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152636:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152641:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152646:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152651:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152656:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152826:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152826:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/152826:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/152831:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152836:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152841:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152846:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152851:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152856:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152901:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152906:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152911:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152916:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152921:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152926:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152931:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152936:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152941:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/152946:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153225:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153225:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/153225:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/153230:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153235:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153240:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153245:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153302:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153302:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/153302:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/153307:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153312:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153839:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153840:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/153840:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/153844:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153849:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153854:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153859:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/153904:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154131:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154131:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/154131:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/154136:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154141:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154146:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154151:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154156:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154201:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154206:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154211:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154216:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154221:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154226:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154231:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154236:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154241:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154532:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154532:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/154532:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/154537:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154542:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154547:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154552:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154557:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154602:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154607:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154612:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154617:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154622:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154627:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154632:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154637:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154642:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154647:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154652:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154657:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154702:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154707:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/154712:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155015:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155015:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/155015:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/155020:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155025:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155030:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155035:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155040:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155045:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155050:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155055:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155057:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/155057:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/155057:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/155057:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/155120:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155121:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/155121:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/155125:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155130:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155135:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155140:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155145:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155150:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155225:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155226:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/155226:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/155230:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155235:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155240:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155245:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155250:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155253:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/155253:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/155253:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/155253:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/155320:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155320:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/155320:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/155325:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155330:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155335:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155340:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155345:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155346:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/155346:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/155346:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/155346:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/155510:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155510:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/155510:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/155515:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155520:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155525:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155530:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155535:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155540:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155545:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155546:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/155546:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/155546:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/155546:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/155630:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155630:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/155630:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/155635:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155640:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155645:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155650:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155655:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/155656:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/155656:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/155656:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/155656:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/160426:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160427:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/160427:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/160431:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160436:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160441:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160446:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160451:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160456:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160501:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160506:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160511:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160516:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160521:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160526:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160531:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160536:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160541:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160546:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160551:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160556:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/160556:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/160556:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/160556:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/160752:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160753:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/160753:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/160757:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160802:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160807:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160812:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160817:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160822:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160827:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160832:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160837:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160842:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160847:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160852:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160857:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160902:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160907:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160912:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160917:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160922:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160927:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160932:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160937:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160942:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160947:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160952:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160957:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/160957:ERROR:gles2_cmd_decoder.cc(12228)] Context lost because SwapBuffers failed.
+[1113/160957:ERROR:gles2_cmd_decoder.cc(12546)] Onscreen context lost via ARB/EXT_robustness. Reset status = GL_UNKNOWN_CONTEXT_RESET_KHR
+[1113/160957:ERROR:gles2_cmd_decoder.cc(4471)] Error: 5 for Command kSwapBuffers
+[1113/160957:ERROR:gpu_command_buffer_stub.cc(1224)] Exiting GPU process because some drivers cannot recover from problems.
+[1113/161414:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161415:ERROR:angle_platform_impl.cc(33)] ANGLE Display::initialize error 5: DXGI 1.2 required to present to HWNDs owned by another process.
+[1113/161415:ERROR:gl_surface_egl.cc(513)] eglInitialize D3D11 failed with error EGL_NOT_INITIALIZED, trying next display type
+[1113/161419:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161424:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161429:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161434:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161439:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161444:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161449:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161454:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161459:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161504:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161509:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161514:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161519:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161524:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161529:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161534:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161539:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161544:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161549:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161554:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161559:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161604:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161609:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161614:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161619:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161624:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161629:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161635:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161640:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161645:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161650:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161655:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161700:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161705:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161710:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161715:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161720:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161725:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161730:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161735:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161740:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161745:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161750:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161755:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161800:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161805:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161810:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161815:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161820:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161825:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161830:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161835:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161840:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161845:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161850:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161855:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161900:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161905:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161910:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161915:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161920:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161925:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161930:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161935:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161940:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161945:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161950:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/161955:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162000:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162005:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162010:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162015:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162020:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162025:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162030:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162035:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162040:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162045:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162050:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162055:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162100:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162105:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162110:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162115:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162120:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162125:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162130:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162135:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162140:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162145:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162150:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162155:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162200:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/162205:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.

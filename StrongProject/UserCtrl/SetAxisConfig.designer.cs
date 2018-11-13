@@ -425,14 +425,14 @@
 			this.comboBox_MauType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBox_MauType.FormattingEnabled = true;
 			this.comboBox_MauType.Items.AddRange(new object[] {
-			"GTS800",
-			"GTS800Ext",
 			"C_8940",
 			"C_8960m",
 			"DMC3800",
 			"DMC3600",
 			"DMC3400",
 			"DMC1000B",
+			"GTS800",
+			"GTS800Ext",
 			"IO_3224"
 			});
 			this.comboBox_MauType.Location = new System.Drawing.Point(1621, 1);

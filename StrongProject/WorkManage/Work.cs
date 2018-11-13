@@ -1016,7 +1016,7 @@ namespace StrongProject
 
 				NewCtrlCardV0.GetInputIoBitStatus("", "暂停", out suspendIo);
 				NewCtrlCardV0.GetInputIoBitStatus("", "复位", out RestIoS);
-				NewCtrlCardV0.GetInputIoBitStatus("", "急停", out stopIoS);
+				NewCtrlCardV0.GetInputIoBitStatus("", "急停按钮", out stopIoS);
 				NewCtrlCardV0.GetInputIoBitStatus("", "安全门", out SafetyDoorIoS);
 				NewCtrlCardV0.GetInputIoBitStatus("", "左安全光栅", out RasterIoS_L);
 				NewCtrlCardV0.GetInputIoBitStatus("", "右安全光栅", out RasterIoS_R);

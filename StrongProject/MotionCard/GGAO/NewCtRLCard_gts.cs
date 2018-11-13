@@ -64,12 +64,6 @@ namespace StrongProject
 				MessageBoxLog.Show(str);
 				return -1;
 			}
-			if (InitExtCard(0,"\\ExtModule.cfg") == false)
-			{
-				string str = "固高扩展卡初始化失败!";
-				MessageBoxLog.Show(str);
-				return -1;
-			}
 			return 1;
 		}
 
@@ -97,49 +91,27 @@ namespace StrongProject
 				CommandResult("GT_GetSts", sRtn);
 				return false;
 			}
-			////清除轴状态、使能轴 
-			//for (short axis = 0; axis < 4; axis++)
-			//{
-			//	sRtn = mc.GT_ClrSts(car, (short)(axis + 1), 1);
-			//	if (sRtn != shrGtsSuccess)
-			//	{
-			//		CommandResult("GT_GetSts", sRtn);
-			//		return false;
-			//	}
-			//	sRtn = mc.GT_AxisOn(car, (short)(axis + 1));
-			//	if (sRtn != shrGtsSuccess)
-			//	{
-			//		CommandResult("GT_GetSts", sRtn);
-			//		return false;
-			//	}
-			//}
-			////清除指定轴的报警和限位
-			//sRtn = mc.GT_ClrSts(car, 1, 4);
-			//if (sRtn != shrGtsSuccess)
-			//{
-			//	CommandResult("GT_GetSts", sRtn);
-			//	return false;
-			//}
-			return true;
-		}
-
-		/// <summary>
-		/// 程序初始化卡函数
-		/// </summary>
-		/// <returns></returns>
-		public bool InitExtCard(short card,string path)
-		{
-			short shrResult;
-			shrResult = mc.GT_OpenExtMdlGts(card, "Gts.dll");
-			if (shrResult != shrGtsSuccess)
+			//清除轴状态、使能轴 
+			for (short axis = 0; axis < 6; axis++)
 			{
-				CommandResult("GT_OpenExtMdlGts", shrResult);
-				return false;
+				sRtn = mc.GT_ClrSts(car, (short)(axis + 1), 1);
+				if (sRtn != shrGtsSuccess)
+				{
+					CommandResult("GT_GetSts", sRtn);
+					return false;
+				}
+				sRtn = mc.GT_AxisOn(car, (short)(axis + 1));
+				if (sRtn != shrGtsSuccess)
+				{
+					CommandResult("GT_GetSts", sRtn);
+					return false;
+				}
 			}
-			shrResult = mc.GT_LoadExtConfigGts(card, Application.StartupPath + path);
-			if (shrResult != shrGtsSuccess)
+			//清除指定轴的报警和限位
+			sRtn = mc.GT_ClrSts(car, 1, 6);
+			if (sRtn != shrGtsSuccess)
 			{
-				CommandResult("GT_OpenExtMdlGts", shrResult);
+				CommandResult("GT_GetSts", sRtn);
 				return false;
 			}
 			return true;

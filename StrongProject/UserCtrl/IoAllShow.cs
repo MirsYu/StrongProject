@@ -30,20 +30,20 @@ namespace StrongProject
 			this.ioSet1 = new IOSet();
 			this.ioSet1.Location = new System.Drawing.Point(3, 3);
 			this.ioSet1.Name = "ioSet1";
-			this.ioSet1.Size = new System.Drawing.Size(980, 500);
+			this.ioSet1.Size = new System.Drawing.Size(1110, 610);
 			this.ioSet1.TabIndex = 0;
 			this.tabPage2.Controls.Add(this.ioSet1);
 			this.tabPage3.Controls.Add(this.ioAssign1);
 			this.tabPage4.Controls.Add(this.outIOAssign1);
 			this.ioAssign1 = new StrongProject.IOAssign();
-			this.ioAssign1.Location = new System.Drawing.Point(3, 12);
+			this.ioAssign1.Location = new System.Drawing.Point(3, 3);
 			this.ioAssign1.Name = "ioAssign1";
-			this.ioAssign1.Size = new System.Drawing.Size(835, 446);
+			this.ioAssign1.Size = new System.Drawing.Size(1110, 610);
 			this.ioAssign1.TabIndex = 0;
 			this.outIOAssign1 = new StrongProject.OutIOAssign();
-			this.outIOAssign1.Location = new System.Drawing.Point(0, 3);
+			this.outIOAssign1.Location = new System.Drawing.Point(3, 3);
 			this.outIOAssign1.Name = "outIOAssign1";
-			this.outIOAssign1.Size = new System.Drawing.Size(1032, 500);
+			this.outIOAssign1.Size = new System.Drawing.Size(1110, 610);
 			this.outIOAssign1.TabIndex = 0;
 
 

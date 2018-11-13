@@ -63,7 +63,7 @@ namespace StrongProject
 			userControl_socketList1.Size = new Size(TabPagConnect.Size.Width, TabPagConnect.Size.Height);
 
 			ioAllShow1.Location = new Point(0, 0);
-			ioAllShow1.Size = new Size(tabPage_automatic.Size.Width, tabPage_automatic.Size.Height - 10);
+			ioAllShow1.Size = new Size(tabPage_automatic.Size.Width, tabPage_automatic.Size.Height - 15);
 			userControl_ShowAllPoint1.tag_Work = worker;
 			userControl_ShowAllPoint1.Location = new Point(0, CBStnChioce.Location.Y + CBStnChioce.Size.Height + 10);
 			userControl_ShowAllPoint1.Size = new Size(checkBox1.Location.X - CBStnChioce.Location.X - 10, this.Size.Height - CBStnChioce.Location.Y - CBStnChioce.Size.Height - 40);

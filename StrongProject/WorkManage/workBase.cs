@@ -85,7 +85,7 @@ namespace StrongProject
 		{
 			bool axio = false;
 			bool stopIoS = false;
-			NewCtrlCardV0.GetInputIoBitStatus("", "急停", out stopIoS);
+			NewCtrlCardV0.GetInputIoBitStatus("", "急停按钮", out stopIoS);
 			//NewCtrlCardV0.GetInputIoBitStatus("", "Z1报警", out axio);
 			if (axio || !stopIoS)
 			{
