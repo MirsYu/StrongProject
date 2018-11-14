@@ -32,7 +32,7 @@ namespace StrongProject
 			{
 				chkSpecial.Checked = _PointM.blnIsSpecialPoint;
 				numValue.Value = new System.Decimal(_PointM.dblPonitValue);
-				numSpeed.Value = new System.Decimal(_PointM.dblPonitSpeed / _acf.Eucf);
+				numSpeed.Value = new System.Decimal(_PointM.dblPonitSpeed);
 				numAcc.Value = new System.Decimal(_PointM.dblAcc);
 				numDec.Value = new System.Decimal(_PointM.dblDec);
 				numericUpDown_ACCTime.Value = new System.Decimal(_PointM.dblAccTime);
@@ -50,7 +50,7 @@ namespace StrongProject
 			else
 			{
 				numValue.Value = new System.Decimal(_PointM.dblPonitValue);
-				numSpeed.Value = new System.Decimal(_PointM.dblPonitSpeed / _acf.Eucf);
+				numSpeed.Value = new System.Decimal(_PointM.dblPonitSpeed);
 				numAcc.Value = new System.Decimal(_PointM.dblAcc);
 				numDec.Value = new System.Decimal(_PointM.dblDec);
 				numericUpDown_ACCTime.Value = new System.Decimal(_PointM.dblAccTime);
@@ -74,7 +74,7 @@ namespace StrongProject
 				{
 					_PointM.blnIsSpecialPoint = chkSpecial.Checked;
 					_PointM.dblPonitValue = Convert.ToDouble(numValue.Value);
-					_PointM.dblPonitSpeed = Convert.ToDouble(numSpeed.Value) * _acf.Eucf;
+					_PointM.dblPonitSpeed = Convert.ToDouble(numSpeed.Value);
 					_PointM.dblAcc = Convert.ToDouble(numAcc.Value);
 					_PointM.dblDec = Convert.ToDouble(numDec.Value);
 

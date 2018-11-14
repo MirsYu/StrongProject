@@ -1,3 +1,0 @@
-2018-11-13 19:48:24,104 8441 [1] DEBUG (FrmDebug.cs:79 <UiInit>b__21_0) - 
-2018-11-13 19:48:27,937 12274 [1] INFO  (Frm_Frame.cs:92 Frm_Frame_Load) - Frm_Frame Is Load
-2018-11-13 19:48:32,559 16896 [1] DEBUG (CustomTree.cs:477 treeView_Flow_AfterSelect) - P1

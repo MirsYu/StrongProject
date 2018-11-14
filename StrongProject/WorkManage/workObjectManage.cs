@@ -35,6 +35,10 @@ namespace StrongProject
 		/// <param name="totalRest"></param>
 		public LeftCCD tag_LeftCCD;
 
+
+
+		public AxisCheck axisCheck;
+
 		/// <summary>
 		/// tag_workObject
 		/// </summary>
@@ -65,6 +69,8 @@ namespace StrongProject
 			//tag_LeftCCD = new LeftCCD(_Work);
 			//workObject.Add(tag_LeftCCD);
 
+			axisCheck = new AxisCheck(_Work);
+			workObject.Add(axisCheck);
 		}
 
 	}

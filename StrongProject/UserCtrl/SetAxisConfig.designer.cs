@@ -85,10 +85,10 @@
 			this.numericUpDown_homespeedhight.DecimalPlaces = 3;
 			this.numericUpDown_homespeedhight.Location = new System.Drawing.Point(702, 2);
 			this.numericUpDown_homespeedhight.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_homespeedhight.Name = "numericUpDown_homespeedhight";
 			this.numericUpDown_homespeedhight.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_homespeedhight.TabIndex = 20;
@@ -98,15 +98,15 @@
 			this.numericUpDown_softlimitmax.DecimalPlaces = 3;
 			this.numericUpDown_softlimitmax.Location = new System.Drawing.Point(1122, 2);
 			this.numericUpDown_softlimitmax.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_softlimitmax.Minimum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			-2147483648});
+            1000000000,
+            0,
+            0,
+            -2147483648});
 			this.numericUpDown_softlimitmax.Name = "numericUpDown_softlimitmax";
 			this.numericUpDown_softlimitmax.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_softlimitmax.TabIndex = 19;
@@ -116,15 +116,15 @@
 			this.numericUpDown_softlimitmin.DecimalPlaces = 3;
 			this.numericUpDown_softlimitmin.Location = new System.Drawing.Point(1062, 2);
 			this.numericUpDown_softlimitmin.Maximum = new decimal(new int[] {
-			1000000,
-			0,
-			0,
-			0});
+            1000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_softlimitmin.Minimum = new decimal(new int[] {
-			1000,
-			0,
-			0,
-			-2147483648});
+            1000,
+            0,
+            0,
+            -2147483648});
 			this.numericUpDown_softlimitmin.Name = "numericUpDown_softlimitmin";
 			this.numericUpDown_softlimitmin.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_softlimitmin.TabIndex = 18;
@@ -134,10 +134,10 @@
 			this.numericUpDown_Lead.DecimalPlaces = 3;
 			this.numericUpDown_Lead.Location = new System.Drawing.Point(282, 2);
 			this.numericUpDown_Lead.Maximum = new decimal(new int[] {
-			360,
-			0,
-			0,
-			0});
+            360,
+            0,
+            0,
+            0});
 			this.numericUpDown_Lead.Name = "numericUpDown_Lead";
 			this.numericUpDown_Lead.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_Lead.TabIndex = 13;
@@ -156,10 +156,10 @@
 			this.numericUpDown_movespeed.DecimalPlaces = 3;
 			this.numericUpDown_movespeed.Location = new System.Drawing.Point(762, 2);
 			this.numericUpDown_movespeed.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_movespeed.Name = "numericUpDown_movespeed";
 			this.numericUpDown_movespeed.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_movespeed.TabIndex = 16;
@@ -169,10 +169,10 @@
 			this.numericUpDown_homespeed.DecimalPlaces = 3;
 			this.numericUpDown_homespeed.Location = new System.Drawing.Point(642, 2);
 			this.numericUpDown_homespeed.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_homespeed.Name = "numericUpDown_homespeed";
 			this.numericUpDown_homespeed.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_homespeed.TabIndex = 15;
@@ -181,10 +181,10 @@
 			// 
 			this.numericUpDown_pulse.Location = new System.Drawing.Point(342, 2);
 			this.numericUpDown_pulse.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_pulse.Name = "numericUpDown_pulse";
 			this.numericUpDown_pulse.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_pulse.TabIndex = 14;
@@ -194,10 +194,10 @@
 			this.numericUpDown_startspeed.DecimalPlaces = 3;
 			this.numericUpDown_startspeed.Location = new System.Drawing.Point(522, 2);
 			this.numericUpDown_startspeed.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_startspeed.Name = "numericUpDown_startspeed";
 			this.numericUpDown_startspeed.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_startspeed.TabIndex = 7;
@@ -207,15 +207,15 @@
 			this.numericUpDown_orgpos.DecimalPlaces = 3;
 			this.numericUpDown_orgpos.Location = new System.Drawing.Point(1002, 2);
 			this.numericUpDown_orgpos.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_orgpos.Minimum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			-2147483648});
+            1000000000,
+            0,
+            0,
+            -2147483648});
 			this.numericUpDown_orgpos.Name = "numericUpDown_orgpos";
 			this.numericUpDown_orgpos.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_orgpos.TabIndex = 6;
@@ -225,10 +225,10 @@
 			this.numericUpDown_eucf.DecimalPlaces = 3;
 			this.numericUpDown_eucf.Location = new System.Drawing.Point(402, 2);
 			this.numericUpDown_eucf.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_eucf.Name = "numericUpDown_eucf";
 			this.numericUpDown_eucf.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_eucf.TabIndex = 9;
@@ -236,12 +236,13 @@
 			// numericUpDown_acc
 			// 
 			this.numericUpDown_acc.DecimalPlaces = 3;
+			this.numericUpDown_acc.Enabled = false;
 			this.numericUpDown_acc.Location = new System.Drawing.Point(582, 2);
 			this.numericUpDown_acc.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_acc.Name = "numericUpDown_acc";
 			this.numericUpDown_acc.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_acc.TabIndex = 12;
@@ -251,10 +252,10 @@
 			this.numericUpDown_manualspeedhigh.DecimalPlaces = 3;
 			this.numericUpDown_manualspeedhigh.Location = new System.Drawing.Point(942, 2);
 			this.numericUpDown_manualspeedhigh.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_manualspeedhigh.Name = "numericUpDown_manualspeedhigh";
 			this.numericUpDown_manualspeedhigh.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_manualspeedhigh.TabIndex = 11;
@@ -264,10 +265,10 @@
 			this.numericUpDown_manualspeedlow.DecimalPlaces = 3;
 			this.numericUpDown_manualspeedlow.Location = new System.Drawing.Point(822, 2);
 			this.numericUpDown_manualspeedlow.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_manualspeedlow.Name = "numericUpDown_manualspeedlow";
 			this.numericUpDown_manualspeedlow.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_manualspeedlow.TabIndex = 10;
@@ -277,10 +278,10 @@
 			this.numericUpDown_manualspeednormal.DecimalPlaces = 3;
 			this.numericUpDown_manualspeednormal.Location = new System.Drawing.Point(882, 2);
 			this.numericUpDown_manualspeednormal.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_manualspeednormal.Name = "numericUpDown_manualspeednormal";
 			this.numericUpDown_manualspeednormal.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_manualspeednormal.TabIndex = 8;
@@ -296,15 +297,15 @@
 			// 
 			this.numericUpDown_CardNumber.Location = new System.Drawing.Point(166, 2);
 			this.numericUpDown_CardNumber.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_CardNumber.Minimum = new decimal(new int[] {
-			1,
-			0,
-			0,
-			-2147483648});
+            1,
+            0,
+            0,
+            -2147483648});
 			this.numericUpDown_CardNumber.Name = "numericUpDown_CardNumber";
 			this.numericUpDown_CardNumber.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_CardNumber.TabIndex = 22;
@@ -313,15 +314,15 @@
 			// 
 			this.numericUpDown_AxisNumber.Location = new System.Drawing.Point(224, 2);
 			this.numericUpDown_AxisNumber.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_AxisNumber.Minimum = new decimal(new int[] {
-			1,
-			0,
-			0,
-			-2147483648});
+            1,
+            0,
+            0,
+            -2147483648});
 			this.numericUpDown_AxisNumber.Name = "numericUpDown_AxisNumber";
 			this.numericUpDown_AxisNumber.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_AxisNumber.TabIndex = 23;
@@ -351,10 +352,10 @@
 			this.comboBox_ResetType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBox_ResetType.FormattingEnabled = true;
 			this.comboBox_ResetType.Items.AddRange(new object[] {
-			"伺服回零",
-			"步进回零",
-			"单原点往复回零",
-			"单原点一次回零"});
+            "伺服回零",
+            "步进回零",
+            "单原点往复回零",
+            "单原点一次回零"});
 			this.comboBox_ResetType.Location = new System.Drawing.Point(1240, 2);
 			this.comboBox_ResetType.Name = "comboBox_ResetType";
 			this.comboBox_ResetType.Size = new System.Drawing.Size(55, 20);
@@ -365,9 +366,9 @@
 			this.comboBox_motionType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBox_motionType.FormattingEnabled = true;
 			this.comboBox_motionType.Items.AddRange(new object[] {
-			"直线",
-			"Z轴",
-			"R轴"});
+            "直线",
+            "Z轴",
+            "R轴"});
 			this.comboBox_motionType.Location = new System.Drawing.Point(1301, 1);
 			this.comboBox_motionType.Name = "comboBox_motionType";
 			this.comboBox_motionType.Size = new System.Drawing.Size(44, 20);
@@ -378,8 +379,8 @@
 			this.comboBox_JogDir.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBox_JogDir.FormattingEnabled = true;
 			this.comboBox_JogDir.Items.AddRange(new object[] {
-			"Jog正方向",
-			"Jog负方向"});
+            "Jog正方向",
+            "Jog负方向"});
 			this.comboBox_JogDir.Location = new System.Drawing.Point(1351, 0);
 			this.comboBox_JogDir.Name = "comboBox_JogDir";
 			this.comboBox_JogDir.Size = new System.Drawing.Size(44, 20);
@@ -400,10 +401,10 @@
 			this.numericUpDown_AccTime.DecimalPlaces = 3;
 			this.numericUpDown_AccTime.Location = new System.Drawing.Point(1482, -2);
 			this.numericUpDown_AccTime.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_AccTime.Name = "numericUpDown_AccTime";
 			this.numericUpDown_AccTime.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_AccTime.TabIndex = 29;
@@ -413,8 +414,8 @@
 			this.comboBox1_hlIoHome.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBox1_hlIoHome.FormattingEnabled = true;
 			this.comboBox1_hlIoHome.Items.AddRange(new object[] {
-			"原点底电平有效",
-			"原点高电平有效"});
+            "原点底电平有效",
+            "原点高电平有效"});
 			this.comboBox1_hlIoHome.Location = new System.Drawing.Point(1543, -1);
 			this.comboBox1_hlIoHome.Name = "comboBox1_hlIoHome";
 			this.comboBox1_hlIoHome.Size = new System.Drawing.Size(72, 20);
@@ -425,16 +426,15 @@
 			this.comboBox_MauType.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
 			this.comboBox_MauType.FormattingEnabled = true;
 			this.comboBox_MauType.Items.AddRange(new object[] {
-			"C_8940",
-			"C_8960m",
-			"DMC3800",
-			"DMC3600",
-			"DMC3400",
-			"DMC1000B",
-			"GTS800",
-			"GTS800Ext",
-			"IO_3224"
-			});
+            "C_8940",
+            "C_8960m",
+            "DMC3800",
+            "DMC3600",
+            "DMC3400",
+            "DMC1000B",
+            "GTS800",
+            "GTS800Ext",
+            "IO_3224"});
 			this.comboBox_MauType.Location = new System.Drawing.Point(1621, 1);
 			this.comboBox_MauType.Name = "comboBox_MauType";
 			this.comboBox_MauType.Size = new System.Drawing.Size(72, 20);
@@ -445,10 +445,10 @@
 			this.numericUpDown_StopSpeed.DecimalPlaces = 3;
 			this.numericUpDown_StopSpeed.Location = new System.Drawing.Point(1699, 2);
 			this.numericUpDown_StopSpeed.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_StopSpeed.Name = "numericUpDown_StopSpeed";
 			this.numericUpDown_StopSpeed.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_StopSpeed.TabIndex = 32;
@@ -458,10 +458,10 @@
 			this.numericUpDown_S_StopTime.DecimalPlaces = 3;
 			this.numericUpDown_S_StopTime.Location = new System.Drawing.Point(1760, 1);
 			this.numericUpDown_S_StopTime.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_S_StopTime.Name = "numericUpDown_S_StopTime";
 			this.numericUpDown_S_StopTime.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_S_StopTime.TabIndex = 33;
@@ -471,10 +471,10 @@
 			this.numericUpDown_decTime.DecimalPlaces = 3;
 			this.numericUpDown_decTime.Location = new System.Drawing.Point(1821, 0);
 			this.numericUpDown_decTime.Maximum = new decimal(new int[] {
-			1000000000,
-			0,
-			0,
-			0});
+            1000000000,
+            0,
+            0,
+            0});
 			this.numericUpDown_decTime.Name = "numericUpDown_decTime";
 			this.numericUpDown_decTime.Size = new System.Drawing.Size(55, 21);
 			this.numericUpDown_decTime.TabIndex = 34;
@@ -513,6 +513,7 @@
 			this.Controls.Add(this.numericUpDown_manualspeedhigh);
 			this.Controls.Add(this.numericUpDown_manualspeedlow);
 			this.Controls.Add(this.numericUpDown_manualspeednormal);
+			this.DoubleBuffered = true;
 			this.Name = "SetAxisConfig";
 			this.Size = new System.Drawing.Size(1884, 25);
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_homespeedhight)).EndInit();
@@ -535,7 +536,7 @@
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_StopSpeed)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_S_StopTime)).EndInit();
 			((System.ComponentModel.ISupportInitialize)(this.numericUpDown_decTime)).EndInit();
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 			this.PerformLayout();
 
 		}
