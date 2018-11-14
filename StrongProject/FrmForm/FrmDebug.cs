@@ -4,12 +4,15 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Text;
+using System.Threading;
 using System.Windows.Forms;
+using static StrongProject.UserCtrl.CustomTree;
 
 namespace StrongProject
 {
 	public partial class FrmDebug : Form
 	{
+		private static readonly ILog log = LogManager.GetLogger("FrmDebug.cs");
 
 		Frm_Frame fmPro = null;
 		UserControl_ShowAllPoint userControl_ShowAllPoint1;
@@ -71,6 +74,11 @@ namespace StrongProject
 			customTree.Location = new Point(comboBox_FlowName.Location.X, comboBox_FlowName.Location.Y +comboBox_FlowName.Size.Height+10);
 			customTree.Size = new Size(tabPage_Flow.Size.Width / 2, tabPage_Flow.Size.Height - comboBox_FlowName.Size.Height - 50);
 
+			customTree.GetNode += new GetSelectNode((string node) =>
+			{
+				log.Debug(node);
+				// 配置数据源
+			});
 		}
 
 		public FrmDebug(Frm_Frame frm, Work _work)

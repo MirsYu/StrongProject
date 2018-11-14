@@ -288,8 +288,10 @@ namespace StrongProject
 				CommandResult("GT_PrfTrap", sResult);
 				return shrFail;
 			}
-			tprm.acc = axisC.Acc;
-			tprm.dec = axisC.Acc;
+			//tprm.acc = axisC.Acc;
+			//tprm.dec = axisC.Acc;
+			tprm.acc = point.dblPonitSpeed / axisC.tag_accTime;
+			tprm.dec = point.dblPonitSpeed / axisC.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
@@ -371,8 +373,10 @@ namespace StrongProject
 				CommandResult("GT_PrfTrap", sResult);
 				return shrFail;
 			}
-			tprm.acc = af.Acc;
-			tprm.dec = af.Acc;
+			//tprm.acc = af.Acc;
+			//tprm.dec = af.Acc;
+			tprm.acc = vel / af.tag_accTime;
+			tprm.dec = vel / af.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
@@ -464,8 +468,10 @@ namespace StrongProject
 				CommandResult("GT_PrfTrap", sResult);
 				return shrFail;
 			}
-			tprm.acc = axisC.Acc;
-			tprm.dec = axisC.Acc;
+			//tprm.acc = axisC.Acc;
+			//tprm.dec = axisC.Acc;
+			tprm.acc = point.dblPonitSpeed / axisC.tag_accTime;
+			tprm.dec = point.dblPonitSpeed / axisC.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);

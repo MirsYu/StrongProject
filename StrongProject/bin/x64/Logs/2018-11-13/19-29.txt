@@ -1,0 +1,2 @@
+2018-11-13 19:29:42,832 12010 [13] DEBUG (FrmDebug.cs:85 <UiInit>b__22_0) - 
+2018-11-13 19:29:47,604 16782 [1] INFO  (Frm_Frame.cs:92 Frm_Frame_Load) - Frm_Frame Is Load

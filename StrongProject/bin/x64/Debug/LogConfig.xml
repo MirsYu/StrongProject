@@ -27,7 +27,7 @@
     </appender>
     
     <root>
-      <level value="INFO" />
+      <level value="DEBUG" />
       <!--OFF > FATAL > ERROR > WARN > INFO > DEBUG  > ALL-->
       <appender-ref ref="Console" />
       <appender-ref ref="RollingLogFileAppender" />

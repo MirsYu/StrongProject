@@ -365,7 +365,7 @@ namespace StrongProject
 				{
 					return shrFail;
 				}
-				Thread.Sleep(5);
+				Thread.Sleep(0);
 			} while (intAxisStatus != 0);  //运动中         
 			return shrSuccess;
 		}
@@ -782,8 +782,10 @@ namespace StrongProject
 			{
 				return shrFail;
 			}
-			tprm.acc = axisC.Acc;
-			tprm.dec = axisC.Acc;
+			//tprm.acc = axisC.Acc;
+			//tprm.dec = axisC.Acc;
+			tprm.acc = speed / axisC.tag_accTime;
+			tprm.dec = speed / axisC.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
@@ -815,7 +817,7 @@ namespace StrongProject
 			}
 			//设置轴运动速度
 			//设置轴运动速度
-			sResult = mc.GT_SetVel(card, axis, speed * axisC.Eucf / 1000);//
+			sResult = mc.GT_SetVel(card, axis, speed / 1000);
 			if (sResult != shrGtsSuccess)
 			{
 				return shrFail;

@@ -6,11 +6,13 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Windows.Forms;
+using log4net;
 
 namespace StrongProject.UserCtrl
 {
 	public partial class CustomTree : UserControl
 	{
+		private static readonly ILog log = LogManager.GetLogger("CustomTree.cs");
 
 		public StationModule tag_StationModule;
 		public TreeNode parent;
@@ -20,6 +22,9 @@ namespace StrongProject.UserCtrl
 		private const int MAPSIZE = 128;
 		private StringBuilder NewNodeMap = new StringBuilder(MAPSIZE);
 
+		private string selectNode;
+		public string SelectNode {
+			get { return selectNode; }}
 
 		public CustomTree()
 		{
@@ -461,5 +466,18 @@ namespace StrongProject.UserCtrl
 			}
 		}
 		#endregion
+
+		public delegate void GetSelectNode(string node);
+		public GetSelectNode GetNode;
+		 
+		private void treeView_Flow_AfterSelect(object sender, TreeViewEventArgs e)
+		{
+			if (treeView_Flow.SelectedNode != null)
+			{
+				log.Debug(treeView_Flow.SelectedNode.Text);
+				selectNode = treeView_Flow.SelectedNode.Text;
+				GetNode(selectNode);
+			}
+		}
 	}
 }

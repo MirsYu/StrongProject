@@ -43,6 +43,7 @@
 			this.treeView_Flow.Size = new System.Drawing.Size(458, 480);
 			this.treeView_Flow.TabIndex = 0;
 			this.treeView_Flow.ItemDrag += new System.Windows.Forms.ItemDragEventHandler(this.treeView_Flow_ItemDrag);
+			this.treeView_Flow.AfterSelect += new System.Windows.Forms.TreeViewEventHandler(this.treeView_Flow_AfterSelect);
 			this.treeView_Flow.DragDrop += new System.Windows.Forms.DragEventHandler(this.treeView_Flow_DragDrop);
 			this.treeView_Flow.DragEnter += new System.Windows.Forms.DragEventHandler(this.treeView_Flow_DragEnter);
 			this.treeView_Flow.DragOver += new System.Windows.Forms.DragEventHandler(this.treeView_Flow_DragOver);
@@ -89,9 +90,10 @@
 			this.Controls.Add(this.button_AddParent);
 			this.Controls.Add(this.button_AddChlid);
 			this.Controls.Add(this.treeView_Flow);
+			this.DoubleBuffered = true;
 			this.Name = "CustomTree";
 			this.Size = new System.Drawing.Size(458, 480);
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 
 		}
 

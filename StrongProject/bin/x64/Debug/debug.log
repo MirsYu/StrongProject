@@ -4079,3 +4079,18 @@
 [1113/162155:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [1113/162200:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
 [1113/162205:WARNING:dns_config_service_win.cc(674)] Failed to read DnsConfig.
+[1113/193027:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1113/193027:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[1113/193027:WARNING:channel.cc(359)] RawChannel write error
+[1113/193027:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1113/194720:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[1113/194720:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1113/194720:WARNING:channel.cc(359)] RawChannel write error
+[1113/194720:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1113/194720:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[1113/194720:WARNING:channel.cc(359)] RawChannel write error
+[1113/194834:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[1113/194834:WARNING:channel.cc(359)] RawChannel write error
+[1113/194834:ERROR:ipc_channel_win.cc(217)] pipe error: 109
+[1113/194834:WARNING:raw_channel_win.cc(532)] WriteFile: 管道正在被关闭。 (0xE8)
+[1113/194834:WARNING:channel.cc(359)] RawChannel write error
