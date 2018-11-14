@@ -48,7 +48,7 @@ namespace StrongProject
 					{
 						eucf = (int)1000; ;
 					}
-					PointAggregate.arrPoint[i].dblPonitSpeed = Convert.ToDouble(PonitSpeed.Value);
+					PointAggregate.arrPoint[i].dblPonitSpeed = Convert.ToDouble(PonitSpeed.Value) * eucf;
 					PointAggregate.arrPoint[i].dblPonitValue = Convert.ToDouble(PonitValue.Value);
 				}
 
@@ -127,14 +127,14 @@ namespace StrongProject
 					{
 						numericUpDown_ASpeed1.Enabled = true;
 						numericUpDown_Vaule1.Enabled = true;
-						numericUpDown_ASpeed1.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitSpeed);
+						numericUpDown_ASpeed1.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitSpeed / eucf);
 						numericUpDown_Vaule1.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitValue);
 					}
 					else
 					{
 						numericUpDown_ASpeed1.Enabled = false;
 						numericUpDown_Vaule1.Enabled = false;
-						numericUpDown_ASpeed1.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitSpeed);
+						numericUpDown_ASpeed1.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitSpeed / eucf);
 						numericUpDown_Vaule1.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitValue);
 
 					}
@@ -170,7 +170,7 @@ namespace StrongProject
 						eucf = 1000;
 					}
 
-					PonitSpeed.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitSpeed);
+					PonitSpeed.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitSpeed / eucf);
 					PonitValue.Value = new System.Decimal(PointAggregate.arrPoint[i].dblPonitValue);
 				}
 
