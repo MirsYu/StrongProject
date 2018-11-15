@@ -227,8 +227,7 @@ namespace StrongProject
 		private void btnSendPort1_Click(object sender, EventArgs e)
 		{
 			string strSend = txtSendPort1.Text;
-			//this.ctrlSend(strSend);
-			this.ctrlSend(HexStringToByteArray(strSend));
+			this.ctrlSend(JSerialPort.CreateLineCode(strSend,1));
 		}
 		delegate void DelSetTxt(TextBox paTxtBox, object write);
 		void SetTxt(TextBox paTxtBox, object write)
@@ -428,14 +427,6 @@ namespace StrongProject
 			}
 		}
 		#endregion
-		private static byte[] HexStringToByteArray(string s)
-		{
-			s = s.Replace(" ", "");
-			byte[] buffer = new byte[s.Length / 2];
-			for (int i = 0; i < s.Length; i += 2)
-				buffer[i / 2] = (byte)Convert.ToByte(s.Substring(i, 2), 16);
-			return buffer;
-		}
 
 	}
 }

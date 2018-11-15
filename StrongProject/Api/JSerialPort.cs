@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO.Ports;
+using System.Text;
 using System.Threading;
 namespace StrongProject
 {
@@ -178,6 +179,70 @@ namespace StrongProject
 			SendBuffer[index++] = (byte)(mod % 256);
 
 			return sendCommand(SendBuffer, index, 10000);
+		}
+
+
+		private static byte[] HexStringToByteArray(string s)
+		{
+			s = s.Replace(" ", "");
+			byte[] buffer = new byte[s.Length / 2];
+			for (int i = 0; i < s.Length; i += 2)
+				buffer[i / 2] = (byte)Convert.ToByte(s.Substring(i, 2), 16);
+			return buffer;
+		}
+
+		private static string ByteArrayToHexString(byte[] buffer)
+		{
+			string strResult = string.Empty;
+			StringBuilder stringBuilder = new StringBuilder();
+			if (buffer != null)
+			{
+				for (int i = 0; i < buffer.Length; i++)
+				{
+					stringBuilder.Append(buffer[i].ToString("X2"));
+				}
+				strResult = stringBuilder.ToString();
+			}
+			return strResult;
+		}
+
+		private static byte[] CRC16(byte[] data)
+		{
+			int len = data.Length;
+			if (len > 0)
+			{
+				ushort crc = 0xFFFF;
+
+				for (int i = 0; i < len; i++)
+				{
+					crc = (ushort)(crc ^ (data[i]));
+					for (int j = 0; j < 8; j++)
+					{
+						crc = (crc & 1) != 0 ? (ushort)((crc >> 1) * 0x8003) : ((ushort)(crc >> 1));
+					}
+				}
+				byte hi = (byte)((crc & 0xFF00) >> 8);
+				byte io = (byte)(crc & 0x00FF);
+				return new byte[] { hi, io };
+			}
+			return new byte[] { 0, 0 };
+		}
+
+
+		public static string CreateLineCode(string cmd,int lineIndex)
+		{
+			string lineStopCmd = cmd;
+			lineStopCmd += "0" + lineIndex + " " + lineStopCmd;
+			byte[] b = JSerialPort.HexStringToByteArray(lineStopCmd);
+			lineStopCmd = JSerialPort.ByteArrayToHexString(JSerialPort.CRC16(b));
+			return lineStopCmd;
+		}
+
+		public static string GetErrcode(string result)
+		{
+			string errcode = result;
+			byte[] b = JSerialPort.HexStringToByteArray(errcode);
+			return b[2].ToString("X2");
 		}
 	}
 }

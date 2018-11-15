@@ -1,33 +1,24 @@
+using log4net;
 using System.Threading;
+using System.Windows.Forms;
+
 namespace StrongProject
 {
 	public class ResetStation : workBase
-	{   /// <summary>
-		///  work
-		/// </summary>
-		public Work tag_Work;
-		/// <summary>
-		/// 线程
-		/// </summary>
-		public Thread tag_workThread;
-		/// <summary>
+	{
+		private static readonly ILog log = LogManager.GetLogger("ResetStation.cs");
 
-		/// <summary>
-		/// 构造函数
-		/// </summary>
-		/// <param name="ConstructCreate"></param>
-		/// <returns></returns>
+		public Work tag_Work;
+		public JSerialPort tag_Assemblyline;
+
 		public ResetStation(Work _Work)
 		{
 			tag_Work = _Work;
 			tag_stationName = "总复位";
+			tag_Assemblyline = _Work.tag_JSerialPort[0];
 			tag_isRestStation = 1;
 		}
-		/// <summary>
-		/// 启动函数，主要是线程启动
-		/// </summary>
-		/// <param name="start"></param>
-		/// <returns></returns>
+		
 		public bool StartThread()
 		{
 			if (tag_workThread != null)
@@ -40,131 +31,75 @@ namespace StrongProject
 			tag_workThread.IsBackground = true;
 			return true;
 		}
-		/// <summary>
-		/// 退出函数，调用本函数，流程推出
-		/// </summary>
-		/// <param name="exit"></param>
-		/// <returns></returns>
-		public bool exit()
-		{
-			tag_manual.tag_stepName = 100000;
-			tag_isWork = 0;
-			return true;
-		}
-		/// <summary>
-		/// 工位开始，第0步嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="Step0"></param>
-		/// <returns></returns>
-		public short Step0(object o)
-		{
 
-			tag_isWork = 1; ;
-			return 0;
-		}
-		/// <summary>
-		/// 切刀气缸上升，第1步嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="Step1"></param>
-		/// <returns></returns>
-		public short Step1(object o)
+		public void workThread(object o)
 		{
-
-			return 0;
+			short ret = 0;
+			if (Init() == 0)
+			{
+				if (tag_manual.tag_step == 0)
+				{
+					tag_isWork = pointMotion.StationRun(tag_stationName, tag_manual);
+					tag_manual.tag_stepName = 0;
+				}
+			}
 		}
-		/// <summary>
-		/// 回到待机位，第2步嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="Step2"></param>
-		/// <returns></returns>
-		public short Step2(object o)
-		{
 
-			return 0;
-		}
-		/// <summary>
-		/// 关真空，第3步嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="Step3"></param>
-		/// <returns></returns>
-		public short Step3(object o)
-		{
-
-			return 0;
-		}
-		/// <summary>
-		/// 工位结束，第4步嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="Step4"></param>
-		/// <returns></returns>
-		public short Step4(object o)
-		{
-
-			return 0;
-		}
-		/// <summary>
-		/// 初始化函数，初始化流程嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="init"></param>
-		/// <returns></returns>
 		public short Init()
 		{
+
 			PointAggregate _Step0 = pointMotion.FindPoint(tag_stationName, "工位开始", 0);
 			if (_Step0 == null)
 			{
 				return -1;
 			}
 			_Step0.tag_BeginFun = Step0;
-			PointAggregate _Step1 = pointMotion.FindPoint(tag_stationName, "切刀气缸上升", 1);
+			PointAggregate _Step1 = pointMotion.FindPoint(tag_stationName, "有料检测", 1);
 			if (_Step1 == null)
 			{
 				return -1;
 			}
 			_Step1.tag_BeginFun = Step1;
-			PointAggregate _Step2 = pointMotion.FindPoint(tag_stationName, "回到待机位", 2);
+			PointAggregate _Step2 = pointMotion.FindPoint(tag_stationName, "皮带,供料器停止", 2);
 			if (_Step2 == null)
 			{
 				return -1;
 			}
 			_Step2.tag_BeginFun = Step2;
-			PointAggregate _Step3 = pointMotion.FindPoint(tag_stationName, "关真空", 3);
+			PointAggregate _Step3 = pointMotion.FindPoint(tag_stationName, "Z,R轴回原", 3);
 			if (_Step3 == null)
 			{
 				return -1;
 			}
 			_Step3.tag_BeginFun = Step3;
-			PointAggregate _Step4 = pointMotion.FindPoint(tag_stationName, "工位结束", 4);
+			PointAggregate _Step4 = pointMotion.FindPoint(tag_stationName, "关真空,气缸原位", 4);
 			if (_Step4 == null)
 			{
 				return -1;
 			}
 			_Step4.tag_BeginFun = Step4;
-			return 0;
-		}
-		/// <summary>
-		/// 中断函数
-		/// </summary>
-		/// <param name="Suspend"></param>
-		/// <returns></returns>
-		public short Suspend(object o)
-		{
-			return 0;
-		}
-		/// <summary>
-		/// 继续函数
-		/// </summary>
-		/// <param name="Continue"></param>
-		/// <returns></returns>
-		public short Continue(object o)
-		{
+			PointAggregate _Step5 = pointMotion.FindPoint(tag_stationName, "X,Y轴回原", 5);
+			if (_Step5 == null)
+			{
+				return -1;
+			}
+			_Step5.tag_BeginFun = Step5;
+			PointAggregate _Step6 = pointMotion.FindPoint(tag_stationName, "工位结束", 6);
+			if (_Step6 == null)
+			{
+				return -1;
+			}
+			_Step6.tag_BeginFun = Step6;
 
+			#region 检测串口存在
+			if (tag_Assemblyline.tag_PortParameter.tag_name != "皮带线")
+			{
+				return -1;
+			}
+			#endregion
 			return 0;
 		}
-		/// <summary>
-		/// 流程执行的函数 返回0 表示成功
-		/// </summary>
-		/// <param name="work"></param>
-		/// <returns></returns>
+
 		public short Start(object o)
 		{
 			short ret = 0;
@@ -183,22 +118,207 @@ namespace StrongProject
 				return -1;
 			}
 		}
-		/// <summary>
-		/// 流程用线程执行执行的函数 无返回值
-		/// </summary>
-		/// <param name="workThreadCreate"></param>
-		/// <returns></returns>
-		public void workThread(object o)
+
+		public short Suspend(object o)
 		{
-			short ret = 0;
-			if (Init() == 0)
+			return 0;
+		}
+
+		public short Continue(object o)
+		{
+
+			return 0;
+		}
+
+		public bool exit()
+		{
+			tag_manual.tag_stepName = 100000;
+			tag_isWork = 0;
+			return true;
+		}
+		
+		public short Step0(object o)
+		{
+			tag_isWork = 1;
+			return 0;
+		}
+
+		public short Step1(object o)
+		{
+			// 有料检测
+			// 1.检测吸头上是否有料
+			// 2.检测皮带线上是否有料
+			if (!CheckLineProduce())
 			{
-				if (tag_manual.tag_step == 0)
+				if (MessageBoxLog.Show("皮带线上有料,请取走", "确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
 				{
-					tag_isWork = pointMotion.StationRun(tag_stationName, tag_manual);
-					tag_manual.tag_stepName = 0;
+					// 返回上一步
+					--tag_manual.tag_stepName;
+					return 0;
+				}
+				else
+					return -1;
+			}
+			return 0;
+		}
+
+		public short Step2(object o)
+		{
+			// 皮带,供料器停止
+			// 1.皮带线(Assembly line)停止
+			for (int i = 0; i < 6; i++)
+			{
+				if (!StopLine(i))
+				{
+					if (MessageBoxLog.Show("流水线"+i+"停止失败", "确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+					{
+						// 返回上一步
+						--tag_manual.tag_stepName;
+						return 0;
+					}
+					else
+						return -1;
 				}
 			}
+			// 2.供料器停止
+			#region 供料器脉冲停止并且方向初始化
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "放料脉冲", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "放料方向", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料脉冲", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料方向", 1);
+			#endregion
+			return 0;
+		}
+
+		public short Step3(object o)
+		{
+			// Z,R轴回原
+			return 0;
+		}
+
+		public short Step4(object o)
+		{
+			// 关真空,气缸原位
+			// 1.关真空
+			#region 关真空
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料前真空", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料后真空", 1);
+
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "吹废料", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "收废料", 1);
+
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左吸泡棉", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左吸废料", 1);
+
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右吸泡棉", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右吸废料", 1);
+			#endregion
+			// 2.气缸回原位,并检测是否真的回到位
+			#region 气缸回原
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "挡料气缸", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "顶升气缸", 1);
+
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左抛泡棉气缸", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右抛泡棉气缸", 1);
+			#endregion
+			return 0;
+		}
+
+		public short Step5(object o)
+		{
+			// X,Y轴回原
+			return 0;
+		}
+
+		public short Step6(object o)
+		{
+			// 工位结束
+			return 0;
+		}
+
+		/// <summary>
+		/// 检查流水线上是否还有产品
+		/// </summary>
+		/// <returns></returns>
+		private bool CheckLineProduce()
+		{
+			bool bTemp = false;
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "左段皮带进料", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取左段皮带进料状态失败!", 0);
+				log.Warn("获取左段皮带进料状态失败");
+				return false;
+			}
+			if (!bTemp)	return false;
+
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "左段皮带出料", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取左段皮带出料状态失败!", 0);
+				log.Warn("获取左段皮带出料状态失败");
+				return false;
+			}
+			if (!bTemp) return false;
+
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "中段皮带进料", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取中段皮带进料状态失败!", 0);
+				log.Warn("获取中段皮带进料状态失败");
+				return false;
+			}
+			if (!bTemp) return false;
+
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "中段皮带减速", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取中段皮带减速状态失败!", 0);
+				log.Warn("获取中段皮带减速状态失败");
+				return false;
+			}
+			if (!bTemp) return false;
+
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "中段皮带出料", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取中段皮带出料状态失败!", 0);
+				log.Warn("获取中段皮带出料状态失败");
+				return false;
+			}
+			if (!bTemp) return false;
+
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "右段皮带进料", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取右段皮带进料状态失败!", 0);
+				log.Warn("获取右段皮带进料状态失败");
+				return false;
+			}
+			if (!bTemp) return false;
+
+			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "右段皮带出料", out bTemp) != 0)
+			{
+				UserControl_LogOut.OutLog("获取右段皮带出料状态失败!", 0);
+				log.Warn("获取右段皮带出料状态失败");
+				return false;
+			}
+			if (!bTemp) return false;
+
+			return true;
+		}
+
+		/// <summary>
+		/// 停止单个流水线
+		/// </summary>
+		/// <param name="index">流水线索引</param>
+		/// <returns></returns>
+		private bool StopLine(int index)
+		{
+			string lineStopCmd = "06 00 28 00 00";
+			string errorCode = "";
+			lineStopCmd = JSerialPort.CreateLineCode(lineStopCmd, index);
+			errorCode = tag_Assemblyline.sendCommand(lineStopCmd,2000);
+			if (errorCode != lineStopCmd)
+			{
+				log.Warn("停止" + index + "流水线失败,错误代码:" + JSerialPort.GetErrcode(errorCode));
+				return false;
+			}
+			return true;
 		}
 	}
 }

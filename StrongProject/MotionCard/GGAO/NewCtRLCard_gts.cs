@@ -290,8 +290,8 @@ namespace StrongProject
 			}
 			//tprm.acc = axisC.Acc;
 			//tprm.dec = axisC.Acc;
-			tprm.acc = (point.dblPonitSpeed * axisC.Eucf / 1000) / axisC.tag_accTime;
-			tprm.dec = (point.dblPonitSpeed * axisC.Eucf / 1000) / axisC.tag_delTime;
+			tprm.acc = (point.dblPonitSpeed  / 1000) / axisC.tag_accTime;
+			tprm.dec = (point.dblPonitSpeed  / 1000) / axisC.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
@@ -327,7 +327,7 @@ namespace StrongProject
 				return shrFail;
 			}
 			//设置轴运动速度
-			sResult = mc.GT_SetVel(card, axis, point.dblPonitSpeed * axisC.Eucf/ 1000);/// 1000
+			sResult = mc.GT_SetVel(card, axis, point.dblPonitSpeed / 1000);/// 1000
 			if (sResult != shrGtsSuccess)
 			{
 				CommandResult("GT_PrfTrap", sResult);
@@ -412,7 +412,7 @@ namespace StrongProject
 				return shrFail;
 			}
 			//设置轴运动速度
-			sResult = mc.GT_SetVel(card, axis, vel * af.Eucf / 1000);
+			sResult = mc.GT_SetVel(card, axis, vel / 1000);
 			if (sResult != shrGtsSuccess)
 			{
 				CommandResult("GT_PrfTrap", sResult);
@@ -470,8 +470,8 @@ namespace StrongProject
 			}
 			//tprm.acc = axisC.Acc;
 			//tprm.dec = axisC.Acc;
-			tprm.acc = (point.dblPonitSpeed * axisC.Eucf / 1000) / axisC.tag_accTime;
-			tprm.dec = (point.dblPonitSpeed * axisC.Eucf / 1000) / axisC.tag_delTime;
+			tprm.acc = (point.dblPonitSpeed / 1000) / axisC.tag_accTime;
+			tprm.dec = (point.dblPonitSpeed / 1000) / axisC.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
@@ -507,7 +507,7 @@ namespace StrongProject
 				return shrFail;
 			}
 			//设置轴运动速度
-			sResult = mc.GT_SetVel(card, axis, point.dblPonitSpeed * axisC.Eucf / 1000);//
+			sResult = mc.GT_SetVel(card, axis, point.dblPonitSpeed  / 1000);//
 			if (sResult != shrGtsSuccess)
 			{
 				CommandResult("GT_PrfTrap", sResult);
@@ -566,9 +566,9 @@ namespace StrongProject
 				return shrFail;
 			}
 			if (dir == 0)
-				shrResult = mc.GT_SetVel(axisC.CardNum, (short)(axisC.AxisNum), (point.dblPonitSpeed * axisC.Eucf / 1000));
+				shrResult = mc.GT_SetVel(axisC.CardNum, (short)(axisC.AxisNum), (point.dblPonitSpeed  / 1000));
 			else
-				shrResult = mc.GT_SetVel(axisC.CardNum, (short)(axisC.AxisNum), -(point.dblPonitSpeed * axisC.Eucf / 1000));
+				shrResult = mc.GT_SetVel(axisC.CardNum, (short)(axisC.AxisNum), -(point.dblPonitSpeed / 1000));
 
 
 			if (shrResult != shrGtsSuccess)

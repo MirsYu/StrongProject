@@ -333,6 +333,39 @@ namespace StrongProject
 			return shrSuccess;
 		}
 
+
+		/// <summary>
+		/// 设置单通道输出IO
+		/// </summary>
+		/// <param name="stationName"></param>
+		/// <param name="ioName"></param>
+		/// <param name="ioValue"></param>
+		/// <returns></returns>
+		public static short SetOutputIoBitStatus(string stationName, string ioName, short ioValue)
+		{
+			short shrResult = 0;
+			IOParameter ioP = StationManage.FindInputIo(ioName);
+			if (ioP == null)
+			{
+				MessageBoxLog.Show(stationName + "\r\n"+"IO:<" + ioName + ">没有找到，请配置");
+				return shrFail;
+			}
+			NewCtrlCardBase Base_ = tag_NewCtrlCardBase[(int)ioP.tag_MotionCardManufacturer];
+			if (Base_ == null || Base_.SR_GetInputBit == null)
+			{
+				MessageBoxLog.Show(NewCtrlCardBase.GetManufacturerName((int)ioP.tag_MotionCardManufacturer) + "控制卡初始化失败!");
+				return shrFail;
+			}
+
+			shrResult = Base_.SR_SetOutputBit(ioP.CardNum, ioP.IOBit, ioValue);
+			if (shrResult == -1)
+			{
+				return shrFail;
+			}
+
+			return shrSuccess;
+		}
+
 		/// <summary>
 		/// 等待轴停止
 		/// </summary>
@@ -784,8 +817,8 @@ namespace StrongProject
 			}
 			//tprm.acc = axisC.Acc;
 			//tprm.dec = axisC.Acc;
-			tprm.acc = (speed * axisC.Eucf / 1000) / axisC.tag_accTime;
-			tprm.dec = (speed * axisC.Eucf / 1000) / axisC.tag_delTime;
+			tprm.acc = (speed  / 1000) / axisC.tag_accTime;
+			tprm.dec = (speed  / 1000) / axisC.tag_delTime;
 			tprm.smoothTime = 0;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
@@ -817,7 +850,7 @@ namespace StrongProject
 			}
 			//设置轴运动速度
 			//设置轴运动速度
-			sResult = mc.GT_SetVel(card, axis, speed * axisC.Eucf / 1000);
+			sResult = mc.GT_SetVel(card, axis, speed  / 1000);
 			if (sResult != shrGtsSuccess)
 			{
 				return shrFail;

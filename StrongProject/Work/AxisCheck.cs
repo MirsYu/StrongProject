@@ -9,6 +9,9 @@ namespace StrongProject
 	public class AxisCheck : workBase
 	{
 		public Work tag_Work;
+
+		DateTime begin;
+
 		public AxisCheck(Work _Work)
 		{
 			tag_Work = _Work;
@@ -16,11 +19,6 @@ namespace StrongProject
 			tag_isRestStation = 2;
 		}
 
-		/// <summary>
-		/// 启动函数，主要是线程启动
-		/// </summary>
-		/// <param name="start"></param>
-		/// <returns></returns>
 		public bool StartThread()
 		{
 			if (tag_workThread != null)
@@ -46,13 +44,6 @@ namespace StrongProject
 			}
 		}
 
-
-
-		DateTime begin;
-		/// 初始化函数，初始化流程嵌入的代码，返回0 表示成功
-		/// </summary>
-		/// <param name="init"></param>
-		/// <returns></returns>
 		public short Init()
 		{
 			PointAggregate _Step0 = pointMotion.FindPoint(tag_stationName, "工位开始", 0);
@@ -97,6 +88,43 @@ namespace StrongProject
 			}
 			_Step5.tag_BeginFun = Step5;
 			return 0;
+		}
+
+		public short Start(object o)
+		{
+			short ret = 0;
+			if (Init() == 0)
+			{
+				if (tag_manual.tag_step == 0)
+				{
+					ret = pointMotion.StationRun(tag_stationName, tag_manual);
+					tag_manual.tag_stepName = 0;
+				}
+				tag_isWork = -1;
+				return ret;
+			}
+			else
+			{
+				return -1;
+			}
+		}
+
+		public short Suspend(object o)
+		{
+			return 0;
+		}
+
+		public short Continue(object o)
+		{
+
+			return 0;
+		}
+
+		public bool exit()
+		{
+			tag_manual.tag_stepName = 100000;
+			tag_isWork = 0;
+			return true;
 		}
 
 		public short Step0(object o)
