@@ -563,6 +563,7 @@
     <Compile Include="WorkManage\workBase.cs" />
     <Compile Include="WorkManage\workObjectManage.cs" />
     <Compile Include="Work\AxisCheck.cs" />
+    <Compile Include="Work\EmptyRun.cs" />
     <Compile Include="Work\ExcisionStation.cs" />
     <Compile Include="Work\LeftCCD.cs" />
     <Compile Include="Work\LeftStation.cs" />
