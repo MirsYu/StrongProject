@@ -218,24 +218,30 @@ namespace StrongProject
 					crc = (ushort)(crc ^ (data[i]));
 					for (int j = 0; j < 8; j++)
 					{
-						crc = (crc & 1) != 0 ? (ushort)((crc >> 1) * 0x8003) : ((ushort)(crc >> 1));
+						crc = (crc & 1) != 0 ? (ushort)((crc >> 1) ^ 0xA001) : ((ushort)(crc >> 1));
 					}
 				}
 				byte hi = (byte)((crc & 0xFF00) >> 8);
 				byte io = (byte)(crc & 0x00FF);
-				return new byte[] { hi, io };
+				return new byte[] { io, hi };
 			}
 			return new byte[] { 0, 0 };
 		}
 
 
-		public static string CreateLineCode(string cmd,int lineIndex)
+		public static byte[] CreateLineCode(string cmd,int lineIndex)
 		{
 			string lineStopCmd = cmd;
-			lineStopCmd += "0" + lineIndex + " " + lineStopCmd;
+			lineStopCmd = "0" + lineIndex + " " + lineStopCmd;
+
 			byte[] b = JSerialPort.HexStringToByteArray(lineStopCmd);
-			lineStopCmd = JSerialPort.ByteArrayToHexString(JSerialPort.CRC16(b));
-			return lineStopCmd;
+			byte[] a = JSerialPort.CRC16(b);
+			byte[] bResult = new byte[b.Length + a.Length];
+
+			b.CopyTo(bResult, 0);
+			a.CopyTo(bResult, b.Length);
+			lineStopCmd = JSerialPort.ByteArrayToHexString(bResult);
+			return HexStringToByteArray(lineStopCmd);
 		}
 
 		public static string GetErrcode(string result)

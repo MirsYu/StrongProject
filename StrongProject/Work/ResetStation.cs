@@ -168,9 +168,9 @@ namespace StrongProject
 			// 1.皮带线(Assembly line)停止
 			for (int i = 0; i < 6; i++)
 			{
-				if (!StopLine(i))
+				if (!StopLine(i + 1))
 				{
-					if (MessageBoxLog.Show("流水线"+i+"停止失败", "确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
+					if (MessageBoxLog.Show("流水线" + i + "停止失败", "确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
 					{
 						// 返回上一步
 						--tag_manual.tag_stepName;
@@ -182,10 +182,10 @@ namespace StrongProject
 			}
 			// 2.供料器停止
 			#region 供料器脉冲停止并且方向初始化
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "放料脉冲", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "放料方向", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料脉冲", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料方向", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "放料脉冲", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "放料方向", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料脉冲", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料方向", 0);
 			#endregion
 			return 0;
 		}
@@ -201,25 +201,25 @@ namespace StrongProject
 			// 关真空,气缸原位
 			// 1.关真空
 			#region 关真空
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料前真空", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料后真空", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料前真空", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "剥料后真空", 0);
 
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "吹废料", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "收废料", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "吹废料", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "收废料", 0);
 
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左吸泡棉", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左吸废料", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左吸泡棉", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左吸废料", 0);
 
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右吸泡棉", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右吸废料", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右吸泡棉", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右吸废料", 0);
 			#endregion
 			// 2.气缸回原位,并检测是否真的回到位
 			#region 气缸回原
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "挡料气缸", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "顶升气缸", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "挡料气缸", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "顶升气缸", 0);
 
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左抛泡棉气缸", 1);
-			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右抛泡棉气缸", 1);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "左抛泡棉气缸", 0);
+			NewCtrlCardV0.SetOutputIoBitStatus(tag_stationName, "右抛泡棉气缸", 0);
 			#endregion
 			return 0;
 		}
@@ -249,7 +249,7 @@ namespace StrongProject
 				log.Warn("获取左段皮带进料状态失败");
 				return false;
 			}
-			if (!bTemp)	return false;
+			if (bTemp)	return false;
 
 			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "左段皮带出料", out bTemp) != 0)
 			{
@@ -257,7 +257,7 @@ namespace StrongProject
 				log.Warn("获取左段皮带出料状态失败");
 				return false;
 			}
-			if (!bTemp) return false;
+			if (bTemp) return false;
 
 			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "中段皮带进料", out bTemp) != 0)
 			{
@@ -265,7 +265,7 @@ namespace StrongProject
 				log.Warn("获取中段皮带进料状态失败");
 				return false;
 			}
-			if (!bTemp) return false;
+			if (bTemp) return false;
 
 			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "中段皮带减速", out bTemp) != 0)
 			{
@@ -273,7 +273,7 @@ namespace StrongProject
 				log.Warn("获取中段皮带减速状态失败");
 				return false;
 			}
-			if (!bTemp) return false;
+			if (bTemp) return false;
 
 			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "中段皮带出料", out bTemp) != 0)
 			{
@@ -281,7 +281,7 @@ namespace StrongProject
 				log.Warn("获取中段皮带出料状态失败");
 				return false;
 			}
-			if (!bTemp) return false;
+			if (bTemp) return false;
 
 			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "右段皮带进料", out bTemp) != 0)
 			{
@@ -289,7 +289,7 @@ namespace StrongProject
 				log.Warn("获取右段皮带进料状态失败");
 				return false;
 			}
-			if (!bTemp) return false;
+			if (bTemp) return false;
 
 			if (NewCtrlCardV0.GetInputIoBitStatus(tag_stationName, "右段皮带出料", out bTemp) != 0)
 			{
@@ -297,7 +297,7 @@ namespace StrongProject
 				log.Warn("获取右段皮带出料状态失败");
 				return false;
 			}
-			if (!bTemp) return false;
+			if (bTemp) return false;
 
 			return true;
 		}
@@ -310,13 +310,17 @@ namespace StrongProject
 		private bool StopLine(int index)
 		{
 			string lineStopCmd = "06 00 28 00 00";
-			string errorCode = "";
-			lineStopCmd = JSerialPort.CreateLineCode(lineStopCmd, index);
-			errorCode = tag_Assemblyline.sendCommand(lineStopCmd,2000);
-			if (errorCode != lineStopCmd)
+			byte[] bCmd;
+			byte[] bResult;
+			bCmd = JSerialPort.CreateLineCode(lineStopCmd, index);
+			bResult = tag_Assemblyline.sendCommand(bCmd, bCmd.Length, 20000);
+			for (int i = 0; i < bCmd.Length; i++)
 			{
-				log.Warn("停止" + index + "流水线失败,错误代码:" + JSerialPort.GetErrcode(errorCode));
-				return false;
+				if (bCmd[i] != bResult[i])
+				{
+					log.Warn("停止" + index + "流水线失败,错误代码:" + bResult[2].ToString());
+					return false;
+				}
 			}
 			return true;
 		}

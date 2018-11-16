@@ -39,8 +39,6 @@ namespace StrongProject
 		/// </summary>
 		public PointAggregate tag_ExePointAggregate;
 
-
-
 		/// <summary>
 		/// 构造函数，初始化的时候，表示从第几步开始 
 		/// </summary>
@@ -49,14 +47,13 @@ namespace StrongProject
 		{
 			tag_stepName = ndStep;
 		}
-
 	}
+
 	public class Work
 	{
-		/*
-        * 点位信息，配置
-        * 
-        */
+		
+		///点位信息，配置
+
 		public Config _Config;
 		/// <summary>
 		/// 复位工位
@@ -78,6 +75,15 @@ namespace StrongProject
 		public int[] tag_CardHave = new int[100];
 
 		public LJV7IF_ETHERNET_CONFIG _ethernetConfig;
+
+		#region 气缸感应信号
+		bool CutSensor_O = false;
+		bool CutSensor_P = false;
+
+		int cutSensorCount = 0;
+		#endregion
+
+
 		/// <summary>
 		/// 整个工作流程
 		/// </summary>
@@ -1078,9 +1084,42 @@ namespace StrongProject
 					Continue_R(null);
 				}
 				Thread.Sleep(100);
+				SensorCheck();
 			}
 		}
 
+		/// <summary>
+		/// 气缸检测
+		/// </summary>
+		private void SensorCheck()
+		{
+			for (int i = 0; i < 5; i++)
+			{
+				NewCtrlCardV0.GetInputIoBitStatus("", "阻挡气缸下", out CutSensor_O);
+				NewCtrlCardV0.GetInputIoBitStatus("", "阻挡气缸上", out CutSensor_P);
+				cutSensorCount += (CutSensor_O ? 1 : 0);
+				cutSensorCount -= (CutSensor_P ? 0 : 1);
+
+				// 互斥置0
+				if (CutSensor_O != CutSensor_P)
+					cutSensorCount = 0;
+
+				// 长时间非互斥
+				if (Math.Abs(cutSensorCount) >= 5)
+				{
+					Global.WorkVar.tag_MessageoxStr = null;
+					Suspend(null);
+					Global.WorkVar.tag_MessageoxStr = "阻挡气缸异常";
+					cutSensorCount = 0;
+				}
+				else
+				{
+					return;
+				}
+				Thread.Sleep(200);
+			}
+			cutSensorCount = 0;
+		}
 
 		/// <summary>
 		/// io检查，
@@ -1100,6 +1139,9 @@ namespace StrongProject
 			get { return _Config; }
 			set { _Config = value; }
 		}
+
+
+
 
 	}
 

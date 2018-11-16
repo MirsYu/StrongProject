@@ -63,11 +63,13 @@ namespace StrongProject
 			//workObject.Add(tag_LeftStation);
 
 
-			//tag_ResetStation = new ResetStation(_Work);
-			//workObject.Add(tag_ResetStation);
+
 
 			//tag_LeftCCD = new LeftCCD(_Work);
 			//workObject.Add(tag_LeftCCD);
+
+			tag_ResetStation = new ResetStation(_Work);
+			workObject.Add(tag_ResetStation);
 
 			axisCheck = new AxisCheck(_Work);
 			workObject.Add(axisCheck);

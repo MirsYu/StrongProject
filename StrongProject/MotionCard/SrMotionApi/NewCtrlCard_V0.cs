@@ -42,7 +42,7 @@ namespace StrongProject
 		{
 			short ret = 0;
 			short ret1 = 0;
-			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_gts] = new NewCtRLCard_gts(4);
+			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_gts] = new NewCtRLCard_gts(6);
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_gtsExt] = new NewCtRLCard_gtsExt();
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_8940] = new NewCtrlCard_ZWX8940();
 			tag_NewCtrlCardBase[(int)MotionCardManufacturer.MotionCardManufacturer_8960m] = new NewCtrlCard_ZWX8690m();
@@ -344,7 +344,7 @@ namespace StrongProject
 		public static short SetOutputIoBitStatus(string stationName, string ioName, short ioValue)
 		{
 			short shrResult = 0;
-			IOParameter ioP = StationManage.FindInputIo(ioName);
+			IOParameter ioP = StationManage.FindOutputIo(ioName);
 			if (ioP == null)
 			{
 				MessageBoxLog.Show(stationName + "\r\n"+"IO:<" + ioName + ">没有找到，请配置");
