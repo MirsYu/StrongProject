@@ -1,9 +1,12 @@
-﻿using System;
+﻿using log4net;
+using System;
 using System.Threading;
 namespace StrongProject
 {
 	public class NewCtrlCardBase
 	{
+
+		private static readonly ILog log = LogManager.GetLogger("NewCtrlCardBase.cs");
 		public MotionCardManufacturer tag_Manufacturer;
 		public int tag_AxisCount;
 		public int[] tag_InIo = new int[128];

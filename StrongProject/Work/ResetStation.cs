@@ -168,7 +168,7 @@ namespace StrongProject
 			// 1.皮带线(Assembly line)停止
 			for (int i = 0; i < 6; i++)
 			{
-				if (!StopLine(i + 1))
+				if (!StopLine(tag_Assemblyline,i + 1))
 				{
 					if (MessageBoxLog.Show("流水线" + i + "停止失败", "确认", MessageBoxButtons.OKCancel, MessageBoxIcon.Question) == DialogResult.OK)
 					{
@@ -307,13 +307,13 @@ namespace StrongProject
 		/// </summary>
 		/// <param name="index">流水线索引</param>
 		/// <returns></returns>
-		private bool StopLine(int index)
+		public static bool StopLine(JSerialPort jSerialPort, int index)
 		{
 			string lineStopCmd = "06 00 28 00 00";
 			byte[] bCmd;
 			byte[] bResult;
 			bCmd = JSerialPort.CreateLineCode(lineStopCmd, index);
-			bResult = tag_Assemblyline.sendCommand(bCmd, bCmd.Length, 20000);
+			bResult = jSerialPort.sendCommand(bCmd, bCmd.Length, 20000);
 			for (int i = 0; i < bCmd.Length; i++)
 			{
 				if (bCmd[i] != bResult[i])

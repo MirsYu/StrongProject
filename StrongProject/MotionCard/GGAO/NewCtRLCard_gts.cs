@@ -1,4 +1,5 @@
-﻿using System;
+﻿using log4net;
+using System;
 using System.Threading;
 using System.Windows.Forms;
 
@@ -6,6 +7,8 @@ namespace StrongProject
 {
 	public class NewCtRLCard_gts : NewCtrlCardBase
 	{
+
+
 		public NewCtRLCard_gts(int axisCount)
 		{
 			tag_AxisCount = axisCount;
@@ -292,7 +295,7 @@ namespace StrongProject
 			//tprm.dec = axisC.Acc;
 			tprm.acc = (point.dblPonitSpeed  / 1000) / axisC.tag_accTime;
 			tprm.dec = (point.dblPonitSpeed  / 1000) / axisC.tag_delTime;
-			tprm.smoothTime = 0;
+			tprm.smoothTime = (short)axisC.tag_S_Time;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
 			if (sResult != shrGtsSuccess)
@@ -377,7 +380,7 @@ namespace StrongProject
 			//tprm.dec = af.Acc;
 			tprm.acc = (vel * af.Eucf / 1000) / af.tag_accTime;
 			tprm.dec = (vel * af.Eucf / 1000) / af.tag_delTime;
-			tprm.smoothTime = 0;
+			tprm.smoothTime = (short)af.tag_S_Time;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
 			if (sResult != shrGtsSuccess)
@@ -450,6 +453,7 @@ namespace StrongProject
 			if (sResult != shrGtsSuccess)
 			{
 				CommandResult("GT_PrfTrap", sResult);
+
 				return shrFail;
 			}
 
@@ -472,7 +476,7 @@ namespace StrongProject
 			//tprm.dec = axisC.Acc;
 			tprm.acc = (point.dblPonitSpeed / 1000) / axisC.tag_accTime;
 			tprm.dec = (point.dblPonitSpeed / 1000) / axisC.tag_delTime;
-			tprm.smoothTime = 0;
+			tprm.smoothTime = (short)axisC.tag_S_Time;
 			//设置点位运动参数
 			sResult = mc.GT_SetTrapPrm(card, axis, ref tprm);
 			if (sResult != shrGtsSuccess)

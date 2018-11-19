@@ -28,6 +28,8 @@ namespace StrongProject
 		/// <param name="totalRest"></param>
 		public ResetStation tag_ResetStation;
 
+		public EmptyRun tag_EmptyRun;
+
 
 		/// <summary>
 		/// LeftCCD
@@ -52,7 +54,6 @@ namespace StrongProject
 			 * 待所有轴都能单独回零，并且没有其他干扰时，可以解除注释，使用整体复位功能
 			*/
 
-
 			//tag_ExcisionStation = new ExcisionStation(_Work);
 			//workObject.Add(tag_ExcisionStation);
 
@@ -62,14 +63,14 @@ namespace StrongProject
 			//tag_LeftStation = new LeftStation(_Work);
 			//workObject.Add(tag_LeftStation);
 
-
-
-
 			//tag_LeftCCD = new LeftCCD(_Work);
 			//workObject.Add(tag_LeftCCD);
 
 			tag_ResetStation = new ResetStation(_Work);
 			workObject.Add(tag_ResetStation);
+
+			tag_EmptyRun = new EmptyRun(_Work);
+			workObject.Add(tag_EmptyRun);
 
 			axisCheck = new AxisCheck(_Work);
 			workObject.Add(axisCheck);
