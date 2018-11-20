@@ -21,7 +21,7 @@ namespace StrongProject
 		/// </summary>
 		public int tag_pageTotal = 0;
 		public int tag_page_index = 0;
-		public int tag_page_Count = 15;
+		public int tag_page_Count = 20;
 		public UserControl_ShowAllPoint()
 		{
 

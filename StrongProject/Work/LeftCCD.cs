@@ -99,7 +99,7 @@ namespace StrongProject
 		public short Step3(object o)
 		{
 			CFile.WriteCCDData(DateTime.Now.ToString() + "  Send  " + "CB,0,1\r\n");
-			string strReceive = tag_SocketClient0.send("CB,0,1\r\n", 1000);
+			string strReceive = tag_SocketClient0.Send("CB,0,1\r\n", 1000);
 			CFile.WriteCCDData(DateTime.Now.ToString() + "  Receive  " + strReceive + "\r\n");
 			return 0;
 		}
@@ -1229,7 +1229,7 @@ namespace StrongProject
 		{
 			tag_sendStr = tag_sendStr + "\r\n";
 			CFile.WriteCCDData(DateTime.Now.ToString() + "  Send  " + tag_sendStr);
-			string strReceive = tag_SocketClient0.send(tag_sendStr, 1000);
+			string strReceive = tag_SocketClient0.Send(tag_sendStr, 1000);
 			CFile.WriteCCDData(DateTime.Now.ToString() + "  Receive  " + strReceive + "\r\n");
 
 			UserControl_LogOut.OutLog(tag_sendStr, 0);

@@ -651,6 +651,17 @@ namespace StrongProject
 
 
 		}
+
+		public struct Point6D
+		{
+			public double X;
+			public double Y;
+			public double Z1;
+			public double Z2;
+			public double R1;
+			public double R2;
+		}
+
 	}
 
 }

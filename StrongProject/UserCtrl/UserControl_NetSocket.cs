@@ -80,7 +80,7 @@ namespace StrongProject
 		private void button_Send_Click(object sender, EventArgs e)
 		{
 
-			string t = tag_SocketClient.send(textBox1.Text, 0, delegate_SocketClientRead);
+			string t = tag_SocketClient.Send(textBox1.Text, 0, delegate_SocketClientRead);
 			textBox2.Text = textBox2.Text + t;
 		}
 

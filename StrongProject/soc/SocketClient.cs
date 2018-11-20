@@ -187,7 +187,7 @@ namespace StrongProject
 		/// <param name="connsendstr"></param>
 		/// <param name="sendstring"></param>
 		/// <returns></returns>
-		public string send(string sendstring, int outTime, delegate_SocketClientRead readCall)
+		public string Send(string sendstring, int outTime, delegate_SocketClientRead readCall)
 		{
 			try
 			{
@@ -231,7 +231,7 @@ namespace StrongProject
 		/// <param name="connsendstr"></param>
 		/// <param name="sendstring"></param>
 		/// <returns></returns>
-		public string send(string sendstring, int outTime)
+		public string Send(string sendstring, int outTime)
 		{
 			try
 			{

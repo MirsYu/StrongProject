@@ -567,6 +567,7 @@
     <Compile Include="Work\ExcisionStation.cs" />
     <Compile Include="Work\LeftCCD.cs" />
     <Compile Include="Work\LeftStation.cs" />
+    <Compile Include="Work\PasteStation.cs" />
     <Compile Include="Work\ResetStation.cs" />
     <Compile Include="Work\RightStation.cs" />
     <EmbeddedResource Include="FrmForm\AddAxisForm.resx">

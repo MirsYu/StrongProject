@@ -22,13 +22,8 @@ namespace StrongProject
 		/// <param name="totalRest"></param>
 		public LeftStation tag_LeftStation;
 
-		/// <summary>
-		/// ResetStation
-		/// </summary>
-		/// <param name="totalRest"></param>
-		public ResetStation tag_ResetStation;
 
-		public EmptyRun tag_EmptyRun;
+
 
 
 		/// <summary>
@@ -38,8 +33,10 @@ namespace StrongProject
 		public LeftCCD tag_LeftCCD;
 
 
-
+		public ResetStation tag_ResetStation;
+		public EmptyRun tag_EmptyRun;
 		public AxisCheck axisCheck;
+		public PasteStation pasteStation;
 
 		/// <summary>
 		/// tag_workObject
@@ -74,6 +71,9 @@ namespace StrongProject
 
 			axisCheck = new AxisCheck(_Work);
 			workObject.Add(axisCheck);
+
+			pasteStation = new PasteStation(_Work);
+			workObject.Add(pasteStation);
 		}
 
 	}

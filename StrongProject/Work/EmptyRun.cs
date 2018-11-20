@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading;
+using System.Windows.Forms;
 
 namespace StrongProject
 {
@@ -11,7 +12,12 @@ namespace StrongProject
 	{
 		public Work tag_Work;
 		public JSerialPort tag_Assemblyline;
+		public SocketClient tag_UpCam;
+		public string ErrMsg = "";
+		public string strOBG = "";
 
+
+		private Thread lineThread = null;
 		private static readonly ILog log = LogManager.GetLogger("EmptyRun.cs");
 
 		public EmptyRun(Work _Work)
@@ -19,6 +25,7 @@ namespace StrongProject
 			tag_Work = _Work;
 			tag_stationName = "空跑";
 			tag_Assemblyline = _Work.tag_JSerialPort[0];
+			tag_UpCam = _Work.tag_SocketClient[0];
 			tag_isRestStation = 2;
 		}
 
@@ -63,6 +70,7 @@ namespace StrongProject
 			}
 			_Step1.tag_BeginFun = Step1_Begin;
 			_Step1.tag_AxisMoveFun = Step1_Move;
+			_Step1.tag_EndFun = Step1_End;
 
 			PointAggregate _Step2 = pointMotion.FindPoint(tag_stationName, "吸嘴位置,泡棉拍照", 2);
 			if (_Step2 == null)
@@ -199,25 +207,33 @@ namespace StrongProject
 			// (线程处理并行)
 			// 1.检测流水线状态，处理不同状态机制
 			// (空跑)流水线测试 100反转 100正转 200反转 200正转
-			new Thread(() =>
-			{
-				for (int i = 0; i < 6; i++)
-				{
-					RunLine(tag_Assemblyline, i + 1, -100);
-				}
-				for (int i = 0; i < 6; i++)
-				{
-					RunLine(tag_Assemblyline, i + 1, 100);
-				}
-				for (int i = 0; i < 6; i++)
-				{
-					RunLine(tag_Assemblyline, i + 1, -200);
-				}
-				for (int i = 0; i < 6; i++)
-				{
-					RunLine(tag_Assemblyline, i + 1, 200);
-				}
-			});
+			lineThread = new Thread(() =>
+				  {
+					  for (int i = 0; i < 6; i++)
+					  {
+						  RunLine(tag_Assemblyline, i + 1, -100);
+					  }
+					  for (int i = 0; i < 6; i++)
+					  {
+						  RunLine(tag_Assemblyline, i + 1, 100);
+					  }
+					  for (int i = 0; i < 6; i++)
+					  {
+						  RunLine(tag_Assemblyline, i + 1, -200);
+					  }
+					  for (int i = 0; i < 6; i++)
+					  {
+						  RunLine(tag_Assemblyline, i + 1, 200);
+					  }
+				  });
+			lineThread.IsBackground = true;
+			lineThread.Start();
+			return 0;
+		}
+
+		public short Step1_End(object o)
+		{
+			PointAggregate point = (PointAggregate)o;
 			return 0;
 		}
 
@@ -548,6 +564,61 @@ namespace StrongProject
 				}
 			}
 			return true;
+		}
+
+		public string CameraTrigger(object o, string cmd)
+		{
+			PointAggregate pp = (PointAggregate)o;
+			int i = 0;
+			string strend = cmd  + "\r\n", ret = "";
+			{
+				while (true)
+				{
+					if (IsExit())
+					{
+						return "";
+					}
+					ret = tag_UpCam.Send(strend, 1000);
+					string[] strArr = ret.Split(',');
+					if (strArr != null && strArr.Length > 1)
+					{
+						if (double.Parse(strArr[1]) == 0 || strArr[1].IndexOf("0") >= 0)
+						{
+							DialogResult dig = MessageBox.Show("相机抓边异常", "提示", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+							if (dig == DialogResult.Yes)
+								continue;
+							else
+								return ret;
+						}
+						return ret;
+					}
+					else
+					{
+						SetMsg("相机返回数据异常", 3);
+						i++;
+						if (i > 2)
+						{
+							break;
+						}
+						continue;
+					}
+				}
+				return "";
+			}
+		}
+
+		public void SetMsg(string Msg, int ErrorType, bool showTiShiForm = false)
+		{
+			if (ErrorType == 0)//代表是报警信息
+				ErrMsg = Msg;
+			UserControl_LogOut.OutLog(Msg, ErrorType);
+			if (showTiShiForm)//需要弹窗
+			{
+				Global.WorkVar.tag_MessageoxStr = null;
+				Thread.Sleep(500);
+				Global.WorkVar.tag_MessageoxStr = Msg;
+			}
+
 		}
 	}
 }

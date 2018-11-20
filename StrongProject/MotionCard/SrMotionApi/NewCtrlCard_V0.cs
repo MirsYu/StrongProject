@@ -902,5 +902,128 @@ namespace StrongProject
 			return shrSuccess;
 		}
 
+
+		/// <summary>
+		/// 一维飞拍相机定点触发（2/3#相机专用）
+		/// </summary>
+		public static short MoveCameraCheckPointforPlus(string stationName, string axisName, string StartPointName, short pointNum = 2, bool bIsReverse = false)
+		{
+			short shrResult;
+			string tag_pointName_1 = "";
+			string tag_pointName_2 = "";
+			string tag_pointName_3 = "";
+			string tag_pointName_4 = "";
+			short pointNum1 = 0;
+			if (Global.WorkVar.bIsAddPhoto)
+			{
+				pointNum1 = 4;
+			}
+			else
+			{
+				pointNum1 = pointNum;
+			}
+			int[] offsetPos1 = new int[pointNum1];
+			int[] offsetPos2 = new int[pointNum];
+			StationModule stationM = StationManage.FindStation(stationName);
+			if (stationM == null)
+			{
+				CFile.WriteErrorForDate("函数：FindStation 执行异常，返回空");
+				return shrFail;
+			}
+			AxisConfig axisC = StationManage.FindAxis(stationM, axisName);
+			if (axisC == null)
+			{
+				CFile.WriteErrorForDate("函数：FindAxis 执行异常，返回空");
+				return shrFail;
+			}
+
+			PointAggregate pointA = StationManage.FindPoint(stationM, StartPointName);
+			if (pointA == null)
+			{
+				CFile.WriteErrorForDate("函数：FindPoint 执行异常，返回空");
+				return shrFail;
+			}
+			if (StartPointName == "泡棉待校正位")
+			{
+				tag_pointName_1 = "飞拍位1#_S";
+				tag_pointName_4 = "飞拍位2#_E";
+			}
+
+			//相机点位
+			PointAggregate pointB = StationManage.FindPoint(stationM, tag_pointName_1);
+			if (pointB == null)
+			{
+				CFile.WriteErrorForDate("函数：FindPoint 执行异常，返回空");
+				return shrFail;
+			}
+			//PointAggregate pointC = StationManage.FindPoint(stationM, tag_pointName_2);
+			//if (pointC == null)
+			//{
+			//	CFile.WriteErrorForDate("函数：FindPoint 执行异常，返回空");
+			//	return shrFail;
+			//}
+			//PointAggregate pointD = StationManage.FindPoint(stationM, tag_pointName_3);
+			//if (pointD == null)
+			//{
+			//	CFile.WriteErrorForDate("函数：FindPoint 执行异常，返回空");
+			//	return shrFail;
+			//}
+			PointAggregate pointF = StationManage.FindPoint(stationM, tag_pointName_4);
+			if (pointF == null)
+			{
+				CFile.WriteErrorForDate("函数：FindPoint 执行异常，返回空");
+				return shrFail;
+			}
+
+			if (StartPointName == "泡棉待校正位")
+			{
+				//if (Global.WorkVar.bIsAddPhoto)
+				//{
+				//	offsetPos1[0] = (int)(pointF.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+				//	offsetPos1[1] = (int)((pointF.arrPoint[axisC.AxisIndex].dblPonitValue - 60) * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+				//	offsetPos1[2] = (int)(pointC.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+				//	offsetPos1[3] = (int)((pointC.arrPoint[axisC.AxisIndex].dblPonitValue - 60) * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+				//}
+				//else
+				{
+					offsetPos1[0] = (int)(pointB.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+					offsetPos1[1] = (int)(pointF.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+				}
+
+
+
+				offsetPos2[0] = (int)(pointB.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+				offsetPos2[1] = (int)(pointF.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf) - (int)(pointA.arrPoint[axisC.AxisIndex].dblPonitValue * axisC.Eucf);
+
+			}
+
+
+			NewCtrlCardBase Base_ = tag_NewCtrlCardBase[(int)axisC.tag_MotionCardManufacturer];
+			//GT_STOP
+			shrResult = Base_.SR_AxisEmgStop(axisC.CardNum, axisC.AxisNum);
+			if (shrResult != shrSuccess)
+			{
+				return shrFail;
+			}
+			//采用O卡2通道的对比2#相机
+			shrResult = mc.GT_CompareData(axisC.CardNum, axisC.AxisNum, 1, 0, 0, 1000, offsetPos1, pointNum1, offsetPos2, pointNum);
+			if (shrResult != shrGtsSuccess)
+			{
+				//CommandResult("GT_GetAxisEncPos", shrResult);
+				return shrFail;
+			}
+			////采用1卡2通道的对比3#相机
+			//shrResult = mc.GT_CompareData(axisC.CardNum, axisC.AxisNum, 1, 0, 0, 1000, offsetPos1, pointNum, offsetPos2, pointNum);
+			//if (shrResult != shrGtsSuccess)
+			//{
+			//    CommandResult("GT_GetAxisEncPos", shrResult);
+			//    return shrFail;
+			//}
+
+			return shrSuccess;
+		}
+
+
+
 	}
 }

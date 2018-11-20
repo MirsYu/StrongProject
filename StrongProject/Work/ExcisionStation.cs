@@ -190,7 +190,7 @@ namespace StrongProject
 				Global.WorkVar.bPCBTestFinish_R = false;
 			if (Global.WorkVar.bEmptyRun)
 			{
-				tag_SocketClient0.send("T1,1\r\n", 1000);
+				tag_SocketClient0.Send("T1,1\r\n", 1000);
 			}
 			else
 			{
@@ -211,7 +211,7 @@ namespace StrongProject
 							+ "," + Global.WorkVar.strCCDPosition_A + "," + Global.WorkVar.CCDMode + "\r\n";
 					}
 					CFile.WriteCCDData(DateTime.Now.ToString() + "  Send  " + strSend);
-					string strReceive = tag_SocketClient0.send(strSend, 1000);
+					string strReceive = tag_SocketClient0.Send(strSend, 1000);
 					CFile.WriteCCDData(DateTime.Now.ToString() + "  Receive  " + strReceive + "\r\n");
 
 					if (strReceive == "")

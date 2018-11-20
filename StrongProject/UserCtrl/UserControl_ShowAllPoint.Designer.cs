@@ -54,7 +54,6 @@
 			this.plpointMessage.AutoScroll = true;
 			this.plpointMessage.BackColor = System.Drawing.SystemColors.ButtonHighlight;
 			this.plpointMessage.ContextMenuStrip = this.contextMenuStrip1;
-			this.plpointMessage.Dock = System.Windows.Forms.DockStyle.Fill;
 			this.plpointMessage.Location = new System.Drawing.Point(3, 17);
 			this.plpointMessage.Name = "plpointMessage";
 			this.plpointMessage.Size = new System.Drawing.Size(586, 380);
@@ -79,13 +78,14 @@
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.Controls.Add(this.CBpointMessage);
+			this.DoubleBuffered = true;
 			this.Name = "UserControl_ShowAllPoint";
 			this.Size = new System.Drawing.Size(592, 400);
 			this.Load += new System.EventHandler(this.UserControl_ShowAllPoint_Load);
 			this.SizeChanged += new System.EventHandler(this.UserControl_ShowAllPoint_SizeChanged);
 			this.CBpointMessage.ResumeLayout(false);
 			this.contextMenuStrip1.ResumeLayout(false);
-			this.DoubleBuffered = true;this.ResumeLayout(false);
+			this.ResumeLayout(false);
 
 		}
 
